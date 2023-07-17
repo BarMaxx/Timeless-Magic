@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "304018DD5B351350"
+	group: "24E98FFC5447C5AE"
+	id: "304018DD5B351350"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Плавильня"
+}

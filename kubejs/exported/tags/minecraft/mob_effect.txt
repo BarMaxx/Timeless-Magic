@@ -1,0 +1,6 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jul 17, 2023, 8:46:24 PM
+
+#neapolitan:unaffected_by_vanilla_scent
+- supplementaries:overencumbered? (from Supplementaries)
+
+#spectrum:uncurable

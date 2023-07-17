@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2020749E73E377E9"
+	group: "24E98FFC5447C5AE"
+	id: "2020749E73E377E9"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["15FAEC4BA6F51CA9"]
+		id: "630598CBCA58CC52"
+		tasks: [{
+			id: "5C20F28205FA7084"
+			item: "minecraft:oak_log"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Истоки"
+}

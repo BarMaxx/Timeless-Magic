@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "45CD0209456557DE"
+	group: "24E98FFC5447C5AE"
+	id: "45CD0209456557DE"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Гоббер"
+}
