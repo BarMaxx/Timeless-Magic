@@ -4,8 +4,31 @@
 	filename: "0B8AEA7C7D5D0034"
 	group: "24E98FFC5447C5AE"
 	id: "0B8AEA7C7D5D0034"
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
-	title: "Ведьмовство"
+	quests: [
+		{
+			dependencies: ["15FAEC4BA6F51CA9"]
+			id: "38240B4A9BEE6D54"
+			tasks: [{
+				id: "0AEC3C9BD49A0DBD"
+				item: "bewitchment:raw_silver"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38240B4A9BEE6D54"]
+			id: "17A34C0D1A2A3702"
+			tasks: [{
+				id: "539C7F42053940D8"
+				item: "bewitchment:silver_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+	]
+	title: "Bewitchment"
 }

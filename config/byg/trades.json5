@@ -10,20 +10,6 @@ to make editing this file much easier.
 {
 	// Trades for a given villager profession. Trade levels are in the range of 1-5
 	"trades_by_profession": {
-		"beachparty:barkeeper": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
-		},
-		"beachparty:beach_guy": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
-		},
 		"byg:forager": {
 			"1": [
 				{
@@ -164,20 +150,6 @@ to make editing this file much easier.
 					"type": "corgilib:emerald_for_items"
 				}
 			]
-		},
-		"meadow:cheesemaker": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
-		},
-		"meadow:hermit": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
 		},
 		"minecraft:armorer": {
 			"1": [],
@@ -455,27 +427,6 @@ to make editing this file much easier.
 			"5": []
 		},
 		"minecraft:weaponsmith": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
-		},
-		"paladins:monk": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
-		},
-		"vinery:winemaker": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
-		},
-		"wizards:wizard_merchant": {
 			"1": [],
 			"2": [],
 			"3": [],
