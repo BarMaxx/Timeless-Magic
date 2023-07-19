@@ -52,7 +52,7 @@
 				item: "gobber2:gobber2_foo"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: -1.0d
 		}
 		{
@@ -75,7 +75,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["590A1497F6D5EA40"]
@@ -85,8 +85,8 @@
 				item: "gobber2:gobber2_gooey_bread"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 2.5d
+			x: 0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["590A1497F6D5EA40"]
@@ -96,7 +96,7 @@
 				item: "gobber2:gobber2_gooey_beef"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 2.5d
 		}
 		{
@@ -107,7 +107,7 @@
 				item: "gobber2:gobber2_gooey_beefstew"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: 3.0d
 		}
 		{
@@ -118,7 +118,7 @@
 				item: "gobber2:gobber2_arrow"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.5d
 			y: -1.0d
 		}
 		{
@@ -129,7 +129,7 @@
 				item: "gobber2:gobber2_rod"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: -1.5d
 		}
 		{
@@ -205,8 +205,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 1.0d
+			x: 3.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3FD798330E45FBAA"]
@@ -239,7 +239,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 3.5d
 			y: 2.0d
 		}
 		{
@@ -291,7 +291,7 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
+			x: 3.0d
 			y: -2.5d
 		}
 		{
@@ -302,7 +302,7 @@
 				item: "gobber2:gobber2_staff_clearing"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: -2.5d
 		}
 		{
@@ -313,7 +313,7 @@
 				item: "gobber2:gobber2_rod_nether"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: -1.0d
 		}
 		{
@@ -365,7 +365,7 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
+			x: 5.0d
 			y: -2.0d
 		}
 		{
@@ -376,7 +376,7 @@
 				item: "gobber2:gobber2_staff_stars"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 4.0d
 			y: -2.0d
 		}
 		{
@@ -428,8 +428,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: 1.0d
+			x: 5.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["20AC6B9970E3FCD2"]
@@ -439,7 +439,7 @@
 				item: "gobber2:gobber2_rod_end"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.5d
 			y: -1.5d
 		}
 		{
@@ -450,7 +450,7 @@
 				item: "gobber2:gobber2_staff_sniper"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 6.0d
 			y: -2.5d
 		}
 		{
@@ -502,7 +502,7 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
+			x: 7.0d
 			y: -2.5d
 		}
 		{
@@ -542,7 +542,7 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
+			x: 5.5d
 			y: 2.0d
 		}
 		{
@@ -594,8 +594,8 @@
 					type: "item"
 				}
 			]
-			x: 6.5d
-			y: 1.0d
+			x: 7.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["20AC6B9970E3FCD2"]
@@ -628,7 +628,7 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
+			x: 7.5d
 			y: 2.0d
 		}
 		{
@@ -702,6 +702,114 @@
 			]
 			x: 9.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["3FD798330E45FBAA"]
+			id: "609534B2DAE30146"
+			tasks: [{
+				id: "2B4AFF3BA1175A23"
+				item: "gobber2:gobber2_ring"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["609534B2DAE30146"]
+			id: "18337697BF950604"
+			tasks: [
+				{
+					id: "7324ED89701FB859"
+					item: "gobber2:gobber2_ring_swiftness"
+					type: "item"
+				}
+				{
+					id: "2FDC0BBCECB26D10"
+					item: {
+						Count: 1b
+						id: "gobber2:gobber2_ring_attraction"
+						tag: {
+							"Attraction Mode": 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "578D8E3571B65250"
+					item: "gobber2:gobber2_ring_miner"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["307C07B801765282"]
+			id: "015DF3A1C17398DF"
+			tasks: [{
+				id: "5EEAACCE174412CB"
+				item: "gobber2:gobber2_ring_nether"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["015DF3A1C17398DF"]
+			id: "4D425A72E4CBF85C"
+			tasks: [
+				{
+					id: "4170F72A94991381"
+					item: "gobber2:gobber2_ring_strength"
+					type: "item"
+				}
+				{
+					id: "612F7D7953AB2D48"
+					item: "gobber2:gobber2_ring_repair"
+					type: "item"
+				}
+				{
+					id: "126AD62B36D704FD"
+					item: "gobber2:gobber2_ring_airwalking"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["20AC6B9970E3FCD2"]
+			id: "1ABADB49CEF6265F"
+			tasks: [{
+				id: "4945C43DC6B40559"
+				item: "gobber2:gobber2_ring_end"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1ABADB49CEF6265F"]
+			id: "0116CE1F50CFE3A9"
+			tasks: [
+				{
+					id: "0C957CC3C632726C"
+					item: "gobber2:gobber2_ring_void"
+					type: "item"
+				}
+				{
+					id: "05E064512F655ABB"
+					item: "gobber2:gobber2_ring_traveler"
+					type: "item"
+				}
+				{
+					id: "43AD4523546432B0"
+					item: "gobber2:gobber2_ring_teleport"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 2.0d
 		}
 	]
 	title: "Gobber 2"

@@ -10,10 +10,30 @@
 	quests: [
 		{
 			dependencies: ["15FAEC4BA6F51CA9"]
+			description: ["Я ещё совсем &lновичок&r в этом мире, ведь я только в него пришёл. И первым делом мне необходимо &3добыть&r любые 4 &6Бревна&r. Это не должно быть сложным, ведь это первое задание. Для добычи брёвен мне всего-то нужно оглядеться вокруг, найти дерево и добыть его ствол. Да, прямо рукой. Урона я получить не должен."]
+			hide: true
 			id: "630598CBCA58CC52"
-			tasks: [{
-				id: "5C20F28205FA7084"
+			rewards: [{
+				count: 4
+				id: "0BF0CB2D029A3A90"
 				item: "minecraft:oak_log"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.1d
+			subtitle: "Самое начало."
+			tasks: [{
+				count: 4L
+				id: "5C20F28205FA7084"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Брёвна"
 				type: "item"
 			}]
 			x: 0.0d
@@ -312,7 +332,7 @@
 				item: "inmis:bejeweled_backpack"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 8.5d
 			y: 1.0d
 		}
 		{
@@ -323,8 +343,8 @@
 				item: "inmis:gilded_backpack"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -2.5d
+			x: 7.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["61D58FF8D732F985"]
@@ -334,7 +354,7 @@
 				item: "minecraft:golden_carrot"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.5d
 			y: -2.5d
 		}
 		{
@@ -345,8 +365,8 @@
 				item: "minecraft:golden_apple"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -3.0d
+			x: 9.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["1B5F2037537F89E6"]
@@ -389,8 +409,8 @@
 				item: "minecraft:blaze_powder"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 1.5d
+			x: 13.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7C1C77F9DF458D3D"]
@@ -401,7 +421,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7BE9B1944D94A32A"]
@@ -412,7 +432,7 @@
 				type: "dimension"
 			}]
 			x: 15.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["236281CD03FB995F"]
@@ -429,7 +449,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["236281CD03FB995F"]
@@ -440,7 +460,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["236281CD03FB995F"]
@@ -451,7 +471,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["236281CD03FB995F"]
@@ -462,7 +482,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["60910E25967151C6"]
@@ -473,7 +493,7 @@
 				type: "item"
 			}]
 			x: 16.5d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["03CBA40DD9B362AD"]
@@ -484,7 +504,7 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["03CBA40DD9B362AD"]
@@ -495,7 +515,7 @@
 				type: "item"
 			}]
 			x: 16.5d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["236281CD03FB995F"]
@@ -506,7 +526,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["74A0EE1635BD7BD9"]
@@ -517,7 +537,7 @@
 				type: "item"
 			}]
 			x: 13.5d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["514E0CFFCAEE9B15"]
@@ -528,7 +548,7 @@
 				type: "item"
 			}]
 			x: 16.5d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["46ED1EB92C13B1F8"]
@@ -628,7 +648,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["45DB8A96FA2750BA"]
@@ -639,7 +659,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["45DB8A96FA2750BA"]
@@ -690,7 +710,7 @@
 					type: "item"
 				}
 			]
-			x: 16.5d
+			x: 17.0d
 			y: -1.0d
 		}
 		{
@@ -731,7 +751,7 @@
 					type: "item"
 				}
 			]
-			x: 16.5d
+			x: 17.0d
 			y: -2.0d
 		}
 		{
@@ -754,7 +774,7 @@
 				type: "item"
 			}]
 			x: 14.5d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["5552772F3B711A15"]
@@ -764,7 +784,7 @@
 				item: "inmis:withered_backpack"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 14.5d
 			y: -0.5d
 		}
 		{
@@ -797,8 +817,208 @@
 				item: "minecraft:recovery_compass"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 2.5d
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0C248FCB6C14D252"]
+			id: "6B25B68CB13CBA08"
+			tasks: [{
+				id: "60D3219BFDAE56A0"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6B25B68CB13CBA08"]
+			id: "0EFFD45B389094BB"
+			tasks: [{
+				id: "4F265D1434A850B3"
+				item: "zenith:library"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0C248FCB6C14D252"]
+			id: "01749933E7997B75"
+			tasks: [{
+				id: "5BD332EA59A4D971"
+				item: "minecraft:ender_chest"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0C248FCB6C14D252"]
+			id: "48B3A665E9CA01FD"
+			tasks: [
+				{
+					id: "646F2093DCC58CD8"
+					item: "ironchests:obsidian_chest"
+					type: "item"
+				}
+				{
+					id: "0C6565BE6DAF7825"
+					item: "ironchests:obsidian_barrel"
+					type: "item"
+				}
+				{
+					id: "44AE577A8C6246A8"
+					item: "ironchests:obsidian_chest_upgrade"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0C248FCB6C14D252"]
+			id: "2D29A4B5B730911E"
+			tasks: [{
+				id: "6D9C715D65BB4E62"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "fwaystones:waystones"
+					}
+				}
+				title: "Any #fwaystones:waystones"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["478618D89F89E7E3"]
+			id: "1F9668CDA93F085F"
+			tasks: [
+				{
+					id: "221E1997C9387907"
+					item: "ironchests:iron_chest"
+					type: "item"
+				}
+				{
+					id: "2C2779ED34640D35"
+					item: "ironchests:iron_barrel"
+					type: "item"
+				}
+				{
+					id: "7AB871B784E47AC7"
+					item: "ironchests:iron_chest_upgrade"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61D58FF8D732F985"]
+			id: "05A2DBFE8375B87E"
+			tasks: [
+				{
+					id: "24D961E6DF5ADF25"
+					item: "ironchests:gold_chest"
+					type: "item"
+				}
+				{
+					id: "589C5437C8CCE782"
+					item: "ironchests:gold_barrel"
+					type: "item"
+				}
+				{
+					id: "5757072EB8232B6F"
+					item: "ironchests:gold_chest_upgrade"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["267857E9A44175A7"]
+			id: "07CA2E7E5665E56D"
+			tasks: [
+				{
+					id: "7BA5F1346FC74458"
+					item: "ironchests:diamond_chest"
+					type: "item"
+				}
+				{
+					id: "0ED8FF34CE9B7F3A"
+					item: "ironchests:diamond_barrel"
+					type: "item"
+				}
+				{
+					id: "0D0C34C93A2FF623"
+					item: "ironchests:diamond_chest_upgrade"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["07CA2E7E5665E56D"]
+			id: "56F6CF0A24E510D7"
+			tasks: [
+				{
+					id: "62CE8ADD9611A83B"
+					item: "ironchests:crystal_chest"
+					type: "item"
+				}
+				{
+					id: "29782A9802468AD2"
+					item: "ironchests:crystal_barrel"
+					type: "item"
+				}
+				{
+					id: "385E9CA052D3ED23"
+					item: "ironchests:crystal_chest_upgrade"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5552772F3B711A15"]
+			id: "04887F79432408AB"
+			tasks: [{
+				id: "00838AB0AC155ADF"
+				item: "fwaystones:pocket_wormhole"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["45DB8A96FA2750BA"]
+			id: "4A8E2A34F9F261FF"
+			tasks: [
+				{
+					id: "6C804A2378D0E056"
+					item: "ironchests:netherite_chest"
+					type: "item"
+				}
+				{
+					id: "10192B277DD7EDCA"
+					item: "ironchests:netherite_barrel"
+					type: "item"
+				}
+				{
+					id: "51D519B3B93D9874"
+					item: "ironchests:netherite_chest_upgrade"
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: -0.5d
 		}
 	]
 	title: "Истоки"

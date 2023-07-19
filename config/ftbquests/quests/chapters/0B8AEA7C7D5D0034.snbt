@@ -3,6 +3,13 @@
 	default_quest_shape: ""
 	filename: "0B8AEA7C7D5D0034"
 	group: "24E98FFC5447C5AE"
+	icon: {
+		Count: 1b
+		id: "bewitchment:athame"
+		tag: {
+			Damage: 0
+		}
+	}
 	id: "0B8AEA7C7D5D0034"
 	order_index: 2
 	quest_links: [ ]
@@ -27,6 +34,725 @@
 				type: "item"
 			}]
 			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17A34C0D1A2A3702"]
+			id: "05AFA6ABEC776BA2"
+			tasks: [{
+				id: "38BF2BAA020220F5"
+				item: {
+					Count: 1b
+					id: "bewitchment:athame"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05AFA6ABEC776BA2"]
+			id: "00820248052B9827"
+			tasks: [{
+				id: "0712D82895FF06C8"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "bewitchment:barks"
+					}
+				}
+				title: "Кора"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00820248052B9827"]
+			id: "57C7D9B1F4E9009C"
+			tasks: [{
+				id: "5D1CB5B41B37AE5F"
+				item: "bewitchment:witch_cauldron"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00820248052B9827"]
+			id: "3190A1B0B221B216"
+			tasks: [
+				{
+					id: "248CA1BAB65D6ECF"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "bewitchment:altars"
+						}
+					}
+					title: "Алтарь"
+					type: "item"
+				}
+				{
+					id: "4D1CCDDD6EEBA057"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:wool_carpets"
+						}
+					}
+					title: "Any #minecraft:wool_carpets"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["17A34C0D1A2A3702"]
+			id: "272B71CFFCBA45A4"
+			tasks: [{
+				id: "2CA8CBF339897A24"
+				item: "bewitchment:brazier"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["00820248052B9827"]
+			id: "544BB3E30C19AB60"
+			tasks: [{
+				id: "4C1E781F68BC1FF5"
+				item: "bewitchment:wood_ash"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["544BB3E30C19AB60"]
+			id: "5682B0BA045A51A2"
+			tasks: [{
+				id: "3349FA0228B67823"
+				item: {
+					Count: 1b
+					id: "bewitchment:chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "4EEF22E350F0BEDA"
+			tasks: [
+				{
+					id: "18219B1C0320FEA3"
+					item: "bewitchment:mandrake_root"
+					type: "item"
+				}
+				{
+					id: "0B94422BB1C61870"
+					item: "bewitchment:belladonna"
+					type: "item"
+				}
+				{
+					id: "422504AFD27E16AB"
+					item: "bewitchment:garlic"
+					type: "item"
+				}
+				{
+					id: "1752A66BAE3B5002"
+					item: "bewitchment:aconite"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["57C7D9B1F4E9009C"]
+			id: "5FFD44374A6ECADA"
+			tasks: [
+				{
+					id: "1A153AABC619DF71"
+					item: "bewitchment:fiery_serum"
+					type: "item"
+				}
+				{
+					id: "3CE6F5A048A8842F"
+					item: "bewitchment:heaven_extract"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5FFD44374A6ECADA"]
+			id: "4791BE0D96AE8F36"
+			tasks: [{
+				id: "4C15E4BC92180D2B"
+				item: {
+					Count: 1b
+					id: "bewitchment:fiery_chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["57C7D9B1F4E9009C"]
+			id: "10996F9F64DD1A78"
+			tasks: [
+				{
+					id: "01C51C3555360A07"
+					item: "bewitchment:cleansing_balm"
+					type: "item"
+				}
+				{
+					id: "3489ACF5FD5DE187"
+					item: "bewitchment:earth_ichor"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10996F9F64DD1A78"]
+			id: "2B32101C73F76FE5"
+			tasks: [{
+				id: "2814734DD3CFA73F"
+				item: {
+					Count: 1b
+					id: "bewitchment:golden_chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FFD44374A6ECADA"]
+			id: "1381E5C22BB0A7F1"
+			tasks: [
+				{
+					id: "6EFEA57BE9E4E34A"
+					item: "bewitchment:zephyr_harness"
+					type: "item"
+				}
+				{
+					id: "3FC4FB85803E90F8"
+					item: "bewitchment:hellish_bauble"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["10996F9F64DD1A78"]
+			id: "27FA14FCFD5FA889"
+			tasks: [
+				{
+					id: "1B484C2CF6D57582"
+					item: "bewitchment:nazar"
+					type: "item"
+				}
+				{
+					id: "73AFA7E9C40973C8"
+					item: "bewitchment:druid_band"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["57C7D9B1F4E9009C"]
+			id: "3CBE7F33EFCE7762"
+			tasks: [
+				{
+					id: "4DE463CCD206D232"
+					item: "bewitchment:grim_elixir"
+					type: "item"
+				}
+				{
+					id: "3228CE28B5CA4EB5"
+					item: "bewitchment:aqua_cerate"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CBE7F33EFCE7762"]
+			id: "7EFE613B92EF79A1"
+			tasks: [{
+				id: "0361D329C89AD72F"
+				item: {
+					Count: 1b
+					id: "bewitchment:eldritch_chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3CBE7F33EFCE7762"]
+			id: "03417A1B4FDCC339"
+			tasks: [
+				{
+					id: "2E86E3B5ADF9B029"
+					item: "bewitchment:specter_bangle"
+					type: "item"
+				}
+				{
+					id: "480BAA2DE8F2C2E6"
+					item: "bewitchment:prickly_belt"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["17A34C0D1A2A3702"]
+			id: "6B3572593ABD1B8A"
+			tasks: [{
+				id: "6C38EB13AAEC37F3"
+				item: "bewitchment:crystal_ball"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5FFD44374A6ECADA"]
+			id: "49F1036A4444D331"
+			tasks: [{
+				id: "13B0FCC4E68C5380"
+				item: "bewitchment:alchemist_wool"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["49F1036A4444D331"]
+			id: "0A8BB9DFA5AB80E0"
+			tasks: [
+				{
+					id: "7BD18A914F8E4D78"
+					item: {
+						Count: 1b
+						id: "bewitchment:alchemist_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4300C3CD5AD811B6"
+					item: {
+						Count: 1b
+						id: "bewitchment:alchemist_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39F7D68AA4094CEE"
+					item: {
+						Count: 1b
+						id: "bewitchment:alchemist_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "506DB7C3765188B1"
+					item: {
+						Count: 1b
+						id: "bewitchment:alchemist_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["10996F9F64DD1A78"]
+			id: "526742FBED665D4C"
+			tasks: [{
+				id: "4A62AC86A4BAB150"
+				item: "bewitchment:hedgewitch_wool"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["526742FBED665D4C"]
+			id: "50D02FFB7241A27A"
+			tasks: [
+				{
+					id: "3287B714243C066B"
+					item: {
+						Count: 1b
+						id: "bewitchment:hedgewitch_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43CB9486742A93E0"
+					item: {
+						Count: 1b
+						id: "bewitchment:hedgewitch_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B9336BABA80EE8E"
+					item: {
+						Count: 1b
+						id: "bewitchment:hedgewitch_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52B1D9DC9E1FDA84"
+					item: {
+						Count: 1b
+						id: "bewitchment:hedgewitch_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3CBE7F33EFCE7762"]
+			id: "339143DA9D77F3CC"
+			tasks: [{
+				id: "00FC2553F50640B2"
+				item: "bewitchment:besmirched_wool"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["339143DA9D77F3CC"]
+			id: "57E3F73A8956360C"
+			tasks: [
+				{
+					id: "16140A27E5E9822A"
+					item: {
+						Count: 1b
+						id: "bewitchment:besmirched_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "528632A24E12FD73"
+					item: {
+						Count: 1b
+						id: "bewitchment:besmirched_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31607EA7A4476A7B"
+					item: {
+						Count: 1b
+						id: "bewitchment:besmirched_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12BCD7346E828792"
+					item: {
+						Count: 1b
+						id: "bewitchment:besmirched_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4791BE0D96AE8F36"]
+			id: "21E7F25383F19786"
+			tasks: [{
+				id: "70287A6CA52F04B0"
+				item: "bewitchment:demon_heart"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["21E7F25383F19786"]
+			id: "175C3B40D194F1C1"
+			tasks: [{
+				id: "0817C3B093C12F96"
+				item: "bewitchment:juniper_broom"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["21E7F25383F19786"]
+			id: "2434F6938A45331F"
+			tasks: [{
+				id: "4518DB8898DE4F44"
+				item: "bewitchment:grotesque_stew"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["21E7F25383F19786"]
+			id: "09993AD9B0CB7E55"
+			tasks: [
+				{
+					id: "4E0D32E8FCDACF4A"
+					item: {
+						Count: 1b
+						id: "bewitchment:death_protection_poppet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24A2601B3127F3D8"
+					item: {
+						Count: 1b
+						id: "bewitchment:voodoo_poppet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["21E7F25383F19786"]
+			id: "5F6E62615959FD6D"
+			tasks: [
+				{
+					id: "024C74314C724DFE"
+					item: {
+						Count: 1b
+						id: "bewitchment:scepter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D14C5AB497A9CD4"
+					item: {
+						Count: 1b
+						id: "bewitchment:caduceus"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B16B6A7D4915D41"
+					item: {
+						Count: 1b
+						id: "bewitchment:horned_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "474AC8464CA0FABA"
+					item: {
+						Count: 1b
+						id: "bwplus:leshon_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["09993AD9B0CB7E55"]
+			id: "1A98730B473346A4"
+			tasks: [{
+				id: "73BBA1BE6D625E37"
+				item: "bewitchment:oak_poppet_shelf"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "04B009FD2E75DF53"
+			tasks: [
+				{
+					id: "6607F2321B896132"
+					item: "bewitchment:juniper_log"
+					type: "item"
+				}
+				{
+					id: "3164C4506312F570"
+					item: "bewitchment:cypress_log"
+					type: "item"
+				}
+				{
+					id: "596DD555A6A9A0E9"
+					item: "bewitchment:elder_log"
+					type: "item"
+				}
+				{
+					id: "09CC5CA4F972DD7D"
+					item: "bewitchment:dragons_blood_log"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4EEF22E350F0BEDA"]
+			id: "5FCEF2C73940C4F9"
+			tasks: [{
+				id: "4EF822A07EE6F91F"
+				item: "bwplus:mutandis"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5FCEF2C73940C4F9"]
+			id: "62BDFECEEC1C7AEA"
+			tasks: [{
+				id: "1B64848C04844724"
+				item: "bwplus:mutandis_brew"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "28187C202FDF8F26"
+			tasks: [{
+				id: "53CBD25145974233"
+				item: "bewitchment:salt_ore"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28187C202FDF8F26"]
+			id: "57D8F7D63F00E805"
+			tasks: [{
+				id: "791CAC8BAA528240"
+				item: "bewitchment:salt"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57D8F7D63F00E805"]
+			id: "6AD3D13AD21774F9"
+			tasks: [{
+				id: "787B91A06CE68F98"
+				item: {
+					Count: 1b
+					id: "bewitchment:judgment_poppet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
 			y: 0.0d
 		}
 	]
