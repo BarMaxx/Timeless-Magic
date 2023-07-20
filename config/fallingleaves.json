@@ -451,6 +451,34 @@
     "minecells:red_wilted_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
+    },
+    "meadow:pine_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "vinery:cherry_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "meadow:pine_leaves_2": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "beachparty:palm_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "meadow:alpine_birch_leaves_hanging": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "vinery:apple_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "vinery:grapevine_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
     }
   },
   "leafSpawners": [],

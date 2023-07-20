@@ -1,0 +1,10 @@
+{
+	id: "5E3DD1930A751098"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 2, item: "minecraft:chest" }
+		{ count: 2, item: "minecraft:barrel" }
+	]
+	title: "Хранилища"
+}
