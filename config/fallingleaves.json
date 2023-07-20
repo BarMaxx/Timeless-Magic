@@ -439,6 +439,18 @@
     "byg:baobab_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
+    },
+    "minecells:wilted_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "minecells:orange_wilted_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "minecells:red_wilted_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
     }
   },
   "leafSpawners": [],
