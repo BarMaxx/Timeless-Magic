@@ -22,7 +22,7 @@
 			}]
 			shape: "octagon"
 			size: 1.1d
-			subtitle: "Самое начало."
+			subtitle: "Самое начало!"
 			tasks: [{
 				count: 4L
 				id: "5C20F28205FA7084"
@@ -41,7 +41,15 @@
 		}
 		{
 			dependencies: ["630598CBCA58CC52"]
+			description: ["Добыв немного брёвен я могу создать новый предмет - &6Верстак&r. Он нужен мне для того, чтобы создавать множество различных предметов, которые сделают меня сильнее. Для создания верстака нужно &3соеднить&r 4 доски в сетке крафта моего инвентаря."]
 			id: "16E6D880EF9D7A01"
+			rewards: [{
+				count: 4
+				id: "5ECCADDF101DB9C7"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			subtitle: "Рабочее место!"
 			tasks: [{
 				id: "2F15CF6B7A296762"
 				item: "minecraft:crafting_table"
@@ -52,7 +60,23 @@
 		}
 		{
 			dependencies: ["16E6D880EF9D7A01"]
+			description: ["После получения верстака я могу создать свой первый инструмент - &6Деревянную кирку&r. Она нужна для того, чтобы добывать более твёрдые ресурсы. С помощью деревянной кирки я могу добывать булыжник (и прочие подобные материалы) и уголь. Для &3создания&r деревянной кирки мне нужно соединить 2 палки и 3 доски. "]
 			id: "22A5935C6050B21E"
+			rewards: [
+				{
+					id: "3B35DE112018B161"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "2536EBE0337BA19F"
+					item: "supplementaries:candy"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Первый инструмент!"
 			tasks: [{
 				id: "5E2B305B4146EF16"
 				item: {
@@ -69,10 +93,35 @@
 		}
 		{
 			dependencies: ["22A5935C6050B21E"]
+			description: ["Получив кирку я могу добыть новый материал - &6Булыжник&r. Он нужен мне для создания печки и обновления своих инструментов, а также для большого количество других предметов. Булыжник можно &3найти&r под землёй на небольшой глубине. Главное - не копать под себя, чтобы не упасть в большую пещеру."]
 			id: "1A4B5BCF2B169496"
+			rewards: [
+				{
+					count: 6
+					id: "51B8FAB5B30341EE"
+					item: "minecraft:cobblestone"
+					random_bonus: 6
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5419D232C5EDD4D0"
+					item: "minecraft:coal"
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			tasks: [{
+				count: 4L
 				id: "13527023EECA5409"
-				item: "minecraft:cobblestone"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:cobblestone"
+					}
+				}
+				title: "Булыжник"
 				type: "item"
 			}]
 			x: 4.0d
@@ -1019,6 +1068,62 @@
 			]
 			x: 15.5d
 			y: -0.5d
+		}
+		{
+			dependencies: ["16E6D880EF9D7A01"]
+			id: "3623300C2809046E"
+			tasks: [{
+				id: "0C3210BCCB46F72B"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["16E6D880EF9D7A01"]
+			id: "25199AEB2459AD43"
+			tasks: [
+				{
+					id: "09E8F20189AD6DBC"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					id: "4506579C392F4D0A"
+					item: "minecraft:barrel"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["16E6D880EF9D7A01"]
+			description: ["После создания верстака мне открылись новые возможности в плане создания предметов. Сейчас мне необходимо создать &6Изношенный рюкзак&r. Он нужен мне для того, чтобы &3складывать&r в нём вещи во время путешествий. Для создания рюкзака мне нужно соединить 8 штучек кожи и 1 сундук. В дальнейшем я смогу &2улучшать&r свой рюкзак и тогда он будет вмещать в себе больше предметов и ресурсов."]
+			id: "690383B6BC72C17F"
+			rewards: [
+				{
+					id: "0C1062F999748C68"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 4
+					id: "3B67E6485EE5C640"
+					item: "minecraft:baked_potato"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Ползен в путешествии!"
+			tasks: [{
+				id: "7380D11358B98953"
+				item: "inmis:frayed_backpack"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
 		}
 	]
 	title: "Истоки"
