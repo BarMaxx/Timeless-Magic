@@ -1,0 +1,328 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "29938419F5BC4D76"
+	group: "24E98FFC5447C5AE"
+	icon: "minecraft:nether_star"
+	id: "29938419F5BC4D76"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0C248FCB6C14D252"]
+			id: "73A10A1C0A47C2E1"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "6CA23ADDE73DBF22"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73A10A1C0A47C2E1"]
+			id: "118E53FC6E875869"
+			tasks: [{
+				id: "6C23B503972A704D"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["118E53FC6E875869"]
+			id: "5A29B02164EE806C"
+			tasks: [{
+				id: "67E7307203D01F09"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5A29B02164EE806C"]
+			id: "45DB8A96FA2750BA"
+			tasks: [{
+				id: "529EB2F3E30D3D4E"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["45DB8A96FA2750BA"]
+			id: "033011FA680FBFEC"
+			tasks: [{
+				id: "0DD5D761E5FC454B"
+				item: "inmis:blazing_backpack"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["45DB8A96FA2750BA"]
+			id: "24EB6C42777C47B9"
+			tasks: [{
+				id: "66ADCBDA431122C5"
+				item: "minecraft:lodestone"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["45DB8A96FA2750BA"]
+			id: "7F4D2AE8C780F9C8"
+			tasks: [
+				{
+					id: "2CBE854E40746C8F"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B7486D4A2E86F93"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B1FD9055C85A9E6"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["45DB8A96FA2750BA"]
+			id: "2980C155C4917A09"
+			tasks: [
+				{
+					id: "018A6736E049E02A"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E8B772AB7AB09FC"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38E37A919F6DE995"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6316A16A5376510E"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["45DB8A96FA2750BA"]
+			id: "4A8E2A34F9F261FF"
+			tasks: [
+				{
+					id: "6C804A2378D0E056"
+					item: "ironchests:netherite_chest"
+					type: "item"
+				}
+				{
+					id: "10192B277DD7EDCA"
+					item: "ironchests:netherite_barrel"
+					type: "item"
+				}
+				{
+					id: "51D519B3B93D9874"
+					item: "ironchests:netherite_chest_upgrade"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73A10A1C0A47C2E1"]
+			id: "64087CF14BC13E35"
+			tasks: [{
+				id: "30E5E3AF68E2B4DD"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64087CF14BC13E35"]
+			id: "5552772F3B711A15"
+			tasks: [{
+				id: "11F6F41EDD03C122"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5552772F3B711A15"]
+			id: "04887F79432408AB"
+			tasks: [{
+				id: "00838AB0AC155ADF"
+				item: "fwaystones:pocket_wormhole"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5552772F3B711A15"]
+			id: "60B8DBB05CDE556E"
+			tasks: [{
+				id: "15D7515D1EA2B926"
+				item: "inmis:withered_backpack"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5552772F3B711A15"]
+			id: "14B8DD1F66798C87"
+			tasks: [{
+				id: "412A65C0A92E5DF6"
+				item: "minecraft:beacon"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["73A10A1C0A47C2E1"]
+			id: "46ED1EB92C13B1F8"
+			tasks: [{
+				id: "0647979DB608F8BF"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["46ED1EB92C13B1F8"]
+			id: "7C1C77F9DF458D3D"
+			tasks: [{
+				id: "0175B067B9F05FF9"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["46ED1EB92C13B1F8"]
+			id: "3C5D924FFD7BBFC2"
+			tasks: [{
+				id: "5645B67FA127A209"
+				item: "minecraft:brewing_stand"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3C5D924FFD7BBFC2"]
+			id: "4CEC22C7C882E807"
+			tasks: [{
+				id: "4526C468040B4203"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:regeneration"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4CEC22C7C882E807"]
+			id: "33D8AF7D1A4F7CE7"
+			tasks: [{
+				id: "6D38193798D961C1"
+				item: "zenith:hellshelf"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3C5D924FFD7BBFC2"]
+			id: "3243FF3B3C6023F3"
+			tasks: [{
+				id: "7F748B00F6C9660F"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strong_strength"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+	]
+	title: "Незер"
+}

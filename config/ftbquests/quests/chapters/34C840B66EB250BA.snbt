@@ -1,0 +1,151 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "34C840B66EB250BA"
+	group: "24E98FFC5447C5AE"
+	icon: "minecraft:ender_eye"
+	id: "34C840B66EB250BA"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7C1C77F9DF458D3D"]
+			id: "7BE9B1944D94A32A"
+			tasks: [{
+				id: "6DDAFB2A1965A491"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7BE9B1944D94A32A"]
+			id: "236281CD03FB995F"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "68F6335437A65BAD"
+				type: "dimension"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["236281CD03FB995F"]
+			id: "74A0EE1635BD7BD9"
+			tasks: [{
+				id: "144B88485F6BAEA8"
+				item: "minecraft:dragon_head"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["236281CD03FB995F"]
+			id: "049A2A4382359F4B"
+			tasks: [{
+				id: "0BCA9976C6FDC4DE"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["74A0EE1635BD7BD9"]
+			id: "7BEE6481F3834830"
+			tasks: [{
+				id: "4C6F0FD710839FF7"
+				item: "plushies:dragon_plushie"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["236281CD03FB995F"]
+			id: "484D310BB850B7DF"
+			tasks: [{
+				id: "61627C6BAA0FE4D7"
+				item: {
+					Count: 1b
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["236281CD03FB995F"]
+			id: "514E0CFFCAEE9B15"
+			tasks: [{
+				id: "79AA2F996741B7AA"
+				item: "minecraft:shulker_shell"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["514E0CFFCAEE9B15"]
+			id: "7316F9693C275A4C"
+			tasks: [{
+				id: "0120BDD28A62FB24"
+				item: "minecraft:shulker_box"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["236281CD03FB995F"]
+			id: "60910E25967151C6"
+			tasks: [{
+				id: "11ABF293D914D7B8"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["60910E25967151C6"]
+			id: "03CBA40DD9B362AD"
+			tasks: [{
+				id: "0F61CD45BFD12A7C"
+				item: "zenith:endshelf"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03CBA40DD9B362AD"]
+			id: "6CC4089ACA2BFEE8"
+			tasks: [{
+				id: "08C3009DBFA5607A"
+				item: "zenith:draconic_endshelf"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["03CBA40DD9B362AD"]
+			id: "1135B92DC037DEE3"
+			tasks: [{
+				id: "69C843A67AB1F952"
+				item: "zenith:pearl_endshelf"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+	]
+	title: "Край"
+}
