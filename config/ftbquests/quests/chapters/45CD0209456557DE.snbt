@@ -5,11 +5,12 @@
 	group: "24E98FFC5447C5AE"
 	icon: "gobber2:dragon_star"
 	id: "45CD0209456557DE"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["15FAEC4BA6F51CA9"]
+			hide: true
 			id: "732ABCC73FE8E713"
 			shape: "rsquare"
 			size: 1.1d

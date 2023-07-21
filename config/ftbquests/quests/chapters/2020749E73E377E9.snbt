@@ -130,7 +130,16 @@
 		}
 		{
 			dependencies: ["1A4B5BCF2B169496"]
+			description: ["После добычи булыжника я могу создать &6Печь&r. Она нужна мне для того, чтобы &3переплавлять&r в ней различные ресурсы и &3готовить&r еду. Для создания печки мне необходимо добыть 8 булыжника."]
 			id: "4D5B2662242FD94A"
+			rewards: [{
+				count: 4
+				id: "7970B6AD87529C56"
+				item: "minecraft:charcoal"
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "Универсально!"
 			tasks: [{
 				id: "40CCA19DB05D5956"
 				item: "minecraft:furnace"
@@ -141,7 +150,16 @@
 		}
 		{
 			dependencies: ["4D5B2662242FD94A"]
+			description: ["После создания печки я могу улучшить её до &6Плавильной печки&r. С помощью неё я смогу &3выплавлять&r слитки в 2 раза быстрее, чем в обычной печке. Для создания плавильной печи мне потребуется: 5 железных слитков, 3 гладких камня и 1 печь."]
 			id: "7EC47995ABE7DC92"
+			rewards: [{
+				count: 3
+				id: "3D63E60869484F99"
+				item: "minecraft:iron_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "Быстро плавит!"
 			tasks: [{
 				id: "563CF74C33828D13"
 				item: "minecraft:blast_furnace"
@@ -152,7 +170,16 @@
 		}
 		{
 			dependencies: ["4D5B2662242FD94A"]
+			description: ["После создания печки я могу улучшить её до &6Коптильни&r. С её помощью я смогу &3готовить&r себе еду в 2 раза быстрее, чем в обычной печи. Для создания коптильни мне потребуется: 4 бревна и 1 печь."]
 			id: "4D6DDB51F0C122A5"
+			rewards: [{
+				count: 8
+				id: "4017371BF59B08C7"
+				item: "minecraft:spruce_log"
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "Быстро готовит!"
 			tasks: [{
 				id: "6F12D44CEA9BC87B"
 				item: "minecraft:smoker"
@@ -681,7 +708,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Ползен в путешествии!"
+			subtitle: "Полезен в путешествии!"
 			tasks: [{
 				id: "7380D11358B98953"
 				item: "inmis:frayed_backpack"

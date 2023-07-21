@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "alloy_forgery"
+	group: "24E98FFC5447C5AE"
+	id: "70FEDFBFA6445A1E"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["736DABDDD868D72D"]
+		id: "003979155FFDEAF3"
+		tasks: [{
+			id: "61CF9C27DFA8E1A9"
+			item: "alloy_forgery:bricks_forge_controller"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Alloy Forgery"
+}
