@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "spirit"
-	group: "24E98FFC5447C5AE"
+	group: "0C96E52A5A78812E"
 	icon: "spirit:soul_crystal"
 	id: "3C751DE54B5422DA"
-	order_index: 4
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

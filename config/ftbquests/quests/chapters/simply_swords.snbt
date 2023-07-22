@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "simply_swords"
+	group: "12DFC0F8D9E60DD2"
+	icon: "simplyswords:runic_tablet"
+	id: "076E59B98BFE064A"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Simply Swords"
+}

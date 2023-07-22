@@ -297,6 +297,17 @@
         "value": 128
       }
     },
+    "additionalentityattributes:lung_capacity": {
+      "enabled": false,
+      "min": {
+        "default": -40000,
+        "value": -40000
+      },
+      "max": {
+        "default": 40000,
+        "value": 40000
+      }
+    },
     "minecraft:generic.movement_speed": {
       "enabled": true,
       "min": {

@@ -5,7 +5,7 @@
 	group: "0C96E52A5A78812E"
 	icon: "gobber2:dragon_star"
 	id: "45CD0209456557DE"
-	order_index: 1
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{

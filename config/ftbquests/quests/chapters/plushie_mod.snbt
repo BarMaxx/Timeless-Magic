@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "plushie_mod"
+	group: "12DFC0F8D9E60DD2"
+	icon: "plushies:frog_plushie"
+	id: "3F6BC7FBC50826F1"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Plushie Mod"
+}

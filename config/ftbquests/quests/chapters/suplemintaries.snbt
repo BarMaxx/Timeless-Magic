@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "suplemintaries"
+	group: "12DFC0F8D9E60DD2"
+	icon: "supplementaries:globe"
+	id: "14B57B8BE6B86990"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Supplementaries"
+}

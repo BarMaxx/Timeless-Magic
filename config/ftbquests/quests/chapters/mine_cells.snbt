@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mine_cells"
+	group: "12DFC0F8D9E60DD2"
+	icon: "minecells:conjunctivius_respawn_rune"
+	id: "30DC4C39084921EA"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Mine Cells"
+}

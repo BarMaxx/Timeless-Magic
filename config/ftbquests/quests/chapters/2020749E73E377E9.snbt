@@ -849,7 +849,23 @@
 		}
 		{
 			dependencies: ["3D8DB35AC6F09877"]
+			description: ["После выпавки медных слитков и сбора осколков аметиста я могу создать новый предмет - &6Подзорная труба&r. Она нужна мне, чтобы &3разглядывать&r дальние объекты с большого расстояния. Довольно удобная и полезная штуковина. Для подзорной трубы мне необходимо 2 слитка меди и 1 осколок аметиста."]
 			id: "386337453B601304"
+			rewards: [
+				{
+					count: 2
+					id: "7688C645C5F4165C"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "45C406A89651CC9B"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Лучше, чем OptiFine!"
 			tasks: [{
 				id: "1CAF328D883E4863"
 				item: "minecraft:spyglass"
