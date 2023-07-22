@@ -1,0 +1,41 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "wizards"
+	group: "1947F8CB8800FABA"
+	icon: "spell_engine:spell_binding"
+	id: "6A0E54D68A46C9FE"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "4BFD086D29699FDE"
+			tasks: [{
+				id: "4BF0EE85028ABB8E"
+				item: {
+					Count: 1b
+					id: "wizards:wand_novice"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["47FBD8889627B0C8"]
+			id: "6A7EDD83761F2F4D"
+			tasks: [{
+				id: "36CB2BE309A76B93"
+				item: "spell_engine:spell_binding"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "Wizards"
+}

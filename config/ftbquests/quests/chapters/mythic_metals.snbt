@@ -1,0 +1,186 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mythic_metals"
+	group: "0C96E52A5A78812E"
+	icon: {
+		Count: 1b
+		id: "mythicmetals:mythril_drill"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "0E06588019C7C174"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["420DE7337597EE27"]
+			id: "209E490831452CAC"
+			tasks: [{
+				id: "5A590ECDB5CF2746"
+				item: "mythicmetals:durasteel_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["209E490831452CAC"]
+			id: "0E912FEA30AD0A20"
+			tasks: [{
+				id: "74FE35897167E44B"
+				item: "mythicmetals:durasteel_block"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "3FE061257ACAD37B"
+			tasks: [{
+				id: "19D1F4C4C7D325C6"
+				item: "mythicmetals:morkite"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0E912FEA30AD0A20"
+				"3FE061257ACAD37B"
+			]
+			id: "54A9F0933221A912"
+			tasks: [{
+				id: "325E337050B9C5C0"
+				item: "mythicmetals:durasteel_engine"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["54A9F0933221A912"]
+			id: "7C150AE8DEB6BE1E"
+			tasks: [{
+				id: "11EC67A50F63EC4F"
+				item: {
+					Count: 1b
+					id: "mythicmetals:mythril_drill"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "11966D68377BDC3C"
+			tasks: [{
+				id: "3D86E0D30581AFE7"
+				item: "mythicmetals:stormyx_shell"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["11966D68377BDC3C"]
+			id: "06C558C2007D5194"
+			tasks: [{
+				id: "30BA533073E43D59"
+				item: {
+					Count: 1b
+					id: "mythicmetals:stormyx_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7EC47995ABE7DC92"]
+			id: "461F4542469909D3"
+			tasks: [{
+				id: "453975F465457FA6"
+				item: "mythicmetals:orichalcum_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["461F4542469909D3"]
+			id: "084F1C37697DA4AE"
+			tasks: [{
+				id: "352CA0FE0C617D03"
+				item: "mythicmetals:orichalcum_block"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"084F1C37697DA4AE"
+				"78C5843334E56254"
+			]
+			id: "17A273518334C884"
+			tasks: [{
+				id: "05BDE538E454AB3A"
+				title: "Новый предмет!"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["17A273518334C884"]
+			id: "6718D2F92EB9739B"
+			tasks: [{
+				id: "06363D2650046A47"
+				item: {
+					Count: 1b
+					id: "mythicmetals:orichalcum_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["420DE7337597EE27"]
+			id: "78C5843334E56254"
+			tasks: [{
+				id: "1575845405A5674E"
+				item: "mythicmetals:metallurgium_ingot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "35943615A7246C27"
+			tasks: [{
+				id: "792C71EDB23B2032"
+				item: "mythicmetals:banglum_chunk"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+	]
+	title: "Mythic Metals"
+}

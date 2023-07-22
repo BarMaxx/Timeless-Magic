@@ -3,19 +3,55 @@
 	default_quest_shape: ""
 	filename: "alloy_forgery"
 	group: "24E98FFC5447C5AE"
+	icon: "alloy_forgery:bricks_forge_controller"
 	id: "70FEDFBFA6445A1E"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["736DABDDD868D72D"]
-		id: "003979155FFDEAF3"
-		tasks: [{
-			id: "61CF9C27DFA8E1A9"
-			item: "alloy_forgery:bricks_forge_controller"
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "003979155FFDEAF3"
+			tasks: [{
+				id: "61CF9C27DFA8E1A9"
+				item: "alloy_forgery:bricks_forge_controller"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["003979155FFDEAF3"]
+			id: "420DE7337597EE27"
+			tasks: [{
+				id: "4B49BD0445BE738D"
+				item: "alloy_forgery:prismarine_bricks_forge_controller"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["420DE7337597EE27"]
+			id: "5B8FC92671611085"
+			tasks: [{
+				id: "29F8EEE7C3AB32B2"
+				item: "alloy_forgery:end_stone_bricks_forge_controller"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B8FC92671611085"]
+			id: "71648A8C578501B6"
+			tasks: [{
+				id: "17C68D47FE9E61E3"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+	]
 	title: "Alloy Forgery"
 }

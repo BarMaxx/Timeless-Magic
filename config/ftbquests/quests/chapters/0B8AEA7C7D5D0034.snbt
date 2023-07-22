@@ -11,7 +11,7 @@
 		}
 	}
 	id: "0B8AEA7C7D5D0034"
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -754,6 +754,17 @@
 			}]
 			x: -3.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["175C3B40D194F1C1"]
+			id: "23C9DE0DE86DDE80"
+			tasks: [{
+				id: "598DD5337C8B6261"
+				item: "besmirchment:final_broom"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
 		}
 	]
 	title: "Bewitchment"

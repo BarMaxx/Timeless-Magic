@@ -1,0 +1,1450 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "04E59B8DC02E532B"
+	group: "1947F8CB8800FABA"
+	icon: "candlelight:cooking_pot"
+	id: "04E59B8DC02E532B"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3623300C2809046E"]
+			id: "68008C794CB5B6D0"
+			tasks: [{
+				id: "2BA55FEBCA48DC88"
+				item: "candlelight:cobblestone_stove"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68008C794CB5B6D0"]
+			id: "3951BF3A3FF8F780"
+			tasks: [
+				{
+					id: "0A019403CE6EC1D8"
+					item: "candlelight:cooking_pot"
+					type: "item"
+				}
+				{
+					id: "4CA1C22C431A5957"
+					item: "candlelight:cooking_pan"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "2B7ACB672718DC84"
+			tasks: [{
+				id: "26AEBDD59FF9BCEE"
+				item: {
+					Count: 1b
+					id: "candlelight:gold_ring"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2B7ACB672718DC84"]
+			id: "11AB3DC6CB2FBABC"
+			tasks: [{
+				id: "2A8B04AC4654940B"
+				item: "candlelight:jewelry_box"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3951BF3A3FF8F780"]
+			id: "5DC7ADFCE8AC270F"
+			tasks: [{
+				id: "1FB7CF562330FC3F"
+				item: "candlelight:chocolate"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "480CAF933A9B51F6"
+			tasks: [{
+				id: "5CB11C40F852B6FC"
+				item: "bakery:small_cooking_pot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"5DC7ADFCE8AC270F"
+				"480CAF933A9B51F6"
+			]
+			id: "0671D5E34022C440"
+			tasks: [{
+				id: "39D69A7CFAD399DD"
+				item: "bakery:chocolate_jam"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5DC7ADFCE8AC270F"]
+			id: "3D3836FD4A2CA5D1"
+			tasks: [{
+				id: "672E1322C49BC878"
+				item: "candlelight:chocolate_box"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5DC7ADFCE8AC270F"
+				"1FBB76A54FF2090B"
+			]
+			id: "6714B2AB2FDBCFDB"
+			tasks: [{
+				id: "60DDF72528C585B9"
+				item: "bakery:chocolate_tart"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "1FBB76A54FF2090B"
+			tasks: [{
+				id: "605D853836F5CBE8"
+				item: "bakery:brick_stove"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "4657C696F4E63518"
+			tasks: [
+				{
+					id: "5189D3E82B921049"
+					item: "candlelight:cobblestone_kitchen_sink"
+					type: "item"
+				}
+				{
+					id: "131284249082CB2B"
+					item: "candlelight:faucet"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "29C7E8BFA35C56EB"
+			tasks: [
+				{
+					id: "3A3ED2C32F1FD92A"
+					item: {
+						Count: 1b
+						id: "candlelight:cooking_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29FDB260B51E379E"
+					item: {
+						Count: 1b
+						id: "candlelight:chefs_jacket"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "571EE59D1E447288"
+					item: {
+						Count: 1b
+						id: "candlelight:chefs_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "74EA096DF06DB070"
+					item: {
+						Count: 1b
+						id: "candlelight:chefs_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1FBB76A54FF2090B"]
+			id: "2DBDB6D400B446DA"
+			tasks: [
+				{
+					id: "0C1F4B6349DCA6B5"
+					item: "bakery:apple_pie"
+					type: "item"
+				}
+				{
+					id: "164540C5757AFA29"
+					item: "bakery:waffle"
+					type: "item"
+				}
+				{
+					id: "75DC66921041904E"
+					item: "bakery:linzer_tart"
+					type: "item"
+				}
+				{
+					id: "6C05D89E1ECBA9EF"
+					item: "bakery:glowberry_tart"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["480CAF933A9B51F6"]
+			id: "1AD424585B22D3CD"
+			tasks: [
+				{
+					id: "1120678954C79BE7"
+					item: "bakery:strawberry_jam"
+					type: "item"
+				}
+				{
+					id: "11309DE85038D18B"
+					item: "bakery:glowberry_jam"
+					type: "item"
+				}
+				{
+					id: "1E0E2021F6E64DA7"
+					item: "bakery:sweetberry_jam"
+					type: "item"
+				}
+				{
+					id: "7DAF94F6C138E1FD"
+					item: "bakery:apple_jam"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "2EDC50FA4E9719A0"
+			tasks: [{
+				id: "63D06C8224DA0BDA"
+				item: "beachparty:tiki_bar"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "2338D49DC68BAB22"
+			tasks: [{
+				id: "4188C3BDDD681F4C"
+				item: "beachparty:mini_fridge"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2338D49DC68BAB22"]
+			id: "5A4D5086B3D0305A"
+			tasks: [
+				{
+					id: "10333B7C47A0E412"
+					item: "beachparty:sweetberry_icecream"
+					type: "item"
+				}
+				{
+					id: "3D3719902A6794E4"
+					item: "beachparty:coconut_icecream"
+					type: "item"
+				}
+				{
+					id: "0A070251DA11280C"
+					item: "beachparty:chocolate_icecream"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2EDC50FA4E9719A0"
+				"5A4D5086B3D0305A"
+			]
+			id: "05A4C578C76F51CC"
+			tasks: [
+				{
+					id: "6524C712E53B65D8"
+					item: "beachparty:sweetberry_milkshake"
+					type: "item"
+				}
+				{
+					id: "7ED428B26E560A54"
+					item: "beachparty:coconut_milkshake"
+					type: "item"
+				}
+				{
+					id: "28A082CAF80668E4"
+					item: "beachparty:chocolate_milkshake"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2338D49DC68BAB22"]
+			id: "3B3C3A776D500DD5"
+			tasks: [
+				{
+					id: "3F8297EF4205A80D"
+					item: "beachparty:icecream_sweetberries"
+					type: "item"
+				}
+				{
+					id: "1BA69BEDC86906B3"
+					item: "beachparty:icecream_chocolate"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2338D49DC68BAB22"]
+			id: "1288629F9CA9223F"
+			tasks: [
+				{
+					id: "022B0AFE75D5D3FE"
+					item: "beachparty:icecream_coconut"
+					type: "item"
+				}
+				{
+					id: "326DB379572E0EB7"
+					item: "beachparty:icecream_melon"
+					type: "item"
+				}
+				{
+					id: "133E3CFEB75D9E0B"
+					item: "beachparty:icecream_cactus"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2EDC50FA4E9719A0"]
+			id: "183368B80A41F9DB"
+			tasks: [
+				{
+					id: "6869F4F7C588750A"
+					item: "beachparty:sweetberries_cocktail"
+					type: "item"
+				}
+				{
+					id: "7164B9F342C1EE7E"
+					item: "beachparty:cocoa_cocktail"
+					type: "item"
+				}
+				{
+					id: "60F98E361BF9A409"
+					item: "beachparty:pumpkin_cocktail"
+					type: "item"
+				}
+				{
+					id: "7D30192648B00DC3"
+					item: "beachparty:coconut_cocktail"
+					type: "item"
+				}
+				{
+					id: "5C8D9BED8EC0D3AD"
+					item: "beachparty:honey_cocktail"
+					type: "item"
+				}
+				{
+					id: "6CBB7FC9A3FFF041"
+					item: "beachparty:melon_cocktail"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "4DECE7BE2C902E05"
+			tasks: [{
+				id: "343DBCFDE047F6B6"
+				item: "bakery:baker_station"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4DECE7BE2C902E05"]
+			id: "6332756804A8396D"
+			tasks: [
+				{
+					id: "0F85D09723FCB715"
+					item: "bakery:strawberry_cupcake"
+					type: "item"
+				}
+				{
+					id: "2C2BD88C8A68B3AD"
+					item: "bakery:sweetberry_cupcake"
+					type: "item"
+				}
+				{
+					id: "05567ED967BCEAA5"
+					item: "bakery:apple_cupcake"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4DECE7BE2C902E05"]
+			id: "3878B4E9DCAB0193"
+			tasks: [
+				{
+					id: "1C3A2DDDF448FD03"
+					item: "bakery:strawberry_cake"
+					type: "item"
+				}
+				{
+					id: "6EEB41E79FF4A87A"
+					item: "bakery:sweetberry_cake"
+					type: "item"
+				}
+				{
+					id: "5B309755181BAF39"
+					item: "bakery:chocolate_cake"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4DECE7BE2C902E05"]
+			id: "751A391A33AA0ED0"
+			tasks: [
+				{
+					id: "15FDE9DB189B9718"
+					item: "bakery:strawberry_glazed_cookie"
+					type: "item"
+				}
+				{
+					id: "14D4FAF890ACBE2B"
+					item: "bakery:sweetberry_glazed_cookie"
+					type: "item"
+				}
+				{
+					id: "15F7766CB6BEA3B6"
+					item: "bakery:chocolate_glazed_cookie"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "6663687883704AAA"
+			tasks: [{
+				id: "2185E34ACD7EE046"
+				item: "vinery:fermentation_barrel"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "345C96FD31280E3C"
+			tasks: [{
+				id: "09C66FB7DC77EE69"
+				item: "vinery:wine_bottle"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "5CF8FA52A4262546"
+			tasks: [{
+				id: "267316D9136CA5B4"
+				item: "vinery:wine_press"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5CF8FA52A4262546"]
+			id: "489A33D62C46095F"
+			tasks: [{
+				id: "0DD0576BE622A957"
+				item: "vinery:apple_mash"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6663687883704AAA"
+				"489A33D62C46095F"
+			]
+			id: "665546563BBF2413"
+			tasks: [{
+				id: "64FB5968BBD4AE15"
+				item: "vinery:apple_juice"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5CF8FA52A4262546"]
+			id: "2E5622E1A03E0756"
+			tasks: [{
+				id: "1D1BAE5E5AA44A8C"
+				item: "vinery:gloves"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2E5622E1A03E0756"]
+			id: "1CACE9B3B0027E9D"
+			tasks: [
+				{
+					id: "7F7DA39C5315DF2A"
+					item: {
+						Count: 1b
+						id: "vinery:straw_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BA70C94D469C997"
+					item: {
+						Count: 1b
+						id: "vinery:vinemaker_apron"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D4FBEBD1DE90BB1"
+					item: {
+						Count: 1b
+						id: "vinery:vinemaker_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D7D492F07443B94"
+					item: {
+						Count: 1b
+						id: "vinery:vinemaker_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["736DABDDD868D72D"]
+			description: ["Данный горшок нужен для того, чтобы превратить виноградную лозу (по сути просто виноград) в виноградный сок. Для этого нужно положить в горшок виноград (ПКМ с виноградом в руке), а после немного помять его (попрыгать по горшку). Далее взять бутылку для вина и собрать сок (ПКМ с бутылкой для вина в руке)."]
+			id: "3B044D4EF366933D"
+			tasks: [{
+				id: "3E5E04E7ED476413"
+				item: "vinery:grapevine_pot"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3B044D4EF366933D"
+				"5551F7C57274575A"
+				"3F84AF8A0B9FC9B2"
+			]
+			id: "73F4C44067C18ADA"
+			tasks: [
+				{
+					id: "0FB60730435F03F9"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:grapejuice_red"
+						}
+					}
+					title: "Красный виноградный сок"
+					type: "item"
+				}
+				{
+					id: "4C8339199D621EA6"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:grapejuice_white"
+						}
+					}
+					title: "Белый виноградный сок"
+					type: "item"
+				}
+			]
+			title: "Виноградный сок"
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32938374CA4F8B87"]
+			id: "3F84AF8A0B9FC9B2"
+			tasks: [{
+				id: "719EDE1FDE63007D"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "vinery:red_grape"
+					}
+				}
+				title: "Красный виноград"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7CBC70E0BB59D1C4"]
+			id: "5551F7C57274575A"
+			tasks: [{
+				id: "345FEFD253B18547"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "vinery:white_grape"
+					}
+				}
+				title: "Белый виноград"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0C65E5E97BDA87AB"]
+			id: "32938374CA4F8B87"
+			tasks: [{
+				id: "70CF10988DF78AFD"
+				item: "vinery:red_grape_seeds"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0C65E5E97BDA87AB"]
+			id: "7CBC70E0BB59D1C4"
+			tasks: [{
+				id: "726E53F6CFFA9FEE"
+				item: "vinery:white_grape_seeds"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "0C65E5E97BDA87AB"
+			tasks: [{
+				id: "776EAC6CBABC9820"
+				item: "vinery:grapevine_stem"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6663687883704AAA"]
+			id: "716D0B18BCE622D2"
+			tasks: [
+				{
+					id: "5167558BF856F280"
+					item: {
+						Count: 1b
+						id: "vinery:cherry_wine"
+						tag: {
+							Year: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02CC9BF5F4A254A0"
+					item: {
+						Count: 1b
+						id: "vinery:noir_wine"
+						tag: {
+							Year: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "041B3A2053BA9BEB"
+					item: {
+						Count: 1b
+						id: "vinery:apple_cider"
+						tag: {
+							Year: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "011E35F8132D341E"
+					item: {
+						Count: 1b
+						id: "vinery:aegis_wine"
+						tag: {
+							Year: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Напитки"
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["13A25F99C8DCFEE0"]
+			id: "4E4C4BFA006CF816"
+			tasks: [{
+				id: "0DEF62BCF49D5442"
+				item: "meadow:cooking_pot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E4C4BFA006CF816"]
+			id: "4D06C3D7E285C092"
+			tasks: [{
+				id: "200CE3135F8AFE2C"
+				item: "meadow:fondue"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4E4C4BFA006CF816"]
+			id: "47424F9B6F8AE1D8"
+			tasks: [
+				{
+					id: "143ABD0B893025C4"
+					item: "meadow:roasted_ham"
+					type: "item"
+				}
+				{
+					id: "58D61F355C59D3A2"
+					item: "meadow:ham_cheese"
+					type: "item"
+				}
+				{
+					id: "32ED52CD56AE3AE5"
+					item: "meadow:cooked_bear_meat"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "565C5E70971CAE0F"
+			tasks: [{
+				id: "2F5EC605B74ABC86"
+				item: "meadow:cheese_form"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4E4C4BFA006CF816"]
+			id: "5D6C98728198EE2B"
+			tasks: [{
+				id: "723F9E43460DA283"
+				item: "meadow:rennet"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5D6C98728198EE2B"
+				"565C5E70971CAE0F"
+			]
+			id: "164BF2DD5E05A373"
+			tasks: [{
+				id: "3F546C05942EC95B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "meadow:cheese_blocks"
+					}
+				}
+				title: "Any #meadow:cheese_blocks"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "10E0FAEBBBF70B6D"
+			tasks: [{
+				id: "229CC9B8105213B1"
+				item: "meadow:wooden_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["10E0FAEBBBF70B6D"]
+			id: "676D5A5E272CD20D"
+			tasks: [{
+				id: "4E941AA81E90FC11"
+				item: {
+					Count: 1b
+					id: "meadow:watering_can"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "5E56CCC6B08C3254"
+			tasks: [
+				{
+					id: "6AF4AB6DD2FABE75"
+					item: {
+						Count: 1b
+						id: "meadow:fur_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F194A5E128CF428"
+					item: {
+						Count: 1b
+						id: "meadow:fur_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67C4A9CBE4DF3568"
+					item: {
+						Count: 1b
+						id: "meadow:fur_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43FE1EE2CABB3BCC"
+					item: {
+						Count: 1b
+						id: "meadow:fur_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "13A25F99C8DCFEE0"
+			tasks: [{
+				id: "50E2C8C1ABB020DD"
+				item: "meadow:frame"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "529B2212A1123195"
+			tasks: [{
+				id: "52E6249962E09857"
+				item: "meadow:woodcutter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["164BF2DD5E05A373"]
+			id: "7D3E4F1A8D11C4D1"
+			tasks: [{
+				id: "2D5D30746D5E8F6D"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "meadow:cheese"
+					}
+				}
+				title: "Any #meadow:cheese"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4E4C4BFA006CF816"]
+			id: "5A1DF6C22C065E30"
+			tasks: [
+				{
+					id: "7C21D49F7DDD968B"
+					item: "meadow:wooden_milk_bucket"
+					type: "item"
+				}
+				{
+					id: "1081A27B3683A471"
+					item: "meadow:wooden_sheep_milk_bucket"
+					type: "item"
+				}
+				{
+					id: "1979EDE0DD6C5689"
+					item: "meadow:wooden_buffalo_milk_bucket"
+					type: "item"
+				}
+				{
+					id: "382DD5549E40A729"
+					item: "meadow:wooden_goat_milk_bucket"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4E4C4BFA006CF816"]
+			id: "42167A5CA09F4B6E"
+			tasks: [
+				{
+					id: "50A0B698709D66A2"
+					item: "meadow:wooden_warped_milk_bucket"
+					type: "item"
+				}
+				{
+					id: "2FEA4DD89E760067"
+					item: "meadow:wooden_grain_milk_bucket"
+					type: "item"
+				}
+				{
+					id: "114E1DA2D44C35FA"
+					item: "meadow:wooden_amethyst_milk_bucket"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7D3E4F1A8D11C4D1"]
+			id: "192E37DD594B554C"
+			tasks: [
+				{
+					id: "7C94CA90494AC781"
+					item: "meadow:cheesecake"
+					type: "item"
+				}
+				{
+					id: "6A4D7F7E6092D0E3"
+					item: "meadow:cheese_tart"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7D3E4F1A8D11C4D1"]
+			id: "0BE1FC0D4704175E"
+			tasks: [
+				{
+					id: "756CB7D5FFCC130C"
+					item: "meadow:cheese_sandwich"
+					type: "item"
+				}
+				{
+					id: "20F45CCF0ECE2CF2"
+					item: "meadow:cheese_roll"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["192E37DD594B554C"]
+			id: "505DBA1E974B853D"
+			tasks: [
+				{
+					id: "7504E6EA1D686D37"
+					item: "meadow:cheesecake_slice"
+					type: "item"
+				}
+				{
+					id: "1054DC6FC783EA06"
+					item: "meadow:cheese_tart_slice"
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3951BF3A3FF8F780"]
+			id: "307ED1D2F06BE8F3"
+			tasks: [
+				{
+					id: "1E97214DCFDA9F99"
+					item: "candlelight:roastbeef_carrots"
+					type: "item"
+				}
+				{
+					id: "67AC6B5610BFD7A2"
+					item: "candlelight:cooked_beef"
+					type: "item"
+				}
+				{
+					id: "1E47D2E1DB06F42A"
+					item: "candlelight:chicken_alfredo"
+					type: "item"
+				}
+				{
+					id: "71A0CB75A282D426"
+					item: "candlelight:broccoli_beef"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1A09912C23118CB9"]
+			id: "0ACA3D778169AEC7"
+			tasks: [
+				{
+					id: "6AB495F81D6447D5"
+					item: "candlelight:pasta_broccoli"
+					type: "item"
+				}
+				{
+					id: "430FFBF3F6001E03"
+					item: "candlelight:pasta_bolognese"
+					type: "item"
+				}
+				{
+					id: "0719F20E2955425B"
+					item: "candlelight:fricasse"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["307ED1D2F06BE8F3"]
+			id: "1A09912C23118CB9"
+			tasks: [{
+				id: "08D401E02AD440C9"
+				item: "candlelight:bolognese"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3951BF3A3FF8F780"]
+			id: "1FB5AECBCC3C4D10"
+			tasks: [
+				{
+					id: "75080C4519C47E71"
+					item: "candlelight:tomato_soup"
+					type: "item"
+				}
+				{
+					id: "2B1487D5E0E79E27"
+					item: "candlelight:mushroom_soup"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1FB5AECBCC3C4D10"]
+			id: "2ECA1EC256288B2D"
+			tasks: [
+				{
+					id: "4857EB3F03225CEC"
+					item: "candlelight:pasta"
+					type: "item"
+				}
+				{
+					id: "6F2F46A14BA92975"
+					item: "candlelight:beef_wellington"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1FBB76A54FF2090B"]
+			id: "087B2E95FE1172AE"
+			tasks: [
+				{
+					id: "181240CF8E356344"
+					item: "bakery:braided_bread"
+					type: "item"
+				}
+				{
+					id: "75B82EF717397E06"
+					item: "bakery:baguette"
+					type: "item"
+				}
+				{
+					id: "0A02323143F57659"
+					item: "bakery:jam_roll"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["087B2E95FE1172AE"]
+			id: "43A66380510DC51F"
+			tasks: [{
+				id: "46118C401C957C03"
+				item: "bakery:bread_crate"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["087B2E95FE1172AE"]
+			id: "5C2DC9F3310D767C"
+			tasks: [
+				{
+					id: "1B2067B9FAE93C67"
+					item: "bakery:vegetable_sandwich"
+					type: "item"
+				}
+				{
+					id: "03240B93A906C304"
+					item: "bakery:sandwich"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["480CAF933A9B51F6"]
+			id: "256439424D8EED16"
+			tasks: [{
+				id: "4302F4E1A67AFF38"
+				item: "bakery:chocolate_truffle"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["256439424D8EED16"]
+			id: "334ABAF92D0E0F2D"
+			tasks: [{
+				id: "1911544134BCBBCA"
+				item: "bakery:chocolate_box"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1AD424585B22D3CD"]
+			id: "11D049C2248AA414"
+			tasks: [{
+				id: "0268CA9E8299B34B"
+				item: "bakery:pudding"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["11D049C2248AA414"]
+			id: "5293E41C04C5B7ED"
+			tasks: [{
+				id: "61220D4D717C5A6C"
+				item: "bakery:pudding_slice"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "043D4260C9180469"
+			tasks: [
+				{
+					id: "52886955D3036DF1"
+					item: {
+						Count: 1b
+						id: "beachparty:beach_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C215D3BED53B566"
+					item: {
+						Count: 1b
+						id: "beachparty:sunglasses"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "6F238D5FF97C0C21"
+			tasks: [
+				{
+					id: "4D3549EECDA70130"
+					item: {
+						Count: 1b
+						id: "beachparty:trunks"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3321D6E83F37E856"
+					item: {
+						Count: 1b
+						id: "beachparty:bikini"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "5CD9024D974E4896"
+			tasks: [
+				{
+					id: "508BD8FFE65F5E6A"
+					item: {
+						Count: 1b
+						id: "beachparty:swim_wings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "20E55127B9620A9B"
+					item: {
+						Count: 1b
+						id: "beachparty:crocs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "14CE89FDD80AF640"
+			tasks: [
+				{
+					id: "6A855BCFF8E0B44C"
+					item: {
+						Count: 1b
+						id: "beachparty:rubber_ring_pelican"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "621CA2B0B0B38FC3"
+					item: {
+						Count: 1b
+						id: "beachparty:rubber_ring_axolotl"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1815E9534039D701"
+					item: "beachparty:overgrown_disc"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["14CE89FDD80AF640"]
+			id: "0B1AE4D3D8F502FF"
+			tasks: [{
+				id: "3BADF6B6E36161E9"
+				item: "beachparty:radio"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["716D0B18BCE622D2"]
+			id: "7F2D7D8E9F015290"
+			tasks: [{
+				id: "0FF6C4DA8B1130B5"
+				item: {
+					Count: 1b
+					id: "vinery:bottle_mojang_noir"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.5d
+		}
+	]
+	title: "Готовка"
+}
