@@ -11,7 +11,7 @@
 		{
 			dependencies: ["15FAEC4BA6F51CA9"]
 			id: "2FB3D2A6B830E284"
-			shape: "rsquare"
+			shape: "cross"
 			size: 1.1d
 			tasks: [{
 				id: "31FA6C3FA5E517E7"
@@ -31,6 +31,7 @@
 		{
 			dependencies: ["2FB3D2A6B830E284"]
 			id: "3108925F93534F0F"
+			shape: "formation"
 			tasks: [{
 				id: "7E2F82146F554381"
 				item: "botania:apothecary_default"
@@ -42,7 +43,7 @@
 		{
 			dependencies: ["3108925F93534F0F"]
 			id: "7511817CE8AF7596"
-			shape: "square"
+			shape: "cube"
 			tasks: [{
 				id: "183A20F312A0B306"
 				item: "botania:pure_daisy"
@@ -54,6 +55,7 @@
 		{
 			dependencies: ["7511817CE8AF7596"]
 			id: "7F100E980D715886"
+			shape: "formation"
 			tasks: [{
 				id: "139441EB88FF1C39"
 				item: "botania:livingwood_log"
@@ -65,6 +67,7 @@
 		{
 			dependencies: ["7511817CE8AF7596"]
 			id: "4114EC43CB4479E4"
+			shape: "spiral"
 			tasks: [{
 				id: "71DD397A23C1F996"
 				item: "botania:livingrock"
@@ -76,6 +79,7 @@
 		{
 			dependencies: ["7F100E980D715886"]
 			id: "2F103AB8C09B2A4E"
+			shape: "spiral"
 			tasks: [{
 				id: "7413A1D7CA17B1F8"
 				item: "botania:mana_spreader"
@@ -87,6 +91,7 @@
 		{
 			dependencies: ["2F103AB8C09B2A4E"]
 			id: "005328BAA0FA1BFB"
+			shape: "polygon"
 			tasks: [{
 				id: "568EDDBAF429CD7B"
 				item: "botania:redstone_spreader"
@@ -98,6 +103,7 @@
 		{
 			dependencies: ["4114EC43CB4479E4"]
 			id: "775BD33465BFC14C"
+			shape: "formation"
 			tasks: [{
 				id: "54401272E6FBC0D0"
 				item: "botania:mana_pool"
@@ -109,6 +115,7 @@
 		{
 			dependencies: ["775BD33465BFC14C"]
 			id: "6BE83437C381EF86"
+			shape: "formation"
 			tasks: [{
 				id: "739031787427ACF4"
 				item: "botania:manasteel_ingot"
@@ -120,6 +127,7 @@
 		{
 			dependencies: ["775BD33465BFC14C"]
 			id: "36280F853579AE59"
+			shape: "spiral"
 			tasks: [
 				{
 					id: "68F64F41EA120086"
@@ -138,6 +146,7 @@
 		{
 			dependencies: ["36280F853579AE59"]
 			id: "77997746893E8966"
+			shape: "spiral"
 			tasks: [{
 				id: "1B0B928AA1F3C978"
 				item: "botania:runic_altar"
@@ -152,6 +161,7 @@
 				"76F4802A7996D24C"
 			]
 			id: "28D6ACAADE98740D"
+			shape: "polygon"
 			tasks: [{
 				id: "4F571FEA31FECA46"
 				item: "botania:terra_plate"
@@ -163,6 +173,7 @@
 		{
 			dependencies: ["77997746893E8966"]
 			id: "76F4802A7996D24C"
+			shape: "spiral"
 			tasks: [
 				{
 					id: "01A65131E9087474"
@@ -196,6 +207,7 @@
 		{
 			dependencies: ["7F100E980D715886"]
 			id: "004A65CB821CE2E2"
+			shape: "spiral"
 			tasks: [{
 				id: "7A7F4C83537BFDC0"
 				item: "botania:livingwood_twig"
@@ -207,6 +219,7 @@
 		{
 			dependencies: ["004A65CB821CE2E2"]
 			id: "6754495CB7C56FEA"
+			shape: "polygon"
 			tasks: [{
 				id: "77A6FE0E614B3694"
 				item: {
@@ -225,7 +238,7 @@
 		{
 			dependencies: ["28D6ACAADE98740D"]
 			id: "58B2C6B0419CDCEF"
-			shape: "pentagon"
+			shape: "formation"
 			tasks: [
 				{
 					id: "3DED5D90792B61EB"
@@ -244,6 +257,7 @@
 		{
 			dependencies: ["36280F853579AE59"]
 			id: "4DC87345BA979D2C"
+			shape: "polygon"
 			tasks: [{
 				id: "27EA78A2A3EF1170"
 				item: "botania:mana_tablet"
@@ -255,6 +269,7 @@
 		{
 			dependencies: ["36280F853579AE59"]
 			id: "54CBEEE7991A9A4D"
+			shape: "bottle"
 			tasks: [{
 				id: "3B38E2E115B76F39"
 				item: "botania:mana_pylon"
@@ -266,6 +281,7 @@
 		{
 			dependencies: ["4DC87345BA979D2C"]
 			id: "2F204F0BE5F44512"
+			shape: "spiral"
 			tasks: [{
 				id: "4ACBB5DF68369A21"
 				item: "botania:mana_ring"
@@ -277,6 +293,7 @@
 		{
 			dependencies: ["6BE83437C381EF86"]
 			id: "10838FDD96E6B945"
+			shape: "shield"
 			tasks: [
 				{
 					id: "4B7F068FA5616433"
@@ -329,6 +346,7 @@
 		{
 			dependencies: ["6BE83437C381EF86"]
 			id: "1B484CC9804C71B4"
+			shape: "polygon"
 			tasks: [
 				{
 					id: "2F88F48A340735DD"
@@ -370,6 +388,7 @@
 		{
 			dependencies: ["58B2C6B0419CDCEF"]
 			id: "76870C774600467A"
+			shape: "shield"
 			tasks: [
 				{
 					id: "24521C7FFF814407"
@@ -422,6 +441,7 @@
 		{
 			dependencies: ["58B2C6B0419CDCEF"]
 			id: "4501B642EBD44477"
+			shape: "polygon"
 			tasks: [
 				{
 					id: "2F862E75D5235FAF"
@@ -464,6 +484,7 @@
 		{
 			dependencies: ["58B2C6B0419CDCEF"]
 			id: "69C668F497F45636"
+			shape: "bottle"
 			tasks: [{
 				id: "65CB770E7F7C60CC"
 				item: "botania:natura_pylon"
@@ -475,7 +496,7 @@
 		{
 			dependencies: ["69C668F497F45636"]
 			id: "039D3565A5F22293"
-			shape: "octagon"
+			shape: "formation"
 			tasks: [
 				{
 					id: "50744C5F87F5BF0D"
@@ -504,6 +525,7 @@
 		{
 			dependencies: ["039D3565A5F22293"]
 			id: "2C588C378DED2358"
+			shape: "spiral"
 			tasks: [{
 				id: "3D0C4C49EF48381B"
 				item: "botania:elven_spreader"
@@ -515,6 +537,7 @@
 		{
 			dependencies: ["039D3565A5F22293"]
 			id: "1CEA9127A4CFC799"
+			shape: "formation"
 			tasks: [{
 				id: "62453043C59352B5"
 				item: "botania:dreamwood_twig"
@@ -526,6 +549,7 @@
 		{
 			dependencies: ["039D3565A5F22293"]
 			id: "73D1630B61A60229"
+			shape: "bottle"
 			tasks: [{
 				id: "3DC26714FE72796D"
 				item: "botania:gaia_pylon"
@@ -537,6 +561,7 @@
 		{
 			dependencies: ["039D3565A5F22293"]
 			id: "35B1AD7CDCD5133C"
+			shape: "polygon"
 			tasks: [{
 				id: "733BFD6588D0CF6B"
 				item: "botania:rainbow_rod"
@@ -548,6 +573,7 @@
 		{
 			dependencies: ["35B1AD7CDCD5133C"]
 			id: "1B8ADBF58CBC8A2F"
+			shape: "spiral"
 			tasks: [{
 				id: "544DA42AC6EB9604"
 				item: "botania:bifrost_perm"
@@ -559,6 +585,7 @@
 		{
 			dependencies: ["1B8ADBF58CBC8A2F"]
 			id: "4367D70EA71306D9"
+			shape: "polygon"
 			tasks: [{
 				id: "0E913894C5E157F9"
 				item: "botania:fabulous_pool"
@@ -570,6 +597,7 @@
 		{
 			dependencies: ["1CEA9127A4CFC799"]
 			id: "5DE49C29961A7D6F"
+			shape: "shield"
 			tasks: [
 				{
 					id: "4F7A86C26B5E33F8"
@@ -611,6 +639,7 @@
 		{
 			dependencies: ["039D3565A5F22293"]
 			id: "717415E4B7612155"
+			shape: "shield"
 			tasks: [
 				{
 					id: "2AB3A0EBF657333F"
@@ -663,6 +692,7 @@
 		{
 			dependencies: ["1CEA9127A4CFC799"]
 			id: "26B4FFC11479FED9"
+			shape: "spiral"
 			tasks: [{
 				id: "226822DDDB50FD6F"
 				item: "botania:gravity_rod"
@@ -674,6 +704,7 @@
 		{
 			dependencies: ["73D1630B61A60229"]
 			id: "62F097FBF1B97B51"
+			shape: "cube"
 			tasks: [{
 				id: "61AD395D692EF3B9"
 				item: "botania:life_essence"
@@ -685,7 +716,7 @@
 		{
 			dependencies: ["62F097FBF1B97B51"]
 			id: "2CD1448C7B382279"
-			shape: "rsquare"
+			shape: "cross"
 			tasks: [{
 				id: "48911D8593873A69"
 				item: "botania:gaia_ingot"
@@ -697,6 +728,7 @@
 		{
 			dependencies: ["62F097FBF1B97B51"]
 			id: "346A63F9296E9F4B"
+			shape: "formation"
 			tasks: [{
 				id: "24469953C76F5784"
 				item: "botania:unholy_cloak"
@@ -708,6 +740,7 @@
 		{
 			dependencies: ["62F097FBF1B97B51"]
 			id: "2B56840DB3547800"
+			shape: "formation"
 			tasks: [{
 				id: "6941905F877CA266"
 				item: "botania:super_lava_pendant"
@@ -719,6 +752,7 @@
 		{
 			dependencies: ["2C588C378DED2358"]
 			id: "7BB0404D0E7A7005"
+			shape: "polygon"
 			tasks: [{
 				id: "0285835BCC68804D"
 				item: "botania:gaia_spreader"
@@ -730,6 +764,7 @@
 		{
 			dependencies: ["62F097FBF1B97B51"]
 			id: "750B528AD0846F05"
+			shape: "formation"
 			tasks: [{
 				id: "1F3A5CB52D29B8DD"
 				item: "botania:holy_cloak"
@@ -741,6 +776,7 @@
 		{
 			dependencies: ["62F097FBF1B97B51"]
 			id: "34A104C6B2342474"
+			shape: "formation"
 			tasks: [{
 				id: "3C5DC9BF90BF4072"
 				item: {
@@ -758,6 +794,7 @@
 		{
 			dependencies: ["58B2C6B0419CDCEF"]
 			id: "3F26250D22441FDE"
+			shape: "spiral"
 			tasks: [{
 				id: "0E41F146439B6F2B"
 				item: "botania:thorn_chakram"
@@ -769,6 +806,7 @@
 		{
 			dependencies: ["3F26250D22441FDE"]
 			id: "10EB9EE076622804"
+			shape: "polygon"
 			tasks: [{
 				id: "4A821168B1A67A4C"
 				item: "botania:flare_chakram"
@@ -780,6 +818,7 @@
 		{
 			dependencies: ["3108925F93534F0F"]
 			id: "59BA70268E4AD2DA"
+			shape: "spiral"
 			tasks: [{
 				id: "5EB6C00E94CFFF3C"
 				item: "botania:endoflame"
@@ -791,6 +830,7 @@
 		{
 			dependencies: ["3108925F93534F0F"]
 			id: "7F2E7635770F9DE0"
+			shape: "spiral"
 			tasks: [{
 				id: "18FC2BED5424FF44"
 				item: "botania:hydroangeas"
@@ -802,6 +842,7 @@
 		{
 			dependencies: ["3108925F93534F0F"]
 			id: "2B0B222546F5AAB2"
+			shape: "spiral"
 			tasks: [{
 				id: "763DE9C9A02AF108"
 				item: "botania:gourmaryllis"
@@ -813,6 +854,7 @@
 		{
 			dependencies: ["4DC87345BA979D2C"]
 			id: "4BC4E89989EFE456"
+			shape: "spiral"
 			tasks: [{
 				id: "07F1C19B8A790597"
 				item: "botania:mana_mirror"
@@ -824,6 +866,7 @@
 		{
 			dependencies: ["6BE83437C381EF86"]
 			id: "0866C12097979919"
+			shape: "spiral"
 			tasks: [{
 				id: "73B4269411ABAFEE"
 				item: "botania:bauble_box"

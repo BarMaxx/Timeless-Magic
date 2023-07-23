@@ -11,6 +11,7 @@
 		{
 			dependencies: ["0C248FCB6C14D252"]
 			id: "73A10A1C0A47C2E1"
+			shape: "cross"
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "6CA23ADDE73DBF22"
@@ -22,6 +23,7 @@
 		{
 			dependencies: ["73A10A1C0A47C2E1"]
 			id: "118E53FC6E875869"
+			shape: "spiral"
 			tasks: [{
 				id: "6C23B503972A704D"
 				item: "minecraft:ancient_debris"
@@ -33,6 +35,7 @@
 		{
 			dependencies: ["118E53FC6E875869"]
 			id: "5A29B02164EE806C"
+			shape: "spiral"
 			tasks: [{
 				id: "67E7307203D01F09"
 				item: "minecraft:netherite_scrap"
@@ -44,6 +47,7 @@
 		{
 			dependencies: ["5A29B02164EE806C"]
 			id: "45DB8A96FA2750BA"
+			shape: "cube"
 			tasks: [{
 				id: "529EB2F3E30D3D4E"
 				item: "minecraft:netherite_ingot"
@@ -55,6 +59,7 @@
 		{
 			dependencies: ["45DB8A96FA2750BA"]
 			id: "033011FA680FBFEC"
+			shape: "polygon"
 			tasks: [{
 				id: "0DD5D761E5FC454B"
 				item: "inmis:blazing_backpack"
@@ -66,6 +71,7 @@
 		{
 			dependencies: ["45DB8A96FA2750BA"]
 			id: "24EB6C42777C47B9"
+			shape: "spiral"
 			tasks: [{
 				id: "66ADCBDA431122C5"
 				item: "minecraft:lodestone"
@@ -77,6 +83,7 @@
 		{
 			dependencies: ["45DB8A96FA2750BA"]
 			id: "7F4D2AE8C780F9C8"
+			shape: "shield"
 			tasks: [
 				{
 					id: "2CBE854E40746C8F"
@@ -118,6 +125,7 @@
 		{
 			dependencies: ["45DB8A96FA2750BA"]
 			id: "2980C155C4917A09"
+			shape: "shield"
 			tasks: [
 				{
 					id: "018A6736E049E02A"
@@ -170,6 +178,7 @@
 		{
 			dependencies: ["45DB8A96FA2750BA"]
 			id: "4A8E2A34F9F261FF"
+			shape: "polygon"
 			tasks: [
 				{
 					id: "6C804A2378D0E056"
@@ -193,6 +202,7 @@
 		{
 			dependencies: ["73A10A1C0A47C2E1"]
 			id: "64087CF14BC13E35"
+			shape: "spiral"
 			tasks: [{
 				id: "30E5E3AF68E2B4DD"
 				item: "minecraft:wither_skeleton_skull"
@@ -204,6 +214,7 @@
 		{
 			dependencies: ["64087CF14BC13E35"]
 			id: "5552772F3B711A15"
+			shape: "cube"
 			tasks: [{
 				id: "11F6F41EDD03C122"
 				item: "minecraft:nether_star"
@@ -215,6 +226,7 @@
 		{
 			dependencies: ["5552772F3B711A15"]
 			id: "04887F79432408AB"
+			shape: "spiral"
 			tasks: [{
 				id: "00838AB0AC155ADF"
 				item: "fwaystones:pocket_wormhole"
@@ -226,6 +238,7 @@
 		{
 			dependencies: ["5552772F3B711A15"]
 			id: "60B8DBB05CDE556E"
+			shape: "spiral"
 			tasks: [{
 				id: "15D7515D1EA2B926"
 				item: "inmis:withered_backpack"
@@ -237,6 +250,7 @@
 		{
 			dependencies: ["5552772F3B711A15"]
 			id: "14B8DD1F66798C87"
+			shape: "formation"
 			tasks: [{
 				id: "412A65C0A92E5DF6"
 				item: "minecraft:beacon"
@@ -248,6 +262,7 @@
 		{
 			dependencies: ["73A10A1C0A47C2E1"]
 			id: "46ED1EB92C13B1F8"
+			shape: "formation"
 			tasks: [{
 				id: "0647979DB608F8BF"
 				item: "minecraft:blaze_rod"
@@ -259,6 +274,7 @@
 		{
 			dependencies: ["46ED1EB92C13B1F8"]
 			id: "7C1C77F9DF458D3D"
+			shape: "polygon"
 			tasks: [{
 				id: "0175B067B9F05FF9"
 				item: "minecraft:blaze_powder"
@@ -270,6 +286,7 @@
 		{
 			dependencies: ["46ED1EB92C13B1F8"]
 			id: "3C5D924FFD7BBFC2"
+			shape: "formation"
 			tasks: [{
 				id: "5645B67FA127A209"
 				item: "minecraft:brewing_stand"
@@ -281,6 +298,7 @@
 		{
 			dependencies: ["3C5D924FFD7BBFC2"]
 			id: "4CEC22C7C882E807"
+			shape: "bottle"
 			tasks: [{
 				id: "4526C468040B4203"
 				item: {
@@ -298,6 +316,7 @@
 		{
 			dependencies: ["4CEC22C7C882E807"]
 			id: "33D8AF7D1A4F7CE7"
+			shape: "polygon"
 			tasks: [{
 				id: "6D38193798D961C1"
 				item: "zenith:hellshelf"
@@ -309,6 +328,7 @@
 		{
 			dependencies: ["3C5D924FFD7BBFC2"]
 			id: "3243FF3B3C6023F3"
+			shape: "bottle"
 			tasks: [{
 				id: "7F748B00F6C9660F"
 				item: {
@@ -326,6 +346,7 @@
 		{
 			dependencies: ["73A10A1C0A47C2E1"]
 			id: "64C16CE264267019"
+			shape: "spiral"
 			tasks: [
 				{
 					id: "10F2130C4F0375A1"
@@ -350,6 +371,7 @@
 		{
 			dependencies: ["73A10A1C0A47C2E1"]
 			id: "4F4DE6D1422C71F1"
+			shape: "formation"
 			tasks: [
 				{
 					id: "38B86B28664199F6"
@@ -374,6 +396,7 @@
 		{
 			dependencies: ["73A10A1C0A47C2E1"]
 			id: "74D9C6A65CA0D3AE"
+			shape: "formation"
 			tasks: [{
 				id: "4113F7DA07B49C26"
 				item: "betternether:stalagnate_stem"
@@ -385,6 +408,7 @@
 		{
 			dependencies: ["74D9C6A65CA0D3AE"]
 			id: "6EA2B2F68086B07B"
+			shape: "spiral"
 			tasks: [{
 				id: "5F843596B2B54E42"
 				item: "betternether:stalagnate_bowl"
@@ -396,6 +420,7 @@
 		{
 			dependencies: ["6EA2B2F68086B07B"]
 			id: "7F179F3E15BDD0CC"
+			shape: "cube"
 			tasks: [
 				{
 					id: "79A23045FC688C9B"
@@ -414,6 +439,7 @@
 		{
 			dependencies: ["4F4DE6D1422C71F1"]
 			id: "182D835CBC49BFB4"
+			shape: "spiral"
 			tasks: [
 				{
 					id: "3DCE44EA77896265"
@@ -455,6 +481,7 @@
 		{
 			dependencies: ["182D835CBC49BFB4"]
 			id: "1606510AF0D504C4"
+			shape: "cube"
 			tasks: [{
 				id: "06C7E2ADBDBF2B97"
 				item: {

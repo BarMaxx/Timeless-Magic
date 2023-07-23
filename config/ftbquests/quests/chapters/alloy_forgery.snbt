@@ -11,6 +11,7 @@
 		{
 			dependencies: ["736DABDDD868D72D"]
 			id: "003979155FFDEAF3"
+			shape: "formation"
 			tasks: [{
 				id: "61CF9C27DFA8E1A9"
 				item: "alloy_forgery:bricks_forge_controller"
@@ -22,6 +23,7 @@
 		{
 			dependencies: ["003979155FFDEAF3"]
 			id: "420DE7337597EE27"
+			shape: "spiral"
 			tasks: [{
 				id: "4B49BD0445BE738D"
 				item: "alloy_forgery:prismarine_bricks_forge_controller"
@@ -33,6 +35,7 @@
 		{
 			dependencies: ["420DE7337597EE27"]
 			id: "5B8FC92671611085"
+			shape: "cross"
 			tasks: [{
 				id: "29F8EEE7C3AB32B2"
 				item: "alloy_forgery:end_stone_bricks_forge_controller"
@@ -44,6 +47,7 @@
 		{
 			dependencies: ["5B8FC92671611085"]
 			id: "71648A8C578501B6"
+			shape: "bottle"
 			tasks: [{
 				id: "17C68D47FE9E61E3"
 				item: "minecraft:netherite_ingot"

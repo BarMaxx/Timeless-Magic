@@ -21,6 +21,7 @@
 			item: "minecraft:cake"
 			type: "item"
 		}]
+		shape: "cross"
 		subtitle: "Нечто новое..."
 		tasks: [{
 			id: "4B807A74086A5462"

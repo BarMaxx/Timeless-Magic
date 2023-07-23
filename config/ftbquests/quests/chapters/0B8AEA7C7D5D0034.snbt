@@ -17,6 +17,7 @@
 		{
 			dependencies: ["15FAEC4BA6F51CA9"]
 			id: "38240B4A9BEE6D54"
+			shape: "cross"
 			tasks: [{
 				id: "0AEC3C9BD49A0DBD"
 				item: "bewitchment:raw_silver"
@@ -28,6 +29,7 @@
 		{
 			dependencies: ["38240B4A9BEE6D54"]
 			id: "17A34C0D1A2A3702"
+			shape: "formation"
 			tasks: [{
 				id: "539C7F42053940D8"
 				item: "bewitchment:silver_ingot"
@@ -39,6 +41,7 @@
 		{
 			dependencies: ["17A34C0D1A2A3702"]
 			id: "05AFA6ABEC776BA2"
+			shape: "spiral"
 			tasks: [{
 				id: "38BF2BAA020220F5"
 				item: {
@@ -56,6 +59,7 @@
 		{
 			dependencies: ["05AFA6ABEC776BA2"]
 			id: "00820248052B9827"
+			shape: "spiral"
 			tasks: [{
 				id: "0712D82895FF06C8"
 				item: {
@@ -74,6 +78,7 @@
 		{
 			dependencies: ["00820248052B9827"]
 			id: "57C7D9B1F4E9009C"
+			shape: "formation"
 			tasks: [{
 				id: "5D1CB5B41B37AE5F"
 				item: "bewitchment:witch_cauldron"
@@ -85,6 +90,7 @@
 		{
 			dependencies: ["00820248052B9827"]
 			id: "3190A1B0B221B216"
+			shape: "polygon"
 			tasks: [
 				{
 					id: "248CA1BAB65D6ECF"
@@ -117,6 +123,7 @@
 		{
 			dependencies: ["17A34C0D1A2A3702"]
 			id: "272B71CFFCBA45A4"
+			shape: "spiral"
 			tasks: [{
 				id: "2CA8CBF339897A24"
 				item: "bewitchment:brazier"
@@ -128,6 +135,7 @@
 		{
 			dependencies: ["00820248052B9827"]
 			id: "544BB3E30C19AB60"
+			shape: "polygon"
 			tasks: [{
 				id: "4C1E781F68BC1FF5"
 				item: "bewitchment:wood_ash"
@@ -139,6 +147,7 @@
 		{
 			dependencies: ["544BB3E30C19AB60"]
 			id: "5682B0BA045A51A2"
+			shape: "spiral"
 			tasks: [{
 				id: "3349FA0228B67823"
 				item: {
@@ -156,6 +165,7 @@
 		{
 			dependencies: ["736DABDDD868D72D"]
 			id: "4EEF22E350F0BEDA"
+			shape: "cross"
 			tasks: [
 				{
 					id: "18219B1C0320FEA3"
@@ -184,6 +194,7 @@
 		{
 			dependencies: ["57C7D9B1F4E9009C"]
 			id: "5FFD44374A6ECADA"
+			shape: "shield"
 			tasks: [
 				{
 					id: "1A153AABC619DF71"
@@ -202,6 +213,7 @@
 		{
 			dependencies: ["5FFD44374A6ECADA"]
 			id: "4791BE0D96AE8F36"
+			shape: "spiral"
 			tasks: [{
 				id: "4C15E4BC92180D2B"
 				item: {
@@ -219,6 +231,7 @@
 		{
 			dependencies: ["57C7D9B1F4E9009C"]
 			id: "10996F9F64DD1A78"
+			shape: "bottle"
 			tasks: [
 				{
 					id: "01C51C3555360A07"
@@ -237,6 +250,7 @@
 		{
 			dependencies: ["10996F9F64DD1A78"]
 			id: "2B32101C73F76FE5"
+			shape: "cube"
 			tasks: [{
 				id: "2814734DD3CFA73F"
 				item: {
@@ -254,6 +268,7 @@
 		{
 			dependencies: ["5FFD44374A6ECADA"]
 			id: "1381E5C22BB0A7F1"
+			shape: "polygon"
 			tasks: [
 				{
 					id: "6EFEA57BE9E4E34A"
@@ -272,6 +287,7 @@
 		{
 			dependencies: ["10996F9F64DD1A78"]
 			id: "27FA14FCFD5FA889"
+			shape: "polygon"
 			tasks: [
 				{
 					id: "1B484C2CF6D57582"
@@ -290,6 +306,7 @@
 		{
 			dependencies: ["57C7D9B1F4E9009C"]
 			id: "3CBE7F33EFCE7762"
+			shape: "bottle"
 			tasks: [
 				{
 					id: "4DE463CCD206D232"
@@ -308,6 +325,7 @@
 		{
 			dependencies: ["3CBE7F33EFCE7762"]
 			id: "7EFE613B92EF79A1"
+			shape: "spiral"
 			tasks: [{
 				id: "0361D329C89AD72F"
 				item: {
@@ -325,6 +343,7 @@
 		{
 			dependencies: ["3CBE7F33EFCE7762"]
 			id: "03417A1B4FDCC339"
+			shape: "polygon"
 			tasks: [
 				{
 					id: "2E86E3B5ADF9B029"
@@ -343,6 +362,7 @@
 		{
 			dependencies: ["17A34C0D1A2A3702"]
 			id: "6B3572593ABD1B8A"
+			shape: "spiral"
 			tasks: [{
 				id: "6C38EB13AAEC37F3"
 				item: "bewitchment:crystal_ball"
@@ -354,6 +374,7 @@
 		{
 			dependencies: ["5FFD44374A6ECADA"]
 			id: "49F1036A4444D331"
+			shape: "spiral"
 			tasks: [{
 				id: "13B0FCC4E68C5380"
 				item: "bewitchment:alchemist_wool"
@@ -365,6 +386,7 @@
 		{
 			dependencies: ["49F1036A4444D331"]
 			id: "0A8BB9DFA5AB80E0"
+			shape: "shield"
 			tasks: [
 				{
 					id: "7BD18A914F8E4D78"
@@ -417,6 +439,7 @@
 		{
 			dependencies: ["10996F9F64DD1A78"]
 			id: "526742FBED665D4C"
+			shape: "spiral"
 			tasks: [{
 				id: "4A62AC86A4BAB150"
 				item: "bewitchment:hedgewitch_wool"
@@ -428,6 +451,7 @@
 		{
 			dependencies: ["526742FBED665D4C"]
 			id: "50D02FFB7241A27A"
+			shape: "shield"
 			tasks: [
 				{
 					id: "3287B714243C066B"
@@ -480,6 +504,7 @@
 		{
 			dependencies: ["3CBE7F33EFCE7762"]
 			id: "339143DA9D77F3CC"
+			shape: "spiral"
 			tasks: [{
 				id: "00FC2553F50640B2"
 				item: "bewitchment:besmirched_wool"
@@ -491,6 +516,7 @@
 		{
 			dependencies: ["339143DA9D77F3CC"]
 			id: "57E3F73A8956360C"
+			shape: "shield"
 			tasks: [
 				{
 					id: "16140A27E5E9822A"
@@ -543,6 +569,7 @@
 		{
 			dependencies: ["4791BE0D96AE8F36"]
 			id: "21E7F25383F19786"
+			shape: "cube"
 			tasks: [{
 				id: "70287A6CA52F04B0"
 				item: "bewitchment:demon_heart"
@@ -554,6 +581,7 @@
 		{
 			dependencies: ["21E7F25383F19786"]
 			id: "175C3B40D194F1C1"
+			shape: "polygon"
 			tasks: [{
 				id: "0817C3B093C12F96"
 				item: "bewitchment:juniper_broom"
@@ -565,6 +593,7 @@
 		{
 			dependencies: ["21E7F25383F19786"]
 			id: "2434F6938A45331F"
+			shape: "spiral"
 			tasks: [{
 				id: "4518DB8898DE4F44"
 				item: "bewitchment:grotesque_stew"
@@ -576,6 +605,7 @@
 		{
 			dependencies: ["21E7F25383F19786"]
 			id: "09993AD9B0CB7E55"
+			shape: "polygon"
 			tasks: [
 				{
 					id: "4E0D32E8FCDACF4A"
@@ -606,6 +636,7 @@
 		{
 			dependencies: ["21E7F25383F19786"]
 			id: "5F6E62615959FD6D"
+			shape: "polygon"
 			tasks: [
 				{
 					id: "024C74314C724DFE"
@@ -658,6 +689,7 @@
 		{
 			dependencies: ["09993AD9B0CB7E55"]
 			id: "1A98730B473346A4"
+			shape: "spiral"
 			tasks: [{
 				id: "73BBA1BE6D625E37"
 				item: "bewitchment:oak_poppet_shelf"
@@ -669,6 +701,7 @@
 		{
 			dependencies: ["736DABDDD868D72D"]
 			id: "04B009FD2E75DF53"
+			shape: "cross"
 			tasks: [
 				{
 					id: "6607F2321B896132"
@@ -697,6 +730,7 @@
 		{
 			dependencies: ["4EEF22E350F0BEDA"]
 			id: "5FCEF2C73940C4F9"
+			shape: "spiral"
 			tasks: [{
 				id: "4EF822A07EE6F91F"
 				item: "bwplus:mutandis"
@@ -708,6 +742,7 @@
 		{
 			dependencies: ["5FCEF2C73940C4F9"]
 			id: "62BDFECEEC1C7AEA"
+			shape: "polygon"
 			tasks: [{
 				id: "1B64848C04844724"
 				item: "bwplus:mutandis_brew"
@@ -719,6 +754,7 @@
 		{
 			dependencies: ["736DABDDD868D72D"]
 			id: "28187C202FDF8F26"
+			shape: "cross"
 			tasks: [{
 				id: "53CBD25145974233"
 				item: "bewitchment:salt_ore"
@@ -730,6 +766,7 @@
 		{
 			dependencies: ["28187C202FDF8F26"]
 			id: "57D8F7D63F00E805"
+			shape: "spiral"
 			tasks: [{
 				id: "791CAC8BAA528240"
 				item: "bewitchment:salt"
@@ -741,6 +778,7 @@
 		{
 			dependencies: ["57D8F7D63F00E805"]
 			id: "6AD3D13AD21774F9"
+			shape: "polygon"
 			tasks: [{
 				id: "787B91A06CE68F98"
 				item: {
@@ -758,6 +796,7 @@
 		{
 			dependencies: ["175C3B40D194F1C1"]
 			id: "23C9DE0DE86DDE80"
+			shape: "cube"
 			tasks: [{
 				id: "598DD5337C8B6261"
 				item: "besmirchment:final_broom"

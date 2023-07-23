@@ -11,6 +11,7 @@
 		{
 			dependencies: ["7C1C77F9DF458D3D"]
 			id: "7BE9B1944D94A32A"
+			shape: "polygon"
 			tasks: [{
 				id: "6DDAFB2A1965A491"
 				item: "minecraft:ender_eye"
@@ -22,6 +23,7 @@
 		{
 			dependencies: ["7BE9B1944D94A32A"]
 			id: "236281CD03FB995F"
+			shape: "cross"
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "68F6335437A65BAD"
@@ -33,6 +35,7 @@
 		{
 			dependencies: ["236281CD03FB995F"]
 			id: "74A0EE1635BD7BD9"
+			shape: "shield"
 			tasks: [{
 				id: "144B88485F6BAEA8"
 				item: "minecraft:dragon_head"
@@ -44,6 +47,7 @@
 		{
 			dependencies: ["236281CD03FB995F"]
 			id: "049A2A4382359F4B"
+			shape: "cube"
 			tasks: [{
 				id: "0BCA9976C6FDC4DE"
 				item: "minecraft:dragon_egg"
@@ -55,6 +59,7 @@
 		{
 			dependencies: ["74A0EE1635BD7BD9"]
 			id: "7BEE6481F3834830"
+			shape: "polygon"
 			tasks: [{
 				id: "4C6F0FD710839FF7"
 				item: "plushies:dragon_plushie"
@@ -66,6 +71,7 @@
 		{
 			dependencies: ["236281CD03FB995F"]
 			id: "484D310BB850B7DF"
+			shape: "shield"
 			tasks: [{
 				id: "61627C6BAA0FE4D7"
 				item: {
@@ -83,6 +89,7 @@
 		{
 			dependencies: ["236281CD03FB995F"]
 			id: "514E0CFFCAEE9B15"
+			shape: "spiral"
 			tasks: [{
 				id: "79AA2F996741B7AA"
 				item: "minecraft:shulker_shell"
@@ -94,6 +101,7 @@
 		{
 			dependencies: ["514E0CFFCAEE9B15"]
 			id: "7316F9693C275A4C"
+			shape: "polygon"
 			tasks: [{
 				id: "0120BDD28A62FB24"
 				item: "minecraft:shulker_box"
@@ -105,6 +113,7 @@
 		{
 			dependencies: ["236281CD03FB995F"]
 			id: "60910E25967151C6"
+			shape: "bottle"
 			tasks: [{
 				id: "11ABF293D914D7B8"
 				item: "minecraft:dragon_breath"
@@ -116,6 +125,7 @@
 		{
 			dependencies: ["60910E25967151C6"]
 			id: "03CBA40DD9B362AD"
+			shape: "formation"
 			tasks: [{
 				id: "0F61CD45BFD12A7C"
 				item: "zenith:endshelf"
@@ -127,6 +137,7 @@
 		{
 			dependencies: ["03CBA40DD9B362AD"]
 			id: "6CC4089ACA2BFEE8"
+			shape: "spiral"
 			tasks: [{
 				id: "08C3009DBFA5607A"
 				item: "zenith:draconic_endshelf"
@@ -138,6 +149,7 @@
 		{
 			dependencies: ["03CBA40DD9B362AD"]
 			id: "1135B92DC037DEE3"
+			shape: "spiral"
 			tasks: [{
 				id: "69C843A67AB1F952"
 				item: "zenith:pearl_endshelf"
@@ -149,6 +161,7 @@
 		{
 			dependencies: ["236281CD03FB995F"]
 			id: "6FCF8FE1C4CB1097"
+			shape: "spiral"
 			tasks: [{
 				id: "75DC45842B092B89"
 				item: "betterend:thallasium_raw"
@@ -160,6 +173,7 @@
 		{
 			dependencies: ["6FCF8FE1C4CB1097"]
 			id: "15E0AA36AEF78428"
+			shape: "formation"
 			tasks: [{
 				id: "102578F1BDA5DC3E"
 				item: "betterend:thallasium_ingot"
@@ -171,6 +185,7 @@
 		{
 			dependencies: ["15E0AA36AEF78428"]
 			id: "32B0C837BAA9DE40"
+			shape: "spiral"
 			tasks: [{
 				id: "364A82ABFBD94421"
 				item: "betterend:end_stone_smelter"
@@ -182,6 +197,7 @@
 		{
 			dependencies: ["32B0C837BAA9DE40"]
 			id: "7EB2EB866ABAC34C"
+			shape: "formation"
 			tasks: [{
 				id: "12E8E558AC549615"
 				item: "betterend:terminite_ingot"
@@ -193,6 +209,7 @@
 		{
 			dependencies: ["7EB2EB866ABAC34C"]
 			id: "531D346D7832E8BA"
+			shape: "formation"
 			tasks: [{
 				id: "6A8A04A2EA8C49C2"
 				item: "betterend:aeternium_ingot"
@@ -204,6 +221,7 @@
 		{
 			dependencies: ["531D346D7832E8BA"]
 			id: "20CCBB8547406328"
+			shape: "spiral"
 			tasks: [{
 				id: "3B41D2D7BA8F20E4"
 				item: {
@@ -219,6 +237,7 @@
 		{
 			dependencies: ["20CCBB8547406328"]
 			id: "799DF0160BA2361D"
+			shape: "spiral"
 			tasks: [{
 				id: "6ED613ABA6D14B8C"
 				item: "betterend:aeternium_hammer_head"
@@ -230,6 +249,7 @@
 		{
 			dependencies: ["799DF0160BA2361D"]
 			id: "38CFB4D1FDD4FA35"
+			shape: "polygon"
 			tasks: [{
 				id: "6EAE3B7FDEC6E701"
 				item: {
@@ -247,6 +267,7 @@
 		{
 			dependencies: ["38CFB4D1FDD4FA35"]
 			id: "61BA068EBF6CFAF7"
+			shape: "spiral"
 			tasks: [{
 				id: "5C1AE20FEC51CD2B"
 				item: "betterend:aeternium_forged_plate"
@@ -258,6 +279,7 @@
 		{
 			dependencies: ["61BA068EBF6CFAF7"]
 			id: "0A0E124D6FD72E92"
+			shape: "shield"
 			tasks: [
 				{
 					id: "49050DE0CBEBCA98"
@@ -310,6 +332,7 @@
 		{
 			dependencies: ["531D346D7832E8BA"]
 			id: "511CB65BEFC16696"
+			shape: "shield"
 			tasks: [{
 				id: "700B94CDDCB06B7B"
 				item: {
@@ -327,6 +350,7 @@
 		{
 			dependencies: ["7BE9B1944D94A32A"]
 			id: "3A075B5AE7237281"
+			shape: "formation"
 			tasks: [{
 				id: "62697B65B0355664"
 				item: "betterend:infusion_pedestal"
@@ -338,6 +362,7 @@
 		{
 			dependencies: ["3A075B5AE7237281"]
 			id: "0374F57F052AF326"
+			shape: "spiral"
 			tasks: [{
 				id: "4025276621107917"
 				item: "betterend:enchanted_membrane"
@@ -349,6 +374,7 @@
 		{
 			dependencies: ["0374F57F052AF326"]
 			id: "229D710A6A9D4389"
+			shape: "shield"
 			tasks: [{
 				id: "508D4A260A5FE746"
 				item: {
@@ -366,6 +392,7 @@
 		{
 			dependencies: ["3A075B5AE7237281"]
 			id: "7FCF9C02F2166727"
+			shape: "shield"
 			tasks: [
 				{
 					id: "63EE2C82151D4627"
@@ -418,6 +445,7 @@
 		{
 			dependencies: ["3A075B5AE7237281"]
 			id: "089674553D579FC1"
+			shape: "spiral"
 			tasks: [{
 				id: "3AF332DB409974F6"
 				item: "betterend:eternal_crystal"
@@ -429,6 +457,7 @@
 		{
 			dependencies: ["089674553D579FC1"]
 			id: "7EBDAFFBFDF33B48"
+			shape: "bottle"
 			tasks: [{
 				id: "0E52CF63E5FE9335"
 				item: "betterend:respawn_obelisk"
@@ -440,6 +469,7 @@
 		{
 			dependencies: ["15E0AA36AEF78428"]
 			id: "072A4CDD143C76A6"
+			shape: "polygon"
 			tasks: [{
 				id: "797438F155B1CBD7"
 				item: {
@@ -457,6 +487,7 @@
 		{
 			dependencies: ["15E0AA36AEF78428"]
 			id: "1D0FC6E5F295C4E2"
+			shape: "spiral"
 			tasks: [{
 				id: "2190DFA0A30F8B01"
 				item: {
@@ -472,6 +503,7 @@
 		{
 			dependencies: ["7EB2EB866ABAC34C"]
 			id: "70359A4D8F867A2F"
+			shape: "polygon"
 			tasks: [{
 				id: "35D26C3F4B5C5C26"
 				item: {
@@ -489,6 +521,7 @@
 		{
 			dependencies: ["7EB2EB866ABAC34C"]
 			id: "4D1D26155987F986"
+			shape: "spiral"
 			tasks: [{
 				id: "2825BA2D97EC5FA7"
 				item: {
@@ -504,6 +537,7 @@
 		{
 			dependencies: ["7EB2EB866ABAC34C"]
 			id: "3C0810F77D112DE3"
+			shape: "spiral"
 			tasks: [{
 				id: "25866C26773EA7CB"
 				item: "betterend:terminite_forged_plate"
@@ -515,6 +549,7 @@
 		{
 			dependencies: ["3C0810F77D112DE3"]
 			id: "407EFD177827D468"
+			shape: "shield"
 			tasks: [
 				{
 					id: "57A703A31D2470F5"
@@ -567,6 +602,7 @@
 		{
 			dependencies: ["38CFB4D1FDD4FA35"]
 			id: "2341193799F7EFCF"
+			shape: "spiral"
 			tasks: [
 				{
 					id: "6D0B15B58FF7E9C3"
@@ -585,6 +621,7 @@
 		{
 			dependencies: ["2341193799F7EFCF"]
 			id: "48F8C4CF2AF5EDDE"
+			shape: "cube"
 			tasks: [
 				{
 					id: "5D10518524ACE146"
