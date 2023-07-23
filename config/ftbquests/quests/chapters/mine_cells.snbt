@@ -5,7 +5,7 @@
 	group: "12DFC0F8D9E60DD2"
 	icon: "minecells:conjunctivius_respawn_rune"
 	id: "30DC4C39084921EA"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [ ]
 	title: "Mine Cells"

@@ -11,6 +11,7 @@
 		{
 			dependencies: ["736DABDDD868D72D"]
 			id: "4BFD086D29699FDE"
+			shape: "cross"
 			tasks: [{
 				id: "4BF0EE85028ABB8E"
 				item: {
@@ -22,18 +23,588 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["47FBD8889627B0C8"]
 			id: "6A7EDD83761F2F4D"
+			shape: "cube"
 			tasks: [{
 				id: "36CB2BE309A76B93"
 				item: "spell_engine:spell_binding"
 				type: "item"
 			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A7EDD83761F2F4D"]
+			id: "763D6820384B4722"
+			shape: "spiral"
+			tasks: [{
+				id: "00558754A27A00DA"
+				item: "wizards:arcane_spell_book"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A7EDD83761F2F4D"]
+			id: "1019F20645F28E34"
+			shape: "spiral"
+			tasks: [{
+				id: "62A7CFDD1FE497A1"
+				item: "wizards:fire_spell_book"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6A7EDD83761F2F4D"]
+			id: "2051EE4376EA374E"
+			shape: "spiral"
+			tasks: [{
+				id: "5F1411A182800C47"
+				item: "wizards:frost_spell_book"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["15FAEC4BA6F51CA9"]
+			id: "4D8397606B49399B"
+			shape: "cube"
+			tasks: [{
+				id: "7F0F12499E2AA147"
+				item: "runes:crafting_altar"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D8397606B49399B"]
+			id: "331FA338FD6D82A0"
+			shape: "spiral"
+			tasks: [{
+				id: "43538B04BE5AEEE0"
+				item: "runes:arcane_stone"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D8397606B49399B"]
+			id: "09FD04442A5B6A2A"
+			shape: "spiral"
+			tasks: [{
+				id: "099F911CECF939ED"
+				item: "runes:fire_stone"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4D8397606B49399B"]
+			id: "5D9003617F0CB4E0"
+			shape: "spiral"
+			tasks: [{
+				id: "0DF096F6C1DA3145"
+				item: "runes:frost_stone"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4BFD086D29699FDE"]
+			hide_dependency_lines: true
+			id: "6339C6240DBC2A26"
+			shape: "formation"
+			tasks: [{
+				id: "10F2C2A729A82D5E"
+				item: {
+					Count: 1b
+					id: "wizards:wand_frost"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6339C6240DBC2A26"]
+			id: "06808B0E62C9FB26"
+			shape: "spiral"
+			tasks: [{
+				id: "6F82A6572E6D3D82"
+				item: {
+					Count: 1b
+					id: "wizards:staff_frost"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6339C6240DBC2A26"]
+			id: "79469D1FD14D7FC5"
+			shape: "polygon"
+			tasks: [{
+				id: "241B6813CF08AD00"
+				item: {
+					Count: 1b
+					id: "wizards:wand_netherite_frost"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["06808B0E62C9FB26"]
+			id: "15484559855A6C96"
+			shape: "polygon"
+			tasks: [{
+				id: "503D612A77CCE28E"
+				item: {
+					Count: 1b
+					id: "wizards:staff_netherite_frost"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["06808B0E62C9FB26"]
+			id: "0C209C0CA9211095"
+			shape: "polygon"
+			tasks: [{
+				id: "13F551C85C7AE8F7"
+				item: {
+					Count: 1b
+					id: "wizards:staff_smaragdant_frost"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4BFD086D29699FDE"]
+			hide_dependency_lines: true
+			id: "75306BEB120631A3"
+			shape: "formation"
+			tasks: [{
+				id: "2B72C65ADE6DD49D"
+				item: {
+					Count: 1b
+					id: "wizards:wand_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["75306BEB120631A3"]
+			id: "5F674F5B0C47EB9D"
+			shape: "polygon"
+			tasks: [{
+				id: "091381F68A3DC2FB"
+				item: {
+					Count: 1b
+					id: "wizards:wand_netherite_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["75306BEB120631A3"]
+			id: "0AD1B2F655FD4607"
+			shape: "spiral"
+			tasks: [{
+				id: "721E6B1CDF319DA8"
+				item: {
+					Count: 1b
+					id: "wizards:staff_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0AD1B2F655FD4607"]
+			id: "60DEE6ECB1AA11D3"
+			shape: "polygon"
+			tasks: [{
+				id: "678D5D2148B2FA54"
+				item: {
+					Count: 1b
+					id: "wizards:staff_ruby_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0AD1B2F655FD4607"]
+			id: "6702613C79148710"
+			shape: "polygon"
+			tasks: [{
+				id: "4BB3E1C91C28F9B3"
+				item: {
+					Count: 1b
+					id: "wizards:staff_netherite_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4BFD086D29699FDE"]
+			hide_dependency_lines: true
+			id: "59242352581195B9"
+			shape: "formation"
+			tasks: [{
+				id: "359421C292E7E557"
+				item: {
+					Count: 1b
+					id: "wizards:wand_arcane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["59242352581195B9"]
+			id: "2ECBEC072DCF7A55"
+			shape: "polygon"
+			tasks: [{
+				id: "3865AC2C3702BDDA"
+				item: {
+					Count: 1b
+					id: "wizards:wand_netherite_arcane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["59242352581195B9"]
+			id: "3C7D73B634860CD6"
+			shape: "spiral"
+			tasks: [{
+				id: "2457A1C00BA6908C"
+				item: {
+					Count: 1b
+					id: "wizards:staff_arcane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C7D73B634860CD6"]
+			id: "7DE097538BA1F848"
+			shape: "polygon"
+			tasks: [{
+				id: "15895AA2B2974C4F"
+				item: {
+					Count: 1b
+					id: "wizards:staff_netherite_arcane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3C7D73B634860CD6"]
+			id: "0DCE31AC5A4C0735"
+			shape: "polygon"
+			tasks: [{
+				id: "28BFE631104DFBD9"
+				item: {
+					Count: 1b
+					id: "wizards:staff_crystal_arcane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["15FAEC4BA6F51CA9"]
+			id: "2BA24198E000328B"
+			shape: "cross"
+			tasks: [
+				{
+					id: "750376952F6485C6"
+					item: {
+						Count: 1b
+						id: "wizards:wizard_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66155BDDEDD39025"
+					item: {
+						Count: 1b
+						id: "wizards:wizard_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6813A8B83C59803F"
+					item: {
+						Count: 1b
+						id: "wizards:wizard_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "108DE5BAD5567A92"
+					item: {
+						Count: 1b
+						id: "wizards:wizard_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09FD04442A5B6A2A"]
+			id: "177B117E3AC13F24"
+			shape: "shield"
+			tasks: [
+				{
+					id: "66DA0AD1A44945EA"
+					item: {
+						Count: 1b
+						id: "wizards:fire_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30D555A56264EBC2"
+					item: {
+						Count: 1b
+						id: "wizards:fire_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5AEB940265D65BE3"
+					item: {
+						Count: 1b
+						id: "wizards:fire_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42FADAD6CAB59998"
+					item: {
+						Count: 1b
+						id: "wizards:fire_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5D9003617F0CB4E0"]
+			id: "77F2F6DEAD4A2A7B"
+			shape: "shield"
+			tasks: [
+				{
+					id: "2FBBF7158B9FD2C6"
+					item: {
+						Count: 1b
+						id: "wizards:frost_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BCF2250F699F148"
+					item: {
+						Count: 1b
+						id: "wizards:frost_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "535119749DFFA3BC"
+					item: {
+						Count: 1b
+						id: "wizards:frost_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D52D91778DB7B8C"
+					item: {
+						Count: 1b
+						id: "wizards:frost_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["331FA338FD6D82A0"]
+			id: "2643A163E6E4E52E"
+			shape: "shield"
+			tasks: [
+				{
+					id: "567CE06E398D06EC"
+					item: {
+						Count: 1b
+						id: "wizards:arcane_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75C7970613F5F602"
+					item: {
+						Count: 1b
+						id: "wizards:arcane_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04F33A898B29EE06"
+					item: {
+						Count: 1b
+						id: "wizards:arcane_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E32D374F4138889"
+					item: {
+						Count: 1b
+						id: "wizards:arcane_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
 			y: 0.0d
 		}
 	]
