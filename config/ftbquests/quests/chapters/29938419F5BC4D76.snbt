@@ -12,9 +12,11 @@
 			dependencies: ["0C248FCB6C14D252"]
 			id: "73A10A1C0A47C2E1"
 			shape: "cross"
+			subtitle: "Новое измерение!"
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "6CA23ADDE73DBF22"
+				title: "Посетить &4Незер&r"
 				type: "dimension"
 			}]
 			x: 0.0d
