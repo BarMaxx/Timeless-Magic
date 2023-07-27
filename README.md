@@ -1,1 +1,1 @@
-# Timeless-the-Story-Secrets-of-Magic
+# Timeless-Magic
