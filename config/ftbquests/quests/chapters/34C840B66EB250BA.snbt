@@ -467,7 +467,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["15E0AA36AEF78428"]
+			dependencies: ["2E647D161FEA4F58"]
 			id: "072A4CDD143C76A6"
 			shape: "polygon"
 			tasks: [{
@@ -481,8 +481,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.5d
+			x: 2.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["15E0AA36AEF78428"]
@@ -497,11 +497,11 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 2.5d
+			x: 3.5d
+			y: 3.0d
 		}
 		{
-			dependencies: ["7EB2EB866ABAC34C"]
+			dependencies: ["1B9B69B35F301680"]
 			id: "70359A4D8F867A2F"
 			shape: "polygon"
 			tasks: [{
@@ -515,8 +515,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.0d
+			x: 7.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["7EB2EB866ABAC34C"]
@@ -531,11 +531,11 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: 3.0d
 		}
 		{
-			dependencies: ["7EB2EB866ABAC34C"]
+			dependencies: ["70359A4D8F867A2F"]
 			id: "3C0810F77D112DE3"
 			shape: "spiral"
 			tasks: [{
@@ -543,8 +543,8 @@
 				item: "betterend:terminite_forged_plate"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 3.0d
+			x: 8.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["3C0810F77D112DE3"]
@@ -596,8 +596,8 @@
 					type: "item"
 				}
 			]
-			x: 6.5d
-			y: 4.0d
+			x: 9.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["38CFB4D1FDD4FA35"]
@@ -648,6 +648,207 @@
 			]
 			x: 11.0d
 			y: -1.5d
+		}
+		{
+			dependencies: ["1D0FC6E5F295C4E2"]
+			id: "2E647D161FEA4F58"
+			shape: "spiral"
+			tasks: [{
+				id: "56F8ADA34D55BBE9"
+				title: "Навершие таласиевого молота"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["072A4CDD143C76A6"]
+			id: "57511FFCFC698FEA"
+			shape: "spiral"
+			tasks: [{
+				id: "47514E67841D6F10"
+				item: "betterend:thallasium_forged_plate"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["57511FFCFC698FEA"]
+			id: "42934E5954AB8502"
+			shape: "shield"
+			tasks: [
+				{
+					id: "4AEBC210DBC1EFA8"
+					item: {
+						Count: 1b
+						id: "betterend:thallasium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "249C964254ECF32D"
+					item: {
+						Count: 1b
+						id: "betterend:thallasium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4DC8902C662D93D0"
+					item: {
+						Count: 1b
+						id: "betterend:thallasium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C7904C88C7B6072"
+					item: {
+						Count: 1b
+						id: "betterend:thallasium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["072A4CDD143C76A6"]
+			id: "2A7BED5B9BEF81C3"
+			shape: "spiral"
+			tasks: [
+				{
+					id: "5101825057ECB359"
+					item: "betterend:thallasium_pickaxe_head"
+					type: "item"
+				}
+				{
+					id: "4346C8FE5C141697"
+					item: "betterend:thallasium_axe_head"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2A7BED5B9BEF81C3"]
+			id: "44E4374DDF23CA19"
+			shape: "cube"
+			tasks: [
+				{
+					id: "40687A870EABD329"
+					item: {
+						Count: 1b
+						id: "betterend:thallasium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7085C999C5EF9A6D"
+					item: {
+						Count: 1b
+						id: "betterend:thallasium_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4D1D26155987F986"]
+			id: "1B9B69B35F301680"
+			shape: "spiral"
+			tasks: [{
+				id: "32E0F934F815BCA5"
+				title: "Навершие теритиевого молота"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["70359A4D8F867A2F"]
+			id: "19567DE4C9A91C60"
+			shape: "spiral"
+			tasks: [
+				{
+					id: "03A46DFD97320FCE"
+					item: "betterend:terminite_pickaxe_head"
+					type: "item"
+				}
+				{
+					id: "71AAD3E64E6F987B"
+					item: "betterend:terminite_axe_head"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["19567DE4C9A91C60"]
+			id: "4AA7C3E51508B526"
+			shape: "cube"
+			tasks: [
+				{
+					id: "5E9932FFD5A49140"
+					item: {
+						Count: 1b
+						id: "betterend:terminite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6245608C250F4598"
+					item: {
+						Count: 1b
+						id: "betterend:terminite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["74A0EE1635BD7BD9"]
+			id: "31004FB042DE4FDB"
+			shape: "cube"
+			tasks: [{
+				id: "2F5CABA08F010414"
+				item: "inmis:endless_backpack"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
 		}
 	]
 	title: "Край"

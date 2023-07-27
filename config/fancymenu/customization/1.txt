@@ -9,8 +9,13 @@ customization-meta {
 }
 
 customization {
-  path = kubejs/assets/timelessmagic/background.png
+  path = kubejs/assets/timeless_magic/background.png
   action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 2
 }
 
 customization {
@@ -21,9 +26,18 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = mid-right
-  x = -200
+  x = -225
   action = movebutton
   y = -10
+}
+
+customization {
+  advanced_height = 20
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 50
+  action = resizebutton
+  advanced_width = 225
+  height = 50
 }
 
 customization {
@@ -52,6 +66,15 @@ customization {
   x = 0
   action = movebutton
   y = -10
+}
+
+customization {
+  advanced_height = 20
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 50
+  action = resizebutton
+  advanced_width = 225
+  height = 50
 }
 
 customization {
