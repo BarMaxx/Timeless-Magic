@@ -1,0 +1,160 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0B4E869E538C3779"
+	group: "1947F8CB8800FABA"
+	icon: {
+		Count: 1b
+		id: "beachparty:rubber_ring_axolotl"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "0B4E869E538C3779"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "043D4260C9180469"
+			shape: "cube"
+			tasks: [
+				{
+					id: "52886955D3036DF1"
+					item: {
+						Count: 1b
+						id: "beachparty:beach_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C215D3BED53B566"
+					item: {
+						Count: 1b
+						id: "beachparty:sunglasses"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "6F238D5FF97C0C21"
+			shape: "cube"
+			tasks: [
+				{
+					id: "4D3549EECDA70130"
+					item: {
+						Count: 1b
+						id: "beachparty:trunks"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3321D6E83F37E856"
+					item: {
+						Count: 1b
+						id: "beachparty:bikini"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "5CD9024D974E4896"
+			shape: "cube"
+			tasks: [
+				{
+					id: "508BD8FFE65F5E6A"
+					item: {
+						Count: 1b
+						id: "beachparty:swim_wings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "20E55127B9620A9B"
+					item: {
+						Count: 1b
+						id: "beachparty:crocs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "14CE89FDD80AF640"
+			shape: "polygon"
+			tasks: [
+				{
+					id: "6A855BCFF8E0B44C"
+					item: {
+						Count: 1b
+						id: "beachparty:rubber_ring_pelican"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "621CA2B0B0B38FC3"
+					item: {
+						Count: 1b
+						id: "beachparty:rubber_ring_axolotl"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1815E9534039D701"
+					item: "beachparty:overgrown_disc"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["14CE89FDD80AF640"]
+			id: "0B1AE4D3D8F502FF"
+			shape: "cube"
+			tasks: [{
+				id: "3BADF6B6E36161E9"
+				item: "beachparty:radio"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+	]
+	title: "Разное"
+}
