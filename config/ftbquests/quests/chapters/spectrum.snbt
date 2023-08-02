@@ -7,6 +7,64 @@
 	id: "1A39283EA11DE147"
 	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "03643EBAE658900F"
+			tasks: [{
+				id: "43532FEAC1B07E8C"
+				item: "spectrum:polished_calcite"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "3ED4C9720C5044C1"
+			tasks: [{
+				id: "3D2534EB4E9AADB1"
+				item: "spectrum:polished_basalt"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"3ED4C9720C5044C1"
+				"03643EBAE658900F"
+			]
+			id: "5E4E30CBECD91C14"
+			tasks: [{
+				id: "24A56FC1A4D26964"
+				item: "spectrum:paintbrush"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"3ED4C9720C5044C1"
+				"03643EBAE658900F"
+			]
+			id: "22BF75EB7F4A0AB8"
+			tasks: [{
+				id: "14092FC4816CED7D"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "spectrum:pedestals"
+					}
+				}
+				title: "Any #spectrum:pedestals"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+	]
 	title: "Spectrum"
 }

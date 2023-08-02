@@ -719,6 +719,38 @@
     "spectrum:jade_vine_petal_block": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
+    },
+    "paradise_lost:orange_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "paradise_lost:frost_wisteria_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "paradise_lost:lavender_wisteria_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "paradise_lost:rose_wisteria_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "deeperdarker:echo_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "paradise_lost:mother_aurel_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "paradise_lost:boreal_wisteria_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "paradise_lost:aurel_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
     }
   },
   "leafSpawners": [],

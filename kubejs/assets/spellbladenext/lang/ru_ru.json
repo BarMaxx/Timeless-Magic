@@ -1,0 +1,330 @@
+{
+  "dimension.spellbladenext.glassocean": "Зеркальный океан",
+
+  "entity.spellbladenext.reaver": "Мигистр проклятого клинка",
+  "entity.spellbladenext.magus": "Маг",
+  "entity.spellbladenext.archmagus": "Архимаг",
+  "entity.spellbladenext.hexbladeportal": "Портал проклятого клинка",
+
+  "entity.spellbladenext.monkeyclone": "Клон-обманщик",
+  "entity.spellbladenext.shade": "Магическая тень",
+
+  "death.attack.determination": "%1$s не был достаточно решительным",
+  "death.attack.determination.player": "%1$s не был достаточно решительным",
+  "death.attack.boneshatter": "Кости %1$s раздроблены",
+  "death.attack.boneshatter.player": "Кости %1$s раздроблены",
+
+  "block.spellbladenext.hex": "Проклятый клинок магистра",
+  "item.spellbladenext.example_item": "Тестовый предмет",
+  "item.spellbladenext.spellblade": "Цель",
+  "item.spellbladenext.null": "Ничего",
+  "item.spellbladenext.void": "Пустота",
+
+  "item.spellbladenext.starforge": "Звёздная кузница",
+  "item.spellbladenext.firestarter": "Палка душ",
+  "item.spellbladenext.laser_bow": "Лук магической бури",
+
+  "item.spellbladenext.mulberry": "Меч душ",
+  "item.spellbladenext.holysymbol": "Святой символ",
+  "item.spellbladenext.warriortwo_spell_book": "Боевой том воина",
+  "item.spellbladenext.warriorpolearm_spell_book": "Боевой том оружия",
+  "item.spellbladenext.assassin_spell_book": "Боевой том убийцы",
+
+  "item.spellbladenext.juggtwo_spell_book": "Боевой том танка",
+  "item.spellbladenext.duelist_spell_book": "Боевой том дуэлянта",
+  "item.spellbladenext.acrobat_spell_book": "Боевой том акробата",
+  "item.spellbladenext.orb_fire_spell_book": "Источник огня",
+  "item.spellbladenext.orb_frost_spell_book": "Источник мороза",
+  "item.spellbladenext.orb_arcane_spell_book": "Источник мистики",
+
+  "item.spellbladenext.spellblade_fire_spell_book": "Книга заклинаний огненного мага",
+  "item.spellbladenext.spellblade_frost_spell_book": "Книга заклинаний морозного мага",
+  "item.spellbladenext.spellblade_arcane_spell_book": "Книга заклинаний мистического мага",
+
+  "item.spellbladenext.blade_arcane": "Мистический клинок заклинаний",
+  "item.spellbladenext.blade_fire": "Огненный клинок заклинаний",
+  "item.spellbladenext.blade_frost": "Морозный клинок заклинаний",
+  "item.spellbladenext.runeblazing_head": "Шлем рунического огня",
+  "item.spellbladenext.runeblazing_chest": "Нагрудник рунического огня",
+  "item.spellbladenext.runeblazing_legs": "Поножи рунического огня",
+  "item.spellbladenext.runeblazing_feet": "Ботинки рунического огня",
+  "item.spellbladenext.runefrosted_head": "Шлем рунического мороза",
+  "item.spellbladenext.runefrosted_chest": "Нагрудник рунического мороза",
+  "item.spellbladenext.runefrosted_legs": "Поножи рунического мороза",
+  "item.spellbladenext.runefrosted_feet": "Ботинки рунического мороза",
+  "item.spellbladenext.runegleaming_head": "Шлем рунического света",
+  "item.spellbladenext.runegleaming_chest": "Нагрудник рунического света",
+  "item.spellbladenext.runegleaming_legs": "Поножи рунического света",
+  "item.spellbladenext.runegleaming_feet": "Ботинки рунического света",
+  "item.spellbladenext.deathchill_head": "Шляпа мага-искателя",
+  "item.spellbladenext.deathchill_chest": "Нагрудник смертельного холода",
+  "item.spellbladenext.deathchill_legs":  "Поножи смертельного холода",
+  "item.spellbladenext.deathchill_feet":  "Ботинки смертельного холода",
+  "item.spellbladenext.rimeblaze_head": "Шлем разрушителя магии",
+  "item.spellbladenext.rimeblaze_chest": "Нагрудник морозного пламени",
+  "item.spellbladenext.rimeblaze_legs":  "Поножи морозного пламени",
+  "item.spellbladenext.rimeblaze_feet":  "Ботинки морозного пламени",
+  "item.spellbladenext.aetherfire_head": "Проклятая корона мага",
+  "item.spellbladenext.aetherfire_chest": "Нагрудник эфирного огня",
+  "item.spellbladenext.aetherfire_legs": "Поножи эфирного огня",
+  "item.spellbladenext.aetherfire_feet": "Ботинки эфирного огня",
+  "item.spellbladenext.debug": "Предмет отладки",
+  "item.spellbladenext.orb_frost": "Морозная сфера",
+  "item.spellbladenext.orb_fire": "Огненная сфера",
+  "item.spellbladenext.orb_arcane": "Мистическая сфера",
+  "item.spellbladenext.claymore_arcane": "Мистический клеймор",
+  "item.spellbladenext.claymore_fire": "Огненный клеймор",
+  "item.spellbladenext.claymore_frost": "Морозный клеймор",
+  "item.spellbladenext.magus_feet": "Ботинки изначального мага",
+  "item.spellbladenext.magus_chest": "Роба изначального мага",
+  "item.spellbladenext.magus_legs": "Поножи изначального мага",
+  "item.spellbladenext.magus_head": "Капюшон изначального мага",
+
+  "item.spellbladenext.offering": "Подношение",
+  "item.spellbladenext.prismaticeffigy": "Призматическое подобие",
+
+  "item.spellbladenext.runeblazing_ingot": "Слиток рунического огня",
+  "item.spellbladenext.runefrosted_ingot": "Слиток рунического мороза",
+  "item.spellbladenext.runegleaming_ingot": "Слиток рунического света",
+
+  "item.spellbladenext.nullifying_fire_totem": "Обнуляющий огненный тотем",
+  "item.spellbladenext.nullifying_frost_totem": "Обнуляющий морозный тотем",
+  "item.spellbladenext.nullifying_arcane_totem": "Обнуляющий мистический тотем",
+
+  "item.spellbladenext.bandofpacifism": "Банда пацифизма",
+  "item.spellbladenext.frostborn_gavel": "Молот морозорожденного",
+
+  "item.spellbladenext.rune_dagger": "Изначальный кинжал",
+  "item.spellbladenext.monkeystaff": "Шест короля обезьян",
+
+
+  "itemGroup.spellbladenext.example_tab": "Spellblades and Such",
+  "itemGroup.spellbladenext.example_tab.name": "Spellblades and Such",
+  "spell.spellbladenext.righteousfervor.name": "Закаленное пламя",
+  "spell.spellbladenext.righteousfervor.description": "Потребляет все эффекты заклинания Восходящее пламя, чтобы ваши огненные заклинания игнорировали огнестойкость и модификаторы огненного урона в течении некоторого времени.",
+
+  "spell.spellbladenext.risingflames.name": "Восходящее пламя",
+  "spell.spellbladenext.risingflames.description": "Непрерывно наносит резко возрастающий огненный урон, накапливая 5% ускорения и силы заклинаний огня.",
+
+  "spell.spellbladenext.ashes.name": "Звёздный пепел",
+  "spell.spellbladenext.ashes.description": "Пассивно: ваши атаки наносят 100% от мистического атрибута в качестве дополнительно урона. Пока экипировано, даёт 1 уровень мистического наполнения за каждые 2 морозных или огненных атрибута. Активируемо: заставляет вас вращаться, нанося {damage} мистического урона в секунду. Нажмите Shift, чтобы прервать заклинание.",
+
+  "spell.spellbladenext.monkeyreflect.name": "Бушующий ветер",
+  "spell.spellbladenext.monkeyreflect.description": "Закручивает вокруг врага ветер, отражая снаряды и отталкивая его, нанося {damage} физического урона.",
+  "spell.spellbladenext.frostborn.name": "Морозная арена",
+  "spell.spellbladenext.frostborn.description": "Создаёт вокруг вас морозую арену, которая обездвиживает врагов на 2 секунды.",
+  "spell.spellbladenext.frostslam.name": "Ледяной молот",
+  "spell.spellbladenext.frostslam.description": "Совершает сильный удар вашим морозным оружием, нанося двухкратный урон в ближнем бою. Набирает имульс, увеличивая урон от атак и скорость заклинаний. За каждый уровень импульса вы получаете 1 физический урон.",
+
+  "spell.spellbladenext.monkeyspin.name": "Месть короля обезьян",
+  "spell.spellbladenext.monkeyspin.description": "Раскручивает вас, нанося ближайшим врагам 1.5-кратный урон в ближнем бою. Урон уменьшается при атаке атаке сразу нескольких врагов. Нажмите Shift, чтобы прервать заклинание.",
+  "spell.spellbladenext.monkeyslam.name": "Король трюкачей",
+  "spell.spellbladenext.monkeyslam.description": "Подбрасывает вас в облака, давая неуязвимость.",
+  "spell.spellbladenext.splitleft.name": "Клон-обманщик",
+  "spell.spellbladenext.splitleft.description": "Отбросьте часть себя и станьте невидимым на 8 секунд. Созданный клон существует 16 секунд, нанося половину вашего урона и атакуя врагов, которых вы атаковали в течение последних 8 секунд. Следует за вашим взглядом, если у него нет цели.",
+
+
+  "spell.spellbladenext.backstab.name": "Скрытое убийство",
+  "spell.spellbladenext.backstab.description": "Пассивно: атаки из-за спины теперь всегда наносят критический урон при использовании заклинаний изначального кинжала. Активируемо: телепортирует вас за спину врагу, чтобы вы могли нанести критический удар. Если использовать заклинание без цели, то следующий удар будет критическим.",
+  "spell.spellbladenext.steelblade.name": "Чистая сталь",
+  "spell.spellbladenext.steelblade.description": "Пассивно: наносит {damage} дополнительного физического урона. При критическом ударе действует как заклинание, а не атака.",
+  "spell.spellbladenext.searingblade.name": "Огненная сталь",
+  "spell.spellbladenext.searingblade.description": "Пассивно: наносит {damage} дополнительного огненного урона. При критическом ударе действует как заклинание, а не атака.",
+  "spell.spellbladenext.gleamingblade.name": "Сияющая сталь",
+  "spell.spellbladenext.gleamingblade.description": "Пассивно: наносит {damage} дополнительного мистического урона. При критическом ударе действует как заклинание, а не атака.",
+  "spell.spellbladenext.frozenblade.name": "Морозная сталь",
+  "spell.spellbladenext.frozenblade.description": "Пассивно: наносит {damage} дополнительного морозного урона. При критическом ударе действует как заклинание, а не атака.",
+
+  "spell.spellbladenext.inferno.name": "Пекло",
+  "spell.spellbladenext.inferno.description": "Пассивно: при попадании наносит 100% урона от огненного атрибута. Есть шанс на критический удар. Активируемо: заставляет вас вращаться, нанося ближайшим врагам {damage} огненного урона в секунду. Удары по врагам дают вам эффект Наполнения. Нажмите Shift, чтобы прервать заклинание.",
+
+  "spell.spellbladenext.2hslam.name": "Раздробленные кости",
+  "spell.spellbladenext.2hslam.description": "Взмахивает оружием, нанося ближайшим врагам двукратный урон. Набирает импульс, увеличивая урон от атак и скорость заклинаний. За каждый уровень импульса вы получаете 1 физический урон.",
+
+  "spell.spellbladenext.1hslam.name": "Раздробленные кости",
+  "spell.spellbladenext.1hslam.description": "Взмахивает оружием, нанося ближайшим врагам двукратный урон. Набирает импульс, увеличивая урон от атак и скорость заклинаний. За каждый уровень импульса вы получаете 1 физический урон.",
+
+  "spell.spellbladenext.riposte.name": "Процветание",
+  "spell.spellbladenext.riposte.description": "Наносит 1,5-кратный урон по кругу вокруг вас. Урон умножается на 20% от количества наложенных на вас эффектов наполнения, расходуя их.",
+
+  "spell.spellbladenext.roll.name": "Tactical Dive",
+  "spell.spellbladenext.roll.description": "Выбрасывает вас вперёд, парируя получаемый урон и проводя контратаку. Наносит 1,5-кратный урон в ближнем бою.",
+
+  "spell.spellbladenext.whirlwind.name": "Вихрь",
+  "spell.spellbladenext.whirlwind.description": "Раскручивает вас, нанося 3-кратный урон ближайшим врагам. Урон уменьшается при атаке атаке сразу нескольких врагов. 0,2-кратный модификатор для эффектов заклинаний при ударах. Нажмите Shift, чтобы прервать заклинание.",
+
+  "spell.spellbladenext.dualwield_whirlwind.name": "Вихрь",
+  "spell.spellbladenext.dualwield_whirlwind.description": "Раскручивает вас, нанося ближайшим врагам 1.5-кратный урон одной или двумя руками. Урон уменьшается при атаке атаке сразу нескольких врагов. 0,2-кратный модификатор для эффектов заклинаний при ударах. Нажмите Shift, чтобы прервать заклинание.",
+  "spell.spellbladenext.whirlwind_polearm.name": "Вихрь",
+  "spell.spellbladenext.whirlwind_polearm.description": "Раскручивает вас, нанося 3-кратный урон ближайшим врагам. Урон уменьшается при атаке атаке сразу нескольких врагов. 0,2-кратный модификатор для эффектов заклинаний при ударах. Нажмите Shift, чтобы прервать заклинание.",
+
+  "spell.spellbladenext.cyclone.name": "Циклон",
+  "spell.spellbladenext.cyclone.description": "Пассивно: при попадании наносит 100% урона от морозного атрибута. Есть шанс на критический удар. Активируемо: заставляет вас вращаться, нанося ближайшим врагам {damage} морозного урона в секунду. Удары по врагам дают вам эффект Наполнения. Нажмите Shift, чтобы прервать заклинание.",
+
+
+  "spell.spellbladenext.maelstrom.name": "Мэльстром",
+  "spell.spellbladenext.maelstrom.description": "Пассивно: при попадании наносит 100% урона от мистического атрибута. Есть шанс на критический удар. Активируемо: заставляет вас вращаться, нанося ближайшим врагам {damage} мистического урона в секунду. Удары по врагам дают вам эффект Наполнения. Нажмите Shift, чтобы прервать заклинание.",
+
+  "spell.spellbladenext.coldfury.name": "Морозный шквал",
+  "spell.spellbladenext.coldfury.description": "Выпускает в направлении вашего взгляда морозную статую, которая сталкивается с врагом, нанося {damage} морозного урона.",
+
+  "spell.spellbladenext.multicoldfury.name": "Морозный легион",
+  "spell.spellbladenext.multicoldfury.description": "Выпускает в направлении вашего взгляда четыре морозные статуи, которые сталкиваются с врагом, нанося {damage} морозного урона.",
+
+
+  "spell.spellbladenext.fireoverdrive.name": "Огненная перегрузка",
+  "spell.spellbladenext.fireoverdrive.description": "Создаёт вокруг вас волну, наносящую {damage} огненного урона врагам вокруг вас и увеличивающую скорость атаки. Может срабатывать при обычном ударе.",
+
+  "spell.spellbladenext.frostoverdrive.name": "Морозная перегрузка",
+  "spell.spellbladenext.frostoverdrive.description": "Создаёт вокруг вас волну, наносящую {damage} морозного урона врагам вокруг вас и увеличивающую скорость атаки. Может срабатывать при обычном ударе.",
+
+  "spell.spellbladenext.arcaneoverdrive.name": "Мистическая перегрузка",
+  "spell.spellbladenext.arcaneoverdrive.description": "Создаёт вокруг вас волну, наносящую {damage} мистического урона врагам вокруг вас и увеличивающую скорость атаки. Может срабатывать при обычном ударе.",
+
+  "spell.spellbladenext.fireinfusion.name": "Огненное наполнение",
+  "spell.spellbladenext.fireinfusion.description": "Пассивно: при ударе вы наносите 2/3 урона от огненного атрибута. Есть шанс на критический удар. Активируемо: наполняет ваш меч, увеличивая огненный атрибут на 2. Эффект может накапливаться до 3 раз.",
+
+  "spell.spellbladenext.frostinfusion.name": "Морозное наполнение",
+  "spell.spellbladenext.frostinfusion.description": "Пассивно: при ударе вы наносите 2/3 урона от морозного атрибута. Есть шанс на критический удар. Активируемо: наполняет ваш меч, увеличивая морозный атрибут на 2. Эффект может накапливаться до 3 раз.",
+
+  "spell.spellbladenext.arcaneinfusion.name": "Мистическое наполнение",
+  "spell.spellbladenext.arcaneinfusion.description": "Пассивно: при ударе вы наносите 2/3 урона от мистического атрибута. Есть шанс на критический удар. Активируемо: наполняет ваш меч, увеличивая мистический атрибут на 2. Эффект может накапливаться до 3 раз.",
+
+  "spell.spellbladenext.magic_missile.name": "Волшебная ракета",
+  "spell.spellbladenext.magic_missile.description": "Стреляет снарядом, который распадается на три самонаводящихся снаряда. Каждый снаряд наносит {damage} урона.",
+
+  "spell.spellbladenext.shadeslash.name": "Мистический двойной удар",
+  "spell.spellbladenext.shadeslash.description": "Создаёт вокруг вас удары, наносящие {damage} мистического урона за каждый удар.",
+
+  "spell.spellbladenext.multislash.name": "Мультиудар",
+  "spell.spellbladenext.multislash.description": "Создаёт вокруг вас, в радиусе 2 блоков, удары, наносящие {damage} мистического урона за каждый удар.",
+
+  "spell.spellbladenext.opportunity.name": "Потенциальная атака",
+  "spell.spellbladenext.opportunity.description": "Поднимает ваш щит и оружие, блокируя любые удары. Если враг движется перед вами, он и ближайшие противники получат ваш 2-кратный урон.",
+
+  "spell.spellbladenext.transmute_fire.name": "Трансмутация меди",
+  "spell.spellbladenext.transmute_fire.description": "Превращает медный блок в 4 слитка рунического огня.",
+
+  "spell.spellbladenext.transmute_frost.name": "Трансмутация железа",
+  "spell.spellbladenext.transmute_frost.description": "Превращает железный блок в 4 слитка рунического мороза.",
+
+  "spell.spellbladenext.transmute_arcane.name": "Трансмутация золота",
+  "spell.spellbladenext.transmute_arcane.description": "Превращает железный блок в 4 слитка рунического света.",
+
+  "spell.spellbladenext.soulfire.name": "Пылающая душа",
+  "spell.spellbladenext.soulfire.description": "Даёт вам эффект пылающей души на 10 секунд. Каждая уровень эффекта даёт 1 дополнительную огненную силу. При достижении 5 уровня и выше, начинает наносить вам увеличивающийся огненный урон каждую секунду.",
+
+  "spell.spellbladenext.mulberry.name": "Шелковица - это дерево...",
+  "spell.spellbladenext.mulberry.description": "Создаёт меч душ и даёт эффект пылающей души на 10 секунд.",
+
+  "stat.spellbladenext.hex": "Проклятье",
+  "stat.spellbladenext.lasthextime": "Ярость",
+
+
+  "spell.spellbladenext.magma_orb.name": "Магмовый шар",
+  "spell.spellbladenext.magma_orb.description": "Выпускает магмовый шар, наносящий {damage} огненного урона в области, где он отскочил.",
+
+  "spell.spellbladenext.sonic_boom.name": "Звуковой удар",
+  "spell.spellbladenext.sonic_boom.description" : "Выпускает звуковой удар в направлении вашего взгляда, нанося {damage} мистического урона.",
+
+  "spell.spellbladenext.glacial_barrage.name": "Морозный шквал",
+  "spell.spellbladenext.glacial_barrage.description": "Выпускает шквал сосулек, наносящие {damage} морозного урона в секунду.",
+
+  "spell.spellbladenext.horizontal_eruption.name": "Волна пламени",
+  "spell.spellbladenext.horizontal_eruption.description": "Выпускает разрушительную волну тлеющих углей, наносящую {damage} огненного урона.",
+
+  "spell.spellbladenext.vertical_eruption.name": "Столб пламени",
+  "spell.spellbladenext.vertical_eruption.description": "Выпускает разрушительный столб тлеющих углей, наносящий {damage} огненного урона.",
+
+  "spell.spellbladenext.icicle_barrier.name": "Ледяная буря",
+  "spell.spellbladenext.icicle_barrier.description": "Создаёт сосульки, которые вращаются вокруг вас по спирали, нанося морозный урон 0,5 секунды и исчезая через 2 секунды.",
+
+  "spell.spellbladenext.arctic_winds.name": "Арктические ветра",
+  "spell.spellbladenext.arctic_winds.description": "Создаёт морозные ветра, несущиеся к врагам, нанося {damage} морозного урона в секунду.",
+
+  "spell.spellbladenext.amethyst_rain.name": "Аметистовый дождь",
+  "spell.spellbladenext.amethyst_rain.description": "Запускает в воздух четыре аметиста, которые замедляются, а затем падают на ближайшего врага, нанося {damage} мистического урона.",
+
+  "spell.spellbladenext.flicker_strike.name": "Мерцающее пламя",
+  "spell.spellbladenext.flicker_strike.description": "Телепортирует вас к ближайшему врагу, нанося ему многократные удары. Если поблизости больше врагов, вы телепортируетесь ко всем и нанесёте им равный урон.",
+
+  "spell.spellbladenext.flame_winds.name": "Обжигающий ветер",
+  "spell.spellbladenext.flame_winds.description": "Запускает сферу обжигающего воздуха в направлении вашего взгляда, нанося {damage} огненного урона в секунду попавшим в неё врагам и унося их в направлении ветра.",
+
+  "spell.spellbladenext.endersgaze.name": "Эндер-взляд",
+  "spell.spellbladenext.endersgaze.description": "Стреляет медленно движущимся эндер-жемчугом. При первом попадании на врага нападут пять вращающихся эндер-глаза на 4 секунды, каждый из которых наносит {damage} мистического урона каждые две пятых секунды. Если враг умирает, глаза ищут новую цель, обновляя продолжительность своей жизни.",
+
+  "spell.spellbladenext.visionofender.name": "Эндер-ведения",
+  "spell.spellbladenext.visionofender.description": "Ближайшие враги получают пять вращающихся эндер-глаза на 2 секунды, каждый из которых наносит {damage} мистического урона каждые две пятых секунды. Если враг умирает, глаза ищут новую цель, обновляя продолжительность своей жизни.",
+
+  "spell.spellbladenext.supernova.name": "Сверхновая",
+  "spell.spellbladenext.supernova.description": "Заряжает и выпускает разрушительную сверхновую, нанося {damage} огненного урона врагам вокруг вас.",
+
+  "spell.spellbladenext.snowball_bombardment.name": "Снежная бомбардировка",
+  "spell.spellbladenext.snowball_bombardment.description": "Вызывает три снежка, которые вращаются вокруг вас каждую 1/4 секунды. Снежка вылетают с орбиты и запускают себя в небо, попадая в случайного врага, нанося ему {damage} морозного урона.",
+  "spell.spellbladenext.chain.name": "Цепь",
+  "spell.spellbladenext.chain.description": "Заставляет ваши стрелы цепляться к врагам, иногда нанося урон дважды.",
+
+  "spell.spellbladenext.multishot.name": "Мультивыстрел",
+  "spell.spellbladenext.multishot.description": "Выпускает ещё две стрелы в ближайших врагов при обычной стрельбе.",
+
+  "spell.spellbladenext.primordialburst.name": "Изначальный взрыв",
+  "spell.spellbladenext.primordialburst.description": "33% шанс при стрельбе вызвать стихийную сверхновую. Каждая стихия имеет 2 секундную перезарядку.",
+
+  "spell.spellbladenext.barrage.name": "Град",
+  "spell.spellbladenext.barrage.description": "Позволяет непрерывно выпускать стрелы. Эти стрелы наносят физический урон, равный вышей морозной силе. ",
+
+  "spell.spellbladenext.explosion.name": "Горение",
+  "spell.spellbladenext.explosion.description": "Создаёт взрыв с зажержкой, направленный на определённого врага, наносящий до {damage} урона ВСЕМ противникам, кроме вас.",
+
+  "spell.spellbladenext.defiance.name": "Стойкость",
+  "spell.spellbladenext.defiance.description": "Получив урон, вы на две секунды получаете регенерации, вплоть до IV уровня. Не действует пассивно.",
+
+  "spell.spellbladenext.courage.name": "Храбрость",
+  "spell.spellbladenext.courage.description": "Вы пассивно получаете сопротивление III, по одному уровню каждые 4 сек. Получив урон, вы теряете один уровень эффекта.",
+
+  "spell.spellbladenext.determination.name": "Решительность",
+  "spell.spellbladenext.determination.description": "Даёт много положительных боевых эффектов. Если вы умрёте во время перезарядки, начнётся более длинная перезарядка, чтобы предотвратить вашу смерть и наложить эффекты на 8 секунд. Через 8 секунд вы получите много урона.",
+
+  "effect.spellbladenext.cleansing_fire": "Огненная аура",
+  "effect.spellbladenext.momentum": "Моментум",
+
+  "effect.spellbladenext.fireinfusion": "Огненное наполнение",
+  "effect.spellbladenext.portalsickness": "Портальная болезнь",
+  "effect.spellbladenext.determination": "Решительность",
+
+  "effect.spellbladenext.arcaneinfusion": "Мистическое наполнение",
+  "effect.spellbladenext.runic_absorption": "Руническая защита",
+  "effect.spellbladenext.frostinfusion": "Морозное наполнение",
+  "effect.spellbladenext.arcaneoverdrive": "Мистическая перегрузка",
+  "effect.spellbladenext.frostoverdrive": "Морозная перегрузка",
+  "effect.spellbladenext.fireoverdrive": "Огненная перегрузка",
+  "effect.spellbladenext.soulflame": "Пылающая душа",
+  "effect.spellbladenext.hex": "Проклятье",
+  "effect.spellbladenext.doused": "Погасший",
+  "effect.spellbladenext.inert": "Инертный",
+  "effect.spellbladenext.melted": "Пепельный",
+  "effect.spellbladenext.runic_boon": "Изначальный дар",
+  "effect.spellbladenext.direhex": "Скрытая атака",
+  "effect.spellbladenext.splitleft": "Разделение",
+  "effect.spellbladenext.slamtarget": "Порабощённый",
+  "effect.spellbladenext.righteousfervor": "Закаленное пламя",
+  "effect.spellbladenext.risingflames": "Восходящее пламя",
+  "effect.spellbladenext.crash": "Обломанный лёд",
+  "effect.spellbladenext.spiked": "Шипы",
+  "enchantment.spellbladenext.spellshield": "Магический удар",
+  "enchantment.spellbladenext.spellshield.desc": "Блокирует удары при произнесении заклинаний.",
+
+  "entity.spellbladenext.amethyst": "Мистический аметист",
+  "entity.spellbladenext.amethyst2": "Мистический аметист",
+  "entity.spellbladenext.icethorn": "Морозный шар",
+  "entity.spellbladenext.gaze": "Эндер-взгляд",
+  "entity.spellbladenext.gazehitter": "Эндер-взгляд",
+  "entity.spellbladenext.cleansingflame": "Янтарь",
+  "entity.spellbladenext.flamewinds": "Пламенный ветер",
+  "entity.spellbladenext.magma": "Магмовый шар",
+  "entity.spellbladenext.iciclebarrier": "Морозная игла",
+  "entity.spellbladenext.eruption": "Волна",
+  "entity.spellbladenext.coldattack": "Морозный легион"
+
+}
