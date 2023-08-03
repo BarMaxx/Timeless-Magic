@@ -7,6 +7,49 @@
 	id: "14B57B8BE6B86990"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "5E217339D26AA858"
+			shape: "spiral"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7949302D0C7F98F7"
+			shape: "cross"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "0A2493B07115AC62"
+			shape: "formation"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "0A9ED73E02E1CB59"
+			shape: "cube"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "63B0A05A0A870AF7"
+			shape: "shield"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "70967A6D51F9C49F"
+			shape: "polygon"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "79D466023806DBFF"
+			shape: "bottle"
+			x: 1.5d
+			y: 3.0d
+		}
+	]
 	title: "Supplementaries"
 }
