@@ -155,6 +155,36 @@
 			x: 3.0d
 			y: -1.0d
 		}
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "2B7ACB672718DC84"
+			shape: "polygon"
+			tasks: [{
+				id: "26AEBDD59FF9BCEE"
+				item: {
+					Count: 1b
+					id: "candlelight:gold_ring"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2B7ACB672718DC84"]
+			id: "11AB3DC6CB2FBABC"
+			shape: "cube"
+			tasks: [{
+				id: "2A8B04AC4654940B"
+				item: "candlelight:jewelry_box"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
 	]
 	title: "Разные Разности"
 }

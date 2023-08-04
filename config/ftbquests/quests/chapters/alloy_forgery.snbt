@@ -49,9 +49,9 @@
 			id: "71648A8C578501B6"
 			shape: "bottle"
 			tasks: [{
-				id: "17C68D47FE9E61E3"
-				item: "minecraft:netherite_ingot"
-				type: "item"
+				id: "1505369190543C8C"
+				title: "Заготовка для Незеритового слитка"
+				type: "checkmark"
 			}]
 			x: 7.0d
 			y: 0.0d

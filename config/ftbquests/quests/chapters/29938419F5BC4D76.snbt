@@ -32,7 +32,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["118E53FC6E875869"]
@@ -44,7 +44,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5A29B02164EE806C"]
@@ -56,7 +56,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -2.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["45DB8A96FA2750BA"]
@@ -68,7 +68,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["45DB8A96FA2750BA"]
@@ -80,7 +80,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["45DB8A96FA2750BA"]
@@ -122,7 +122,7 @@
 				}
 			]
 			x: 1.5d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["45DB8A96FA2750BA"]
@@ -175,7 +175,7 @@
 				}
 			]
 			x: 2.5d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["45DB8A96FA2750BA"]
@@ -199,7 +199,7 @@
 				}
 			]
 			x: 3.0d
-			y: -2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["73A10A1C0A47C2E1"]
@@ -271,7 +271,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["46ED1EB92C13B1F8"]
@@ -283,10 +283,10 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["46ED1EB92C13B1F8"]
+			dependencies: ["7C1C77F9DF458D3D"]
 			id: "3C5D924FFD7BBFC2"
 			shape: "formation"
 			tasks: [{
@@ -294,8 +294,8 @@
 				item: "minecraft:brewing_stand"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 1.5d
+			x: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3C5D924FFD7BBFC2"]
@@ -312,8 +312,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.5d
+			x: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4CEC22C7C882E807"]
@@ -324,8 +324,8 @@
 				item: "zenith:hellshelf"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 3.0d
+			x: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3C5D924FFD7BBFC2"]
@@ -342,8 +342,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: 2.5d
+			x: 1.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["73A10A1C0A47C2E1"]
@@ -368,7 +368,7 @@
 			]
 			title: "Адские ресурсы"
 			x: -0.5d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["73A10A1C0A47C2E1"]
@@ -501,6 +501,55 @@
 			}]
 			x: -3.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["14B8DD1F66798C87"]
+			id: "478502B76BDFFFB4"
+			tasks: [
+				{
+					hasCustomPicture: false
+					id: "605C92E36640A123"
+					ignoreState: false
+					layer: true
+					name: "beacon_1_lvl"
+					rightclick: false
+					title: "Маяк 1-го уровня"
+					type: "questsadditions:structure"
+				}
+				{
+					hasCustomPicture: false
+					id: "0428BF0F05ECBDB7"
+					ignoreState: false
+					layer: true
+					name: "beacon_2_lvl"
+					rightclick: false
+					title: "Маяк 2-го уровня"
+					type: "questsadditions:structure"
+				}
+				{
+					hasCustomPicture: false
+					id: "242BCB4163509C47"
+					ignoreState: false
+					layer: true
+					name: "beacon_3_lvl"
+					rightclick: false
+					title: "Маяк 3-го уровня"
+					type: "questsadditions:structure"
+				}
+				{
+					hasCustomPicture: false
+					id: "3C79D34A4477E50A"
+					ignoreState: false
+					layer: true
+					name: "beacon_4_lvl"
+					rightclick: false
+					title: "Маяк 4-го уровня"
+					type: "questsadditions:structure"
+				}
+			]
+			title: "Активация Маяка"
+			x: 6.0d
+			y: 0.0d
 		}
 	]
 	title: "Незер"
