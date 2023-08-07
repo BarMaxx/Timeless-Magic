@@ -340,7 +340,7 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 4.0d
 			y: 2.0d
 		}
 		{
@@ -382,7 +382,7 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
+			x: 4.5d
 			y: 3.0d
 		}
 		{
@@ -872,7 +872,24 @@
 				item: "botania:bauble_box"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["28D6ACAADE98740D"]
+			id: "3B71AB9B7B86EB15"
+			tasks: [{
+				hasCustomPicture: false
+				icon: "botania:terra_plate"
+				id: "624B9EA8BD5692B5"
+				ignoreState: false
+				layer: true
+				name: "terra_plate"
+				rightclick: false
+				title: "Наземная агломерационная плита (Струкртура)"
+				type: "questsadditions:structure"
+			}]
+			x: 6.5d
 			y: 3.0d
 		}
 	]
