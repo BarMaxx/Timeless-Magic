@@ -886,7 +886,7 @@
 				layer: true
 				name: "terra_plate"
 				rightclick: false
-				title: "Наземная агломерационная плита (Струкртура)"
+				title: "Наземная агломерационная плита (Структура)"
 				type: "questsadditions:structure"
 			}]
 			x: 6.5d
