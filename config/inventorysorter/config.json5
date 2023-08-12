@@ -14,7 +14,7 @@
 	// Display Sort Button Tooltip
 	"displayTooltip": true,
 	// Sort Inventory key
-	"keybinding": "key.keyboard.p",
+	"keybinding": "key.keyboard.i",
 	// Should sort half of open inv highlighted by mouse
 	"sortMouseHighlighted": true,
 	"debugMode": false

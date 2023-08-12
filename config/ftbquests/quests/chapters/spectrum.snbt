@@ -17,7 +17,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["736DABDDD868D72D"]
@@ -28,12 +28,13 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
 				"3ED4C9720C5044C1"
 				"03643EBAE658900F"
+				"2C7704F0EDEF4884"
 			]
 			id: "5E4E30CBECD91C14"
 			tasks: [{
@@ -48,6 +49,7 @@
 			dependencies: [
 				"3ED4C9720C5044C1"
 				"03643EBAE658900F"
+				"2C7704F0EDEF4884"
 			]
 			id: "22BF75EB7F4A0AB8"
 			tasks: [{
@@ -64,6 +66,496 @@
 			}]
 			x: 1.5d
 			y: 0.5d
+		}
+		{
+			dependencies: ["15FAEC4BA6F51CA9"]
+			id: "2C7704F0EDEF4884"
+			tasks: [
+				{
+					id: "10582900824D38DB"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					id: "3C598D9524E57477"
+					item: "spectrum:citrine_shard"
+					type: "item"
+				}
+				{
+					id: "347E58ED89A0CB3A"
+					item: "spectrum:topaz_shard"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["22BF75EB7F4A0AB8"]
+			id: "3C9683C9B3363775"
+			tasks: [
+				{
+					id: "037F982083182D1C"
+					item: "spectrum:amethyst_powder"
+					type: "item"
+				}
+				{
+					id: "26F766E69B5E0AAA"
+					item: "spectrum:citrine_powder"
+					type: "item"
+				}
+				{
+					id: "6C2337CEC99DA930"
+					item: "spectrum:topaz_powder"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3C9683C9B3363775"]
+			id: "3618D2F67C0150B8"
+			tasks: [
+				{
+					id: "6F7283FFD15B0349"
+					item: "spectrum:private_chest"
+					type: "item"
+				}
+				{
+					id: "1992B9A6E6D3296A"
+					item: "spectrum:compacting_chest"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3C9683C9B3363775"]
+			id: "60761710F8AED113"
+			tasks: [
+				{
+					id: "5B27E2D7A7F0103C"
+					item: "spectrum:glow_vision_goggles"
+					type: "item"
+				}
+				{
+					id: "56D9C46C1CB972DA"
+					item: {
+						Count: 1b
+						id: "spectrum:razor_falchion"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:looting"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "097484A0745A3977"
+					item: "spectrum:crafting_tablet"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3C9683C9B3363775"]
+			id: "64DB21D2DAD013D7"
+			tasks: [
+				{
+					id: "7B149BDFDE63EEBC"
+					item: "spectrum:redstone_sand"
+					type: "item"
+				}
+				{
+					id: "0D6030209619CA84"
+					item: "spectrum:redstone_calculator"
+					type: "item"
+				}
+				{
+					id: "5F5522516C072107"
+					item: "spectrum:redstone_timer"
+					type: "item"
+				}
+				{
+					id: "5E79CB733EA032F1"
+					item: "spectrum:block_placer"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3C9683C9B3363775"]
+			id: "1DB3A59DFB503458"
+			tasks: [
+				{
+					id: "1E2EAE3DD589B827"
+					item: "spectrum:pedestal_all_basic"
+					type: "item"
+				}
+				{
+					hasCustomPicture: false
+					id: "1E7E4E1E967D765C"
+					ignoreState: false
+					layer: true
+					name: "pedestal_all_basic"
+					rightclick: false
+					title: "Структура Пьедестала"
+					type: "questsadditions:structure"
+				}
+			]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1DB3A59DFB503458"]
+			id: "57F0F397512A4FAE"
+			tasks: [{
+				id: "73268EFC91622DE8"
+				item: {
+					Count: 1b
+					id: "spectrum:multitool"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:efficiency"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"1DB3A59DFB503458"
+				"10B77353177978E4"
+			]
+			id: "55955D52A4AA279D"
+			tasks: [{
+				id: "2D5FEF80ED45BCF8"
+				item: {
+					Count: 1b
+					id: "spectrum:bottomless_bundle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5949D7A592629716"]
+			id: "10B77353177978E4"
+			tasks: [{
+				id: "4E8D6E878A29335E"
+				item: "spectrum:quitoxic_powder"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1DB3A59DFB503458"]
+			hide_dependency_lines: true
+			id: "5949D7A592629716"
+			tasks: [{
+				id: "3A1913E745A72649"
+				item: "spectrum:quitoxic_reeds"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"1DB3A59DFB503458"
+				"28EDB31726F0EC36"
+			]
+			id: "72ADFD477DE798A6"
+			tasks: [{
+				id: "6940906A9ECBAB5B"
+				item: {
+					Count: 1b
+					id: "spectrum:lagoon_rod"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:lure"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1DB3A59DFB503458"]
+			hide_dependency_lines: true
+			id: "28EDB31726F0EC36"
+			tasks: [{
+				id: "7089B01C2E04E129"
+				item: "spectrum:mermaids_gem"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["28EDB31726F0EC36"]
+			id: "648F1D63CB238963"
+			tasks: [{
+				id: "2D73A952159F5CAD"
+				item: "spectrum:mud_bucket"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"1DB3A59DFB503458"
+				"6F68A348C1755C05"
+			]
+			id: "5126FE7ADAB505BA"
+			tasks: [{
+				id: "48B66001985D3514"
+				item: "spectrum:bottle_of_fading"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1DB3A59DFB503458"]
+			hide_dependency_lines: true
+			id: "6F68A348C1755C05"
+			tasks: [{
+				id: "5773610E672450C6"
+				item: "spectrum:shimmerstone_gem"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5126FE7ADAB505BA"]
+			id: "4F3C8759729EE754"
+			tasks: [{
+				id: "030AA4D4B5DE40A1"
+				item: "spectrum:vegetal"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4F3C8759729EE754"]
+			id: "16062746CF4D5EFF"
+			tasks: [{
+				id: "2163AC62FB1F73E7"
+				item: "spectrum:red_sapling"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4F3C8759729EE754"]
+			id: "576813E840D9ADE1"
+			tasks: [{
+				id: "31470A4F6DDF86EA"
+				item: "spectrum:glistering_melon_seeds"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["576813E840D9ADE1"]
+			id: "28D9CD02316ACD88"
+			tasks: [{
+				id: "70DA77879773E31A"
+				item: "minecraft:glistering_melon_slice"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["16062746CF4D5EFF"]
+			id: "41A296758DF83085"
+			tasks: [{
+				id: "62191F09C72253E3"
+				item: "spectrum:red_pigment"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1DB3A59DFB503458"]
+			id: "1DCFE2A13FCAE739"
+			tasks: [
+				{
+					id: "60A2235A7BFF4BAC"
+					item: "spectrum:fusion_shrine_basalt"
+					type: "item"
+				}
+				{
+					hasCustomPicture: false
+					id: "48271D5429B36667"
+					ignoreState: false
+					layer: true
+					name: "fusion_shrine_basalt"
+					rightclick: false
+					type: "questsadditions:structure"
+				}
+			]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1DCFE2A13FCAE739"]
+			id: "765CEDCD01805FDD"
+			tasks: [{
+				id: "5ACA14F3C976CDA8"
+				item: "spectrum:onyx_shard"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["41A296758DF83085"]
+			id: "5622947836C437B8"
+			tasks: [{
+				id: "64ABCEF833C43822"
+				item: "spectrum:radiance_staff"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["41A296758DF83085"]
+			id: "255BDB2696556FDF"
+			tasks: [{
+				id: "32D9B909E80A5933"
+				item: "spectrum:block_flooder"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["41A296758DF83085"]
+			id: "5A49DAD87973D165"
+			tasks: [{
+				id: "4CB647E673C472E5"
+				item: "spectrum:titration_barrel"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5A49DAD87973D165"]
+			id: "03733F7972538D31"
+			tasks: [
+				{
+					id: "3C6D7B2FF89077D5"
+					item: "spectrum:kimchi"
+					type: "item"
+				}
+				{
+					id: "6116D6DF29343D86"
+					item: "spectrum:clotted_cream"
+					type: "item"
+				}
+				{
+					id: "64EDDA273D2BFDCF"
+					item: "spectrum:fresh_chocolate"
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["10B77353177978E4"]
+			id: "1029B883D732061E"
+			tasks: [{
+				id: "6083D70014783C2E"
+				item: {
+					Count: 1b
+					id: "spectrum:oblivion_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "spectrum:voiding"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6F68A348C1755C05"]
+			id: "3C9AB3B051278959"
+			tasks: [{
+				id: "09FB1BD62E7AD5F9"
+				item: {
+					Count: 1b
+					id: "spectrum:lucky_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:fortune"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["28EDB31726F0EC36"]
+			id: "635E5C9E28451CF5"
+			tasks: [{
+				id: "29C1C99377D17E16"
+				item: {
+					Count: 1b
+					id: "spectrum:tender_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:silk_touch"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
 		}
 	]
 	title: "Spectrum"
