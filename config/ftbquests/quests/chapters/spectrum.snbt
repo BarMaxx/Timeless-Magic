@@ -370,7 +370,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4F3C8759729EE754"]
@@ -402,8 +402,8 @@
 				item: "spectrum:red_pigment"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 0.5d
+			x: 9.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1DB3A59DFB503458"]
@@ -441,13 +441,20 @@
 		{
 			dependencies: ["41A296758DF83085"]
 			id: "5622947836C437B8"
-			tasks: [{
-				id: "64ABCEF833C43822"
-				item: "spectrum:radiance_staff"
-				type: "item"
-			}]
-			x: 9.5d
-			y: 1.5d
+			tasks: [
+				{
+					id: "64ABCEF833C43822"
+					item: "spectrum:radiance_staff"
+					type: "item"
+				}
+				{
+					id: "1532E61D1323DAD3"
+					item: "spectrum:natures_staff"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["41A296758DF83085"]
@@ -457,8 +464,8 @@
 				item: "spectrum:block_flooder"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -0.5d
+			x: 9.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["41A296758DF83085"]
@@ -469,7 +476,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5A49DAD87973D165"]
@@ -491,8 +498,8 @@
 					type: "item"
 				}
 			]
-			x: 11.5d
-			y: 0.5d
+			x: 11.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["10B77353177978E4"]
@@ -556,6 +563,387 @@
 			}]
 			x: 3.5d
 			y: 4.0d
+		}
+		{
+			dependencies: ["765CEDCD01805FDD"]
+			id: "0BF06A3F5DD7DF52"
+			tasks: [
+				{
+					id: "00809E472B2FC0C3"
+					item: "spectrum:pedestal_onyx"
+					type: "item"
+				}
+				{
+					hasCustomPicture: false
+					id: "749D49F3E1D310B4"
+					ignoreState: false
+					layer: true
+					name: "pedestal_onyx"
+					rightclick: false
+					title: "Структура"
+					type: "questsadditions:structure"
+				}
+			]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["765CEDCD01805FDD"]
+			id: "515E72FC1A0F8191"
+			tasks: [{
+				id: "5BECDB6F21EA23A8"
+				item: "spectrum:crescent_clock"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["765CEDCD01805FDD"]
+			id: "5920BD086109A47E"
+			tasks: [{
+				id: "4CBEBEBA16410E13"
+				item: "spectrum:redstone_wireless"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["41A296758DF83085"]
+			id: "302E7249E74E98C2"
+			tasks: [{
+				id: "039B0212A198672A"
+				item: "spectrum:shooting_star_glistering"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"0BF06A3F5DD7DF52"
+				"69D35F35F3D3B320"
+			]
+			id: "28F43C2C892325E9"
+			tasks: [{
+				id: "444ABE3CF3A35935"
+				item: "spectrum:stratine_gem"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0BF06A3F5DD7DF52"]
+			hide_dependency_lines: true
+			id: "69D35F35F3D3B320"
+			tasks: [{
+				id: "35A174E32B5C2DD5"
+				item: "spectrum:stratine_fragments"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["69D35F35F3D3B320"]
+			id: "6CCD320BDA9E3BC5"
+			tasks: [{
+				id: "36215F4759D71779"
+				item: "spectrum:constructors_staff"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["28F43C2C892325E9"]
+			id: "64A34882235B958B"
+			tasks: [{
+				id: "4840C3ED9790096B"
+				item: "spectrum:potion_workshop"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["64A34882235B958B"]
+			id: "2196E505C6834340"
+			tasks: [{
+				id: "00AE477A557E97FE"
+				item: "spectrum:liquid_crystal_bucket"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2196E505C6834340"]
+			id: "178332593984F1DD"
+			tasks: [{
+				id: "3A4DACAB45A71109"
+				item: "spectrum:radiance_pin"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0BF06A3F5DD7DF52"]
+			id: "208248B95BA93403"
+			tasks: [
+				{
+					id: "17BFA624E8BF8C43"
+					item: "spectrum:fanciful_stone_ring"
+					type: "item"
+				}
+				{
+					id: "2759448FC5A3CA37"
+					item: "spectrum:fanciful_circlet"
+					type: "item"
+				}
+				{
+					id: "1E71CE5D31431699"
+					item: "spectrum:fanciful_belt"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["28F43C2C892325E9"]
+			id: "57FB5D0599B92434"
+			tasks: [{
+				id: "0EDCB35FA5E99E21"
+				item: "spectrum:jeopardant"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["69D35F35F3D3B320"]
+			id: "496C59A55204AA0C"
+			tasks: [{
+				id: "46839CEA896C014F"
+				item: "spectrum:bottle_of_failing"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["41A296758DF83085"]
+			id: "4588B9A2589B1905"
+			tasks: [
+				{
+					id: "33CC3DF32BB8BEEB"
+					item: "spectrum:color_picker"
+					type: "item"
+				}
+				{
+					id: "63810FCCB650EACE"
+					item: "spectrum:ink_flask"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["496C59A55204AA0C"]
+			id: "6490C354303A22E3"
+			tasks: [{
+				id: "3385138B6CD3A701"
+				item: "spectrum:neolith"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"6490C354303A22E3"
+				"7CC3BDCFCE4DDC99"
+			]
+			id: "3525BC53F2607AA0"
+			tasks: [{
+				id: "24071F0D723EA7B1"
+				item: "spectrum:refined_azurite"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6490C354303A22E3"]
+			hide_dependency_lines: true
+			id: "7CC3BDCFCE4DDC99"
+			tasks: [{
+				id: "32D4D829EBAE7E64"
+				item: "spectrum:raw_azurite"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6490C354303A22E3"]
+			id: "20E3EC5EC0B7C86B"
+			tasks: [{
+				id: "340E3B79D4A83B9D"
+				item: "spectrum:midnight_aberration"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6490C354303A22E3"]
+			id: "578284A758FB0963"
+			tasks: [{
+				id: "39FBF888D240B4CC"
+				item: "spectrum:ashen_circlet"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["28F43C2C892325E9"]
+			id: "07181C68C8927D67"
+			tasks: [{
+				id: "23A1CF888B0D7DC6"
+				item: "spectrum:sucking_chest"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["69D35F35F3D3B320"]
+			id: "040B2BA92178661B"
+			tasks: [{
+				id: "12604E38CFC3CC6A"
+				item: "spectrum:restocking_chest"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0BF06A3F5DD7DF52"]
+			id: "51CBDF09CC4335A1"
+			tasks: [{
+				id: "4C99F485AD4008C3"
+				item: "spectrum:upgrade_speed"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0BF06A3F5DD7DF52"]
+			id: "02610178C55646C8"
+			tasks: [{
+				id: "529694A6671D5F4F"
+				item: "spectrum:amethyst_semi_permeable_glass"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6490C354303A22E3"]
+			id: "7FC4FB805DC81F3D"
+			tasks: [{
+				id: "3BA9FF788B83CF0F"
+				item: "spectrum:bottle_of_decay_away"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["302E7249E74E98C2"]
+			description: ["Иногда с неба падают Звёзды и, если бить их, то можно получить с них Звёздную пыль, а также другие ресурсы, в зависимости от типа звезды."]
+			id: "42643B73C5C12067"
+			tasks: [{
+				id: "126292A9B766D159"
+				item: "spectrum:stardust"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["302E7249E74E98C2"]
+			id: "751CA32B2B0D8A49"
+			tasks: [{
+				id: "59E7A7A6969D0BC9"
+				item: "spectrum:star_fragment"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6490C354303A22E3"]
+			id: "2A1CF65B925577FC"
+			tasks: [{
+				id: "10A8B03FF63B9563"
+				item: "spectrum:storm_stone"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2A1CF65B925577FC"]
+			id: "11B4FD7C737A8378"
+			tasks: [{
+				id: "669015D0B1AB4DA4"
+				item: "spectrum:take_off_belt"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["20E3EC5EC0B7C86B"]
+			id: "50CDB5C9A89287E1"
+			tasks: [{
+				id: "7BC4314103C0A5D1"
+				item: "spectrum:midnight_chip"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["2A1CF65B925577FC"]
+			id: "46012C1FD38AD74E"
+			tasks: [{
+				id: "25A1C149599C4D73"
+				item: "spectrum:crystal_apothecary"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["50CDB5C9A89287E1"]
+			id: "7A7D7C6590EB4EA4"
+			tasks: [{
+				id: "7AC1BAB89A18BD01"
+				item: "spectrum:bottle_of_ruin"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -11.0d
 		}
 	]
 	title: "Spectrum"

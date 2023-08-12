@@ -6,12 +6,12 @@
 	draw_sprites = true
 	#Mode for drawing a background behind entries for better visibility. 'BLACK' is similar to the chat background, 'TOOLTIP' uses the tooltip background rendering instead.
 	#Allowed Values: NONE, BLACK, TOOLTIP
-	background = "NONE"
+	background = "BLACK"
 	#Add the total amount of an item in your inventory to the entry.
-	inventory_count = false
+	inventory_count = true
 	#Color of the entry name text.
 	#Allowed Values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE
-	default_color = "WHITE"
+	default_color = "GOLD"
 	#Should the picked up amount be shown when it's just a single item.
 	display_single_count = true
 	#Scale of entries. A lower scale will make room for more rows to show. Works together with "GUI Scale" option in "Video Settings".
