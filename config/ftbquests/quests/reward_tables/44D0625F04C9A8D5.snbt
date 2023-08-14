@@ -1,4 +1,5 @@
 {
+	hide_tooltip: true
 	icon: "minecraft:amethyst_shard"
 	id: "44D0625F04C9A8D5"
 	loot_size: 1
