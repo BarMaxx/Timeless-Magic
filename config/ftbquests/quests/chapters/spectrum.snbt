@@ -11,6 +11,7 @@
 		{
 			dependencies: ["736DABDDD868D72D"]
 			id: "03643EBAE658900F"
+			shape: "spiral"
 			tasks: [{
 				id: "43532FEAC1B07E8C"
 				item: "spectrum:polished_calcite"
@@ -22,6 +23,7 @@
 		{
 			dependencies: ["736DABDDD868D72D"]
 			id: "3ED4C9720C5044C1"
+			shape: "spiral"
 			tasks: [{
 				id: "3D2534EB4E9AADB1"
 				item: "spectrum:polished_basalt"
@@ -37,12 +39,14 @@
 				"2C7704F0EDEF4884"
 			]
 			id: "5E4E30CBECD91C14"
+			shape: "cross"
+			size: 1.2d
 			tasks: [{
 				id: "24A56FC1A4D26964"
 				item: "spectrum:paintbrush"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: 0.5d
 		}
 		{
@@ -52,6 +56,8 @@
 				"2C7704F0EDEF4884"
 			]
 			id: "22BF75EB7F4A0AB8"
+			shape: "formation"
+			size: 1.1d
 			tasks: [{
 				id: "14092FC4816CED7D"
 				item: {
@@ -70,6 +76,7 @@
 		{
 			dependencies: ["15FAEC4BA6F51CA9"]
 			id: "2C7704F0EDEF4884"
+			shape: "spiral"
 			tasks: [
 				{
 					id: "10582900824D38DB"
@@ -93,6 +100,7 @@
 		{
 			dependencies: ["22BF75EB7F4A0AB8"]
 			id: "3C9683C9B3363775"
+			shape: "spiral"
 			tasks: [
 				{
 					id: "037F982083182D1C"
@@ -116,6 +124,7 @@
 		{
 			dependencies: ["3C9683C9B3363775"]
 			id: "3618D2F67C0150B8"
+			shape: "spiral"
 			tasks: [
 				{
 					id: "6F7283FFD15B0349"
@@ -134,6 +143,7 @@
 		{
 			dependencies: ["3C9683C9B3363775"]
 			id: "60761710F8AED113"
+			shape: "formation"
 			tasks: [
 				{
 					id: "5B27E2D7A7F0103C"
@@ -167,6 +177,7 @@
 		{
 			dependencies: ["3C9683C9B3363775"]
 			id: "64DB21D2DAD013D7"
+			shape: "spiral"
 			tasks: [
 				{
 					id: "7B149BDFDE63EEBC"
@@ -195,29 +206,20 @@
 		{
 			dependencies: ["3C9683C9B3363775"]
 			id: "1DB3A59DFB503458"
-			tasks: [
-				{
-					id: "1E2EAE3DD589B827"
-					item: "spectrum:pedestal_all_basic"
-					type: "item"
-				}
-				{
-					hasCustomPicture: false
-					id: "1E7E4E1E967D765C"
-					ignoreState: false
-					layer: true
-					name: "pedestal_all_basic"
-					rightclick: false
-					title: "Структура Пьедестала"
-					type: "questsadditions:structure"
-				}
-			]
+			shape: "spiral"
+			size: 1.1d
+			tasks: [{
+				id: "1E2EAE3DD589B827"
+				item: "spectrum:pedestal_all_basic"
+				type: "item"
+			}]
 			x: 4.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["1DB3A59DFB503458"]
 			id: "57F0F397512A4FAE"
+			shape: "polygon"
 			tasks: [{
 				id: "73268EFC91622DE8"
 				item: {
@@ -242,6 +244,7 @@
 				"10B77353177978E4"
 			]
 			id: "55955D52A4AA279D"
+			shape: "spiral"
 			tasks: [{
 				id: "2D5FEF80ED45BCF8"
 				item: {
@@ -257,6 +260,8 @@
 		{
 			dependencies: ["5949D7A592629716"]
 			id: "10B77353177978E4"
+			shape: "polygon"
+			size: 1.1d
 			tasks: [{
 				id: "4E8D6E878A29335E"
 				item: "spectrum:quitoxic_powder"
@@ -269,6 +274,8 @@
 			dependencies: ["1DB3A59DFB503458"]
 			hide_dependency_lines: true
 			id: "5949D7A592629716"
+			shape: "formation"
+			size: 1.1d
 			tasks: [{
 				id: "3A1913E745A72649"
 				item: "spectrum:quitoxic_reeds"
@@ -279,10 +286,11 @@
 		}
 		{
 			dependencies: [
-				"1DB3A59DFB503458"
+				"574F587D6657B9A0"
 				"28EDB31726F0EC36"
 			]
 			id: "72ADFD477DE798A6"
+			shape: "polygon"
 			tasks: [{
 				id: "6940906A9ECBAB5B"
 				item: {
@@ -298,149 +306,154 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["1DB3A59DFB503458"]
-			hide_dependency_lines: true
-			id: "28EDB31726F0EC36"
-			tasks: [{
-				id: "7089B01C2E04E129"
-				item: "spectrum:mermaids_gem"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["28EDB31726F0EC36"]
-			id: "648F1D63CB238963"
-			tasks: [{
-				id: "2D73A952159F5CAD"
-				item: "spectrum:mud_bucket"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 4.5d
-		}
-		{
-			dependencies: [
-				"1DB3A59DFB503458"
-				"6F68A348C1755C05"
-			]
-			id: "5126FE7ADAB505BA"
-			tasks: [{
-				id: "48B66001985D3514"
-				item: "spectrum:bottle_of_fading"
-				type: "item"
-			}]
 			x: 5.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["1DB3A59DFB503458"]
 			hide_dependency_lines: true
-			id: "6F68A348C1755C05"
+			id: "28EDB31726F0EC36"
+			shape: "formation"
+			size: 1.1d
 			tasks: [{
-				id: "5773610E672450C6"
-				item: "spectrum:shimmerstone_gem"
+				id: "7089B01C2E04E129"
+				item: "spectrum:mermaids_gem"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["28EDB31726F0EC36"]
+			id: "648F1D63CB238963"
+			shape: "bottle"
+			tasks: [{
+				id: "2D73A952159F5CAD"
+				item: "spectrum:mud_bucket"
 				type: "item"
 			}]
 			x: 6.0d
-			y: 2.5d
+			y: 4.0d
 		}
 		{
-			dependencies: ["5126FE7ADAB505BA"]
-			id: "4F3C8759729EE754"
+			dependencies: [
+				"574F587D6657B9A0"
+				"6F68A348C1755C05"
+			]
+			id: "5126FE7ADAB505BA"
+			shape: "bottle"
 			tasks: [{
-				id: "030AA4D4B5DE40A1"
-				item: "spectrum:vegetal"
+				id: "48B66001985D3514"
+				item: "spectrum:bottle_of_fading"
 				type: "item"
 			}]
 			x: 7.0d
 			y: 1.5d
 		}
 		{
-			dependencies: ["4F3C8759729EE754"]
-			id: "16062746CF4D5EFF"
+			dependencies: ["1DB3A59DFB503458"]
+			hide_dependency_lines: true
+			id: "6F68A348C1755C05"
+			shape: "spiral"
 			tasks: [{
-				id: "2163AC62FB1F73E7"
-				item: "spectrum:red_sapling"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["4F3C8759729EE754"]
-			id: "576813E840D9ADE1"
-			tasks: [{
-				id: "31470A4F6DDF86EA"
-				item: "spectrum:glistering_melon_seeds"
+				id: "5773610E672450C6"
+				item: "spectrum:shimmerstone_gem"
 				type: "item"
 			}]
 			x: 7.5d
 			y: 2.5d
 		}
 		{
+			dependencies: ["5126FE7ADAB505BA"]
+			id: "4F3C8759729EE754"
+			shape: "formation"
+			size: 1.1d
+			tasks: [{
+				id: "030AA4D4B5DE40A1"
+				item: "spectrum:vegetal"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4F3C8759729EE754"]
+			id: "16062746CF4D5EFF"
+			shape: "spiral"
+			tasks: [{
+				id: "2163AC62FB1F73E7"
+				item: "spectrum:red_sapling"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4F3C8759729EE754"]
+			id: "576813E840D9ADE1"
+			shape: "spiral"
+			tasks: [{
+				id: "31470A4F6DDF86EA"
+				item: "spectrum:glistering_melon_seeds"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
 			dependencies: ["576813E840D9ADE1"]
 			id: "28D9CD02316ACD88"
+			shape: "spiral"
 			tasks: [{
 				id: "70DA77879773E31A"
 				item: "minecraft:glistering_melon_slice"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 3.0d
+			x: 10.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["16062746CF4D5EFF"]
 			id: "41A296758DF83085"
+			shape: "bottle"
 			tasks: [{
 				id: "62191F09C72253E3"
 				item: "spectrum:red_pigment"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 1.0d
+			x: 10.0d
+			y: 3.5d
 		}
 		{
-			dependencies: ["1DB3A59DFB503458"]
+			dependencies: ["574F587D6657B9A0"]
 			id: "1DCFE2A13FCAE739"
-			tasks: [
-				{
-					id: "60A2235A7BFF4BAC"
-					item: "spectrum:fusion_shrine_basalt"
-					type: "item"
-				}
-				{
-					hasCustomPicture: false
-					id: "48271D5429B36667"
-					ignoreState: false
-					layer: true
-					name: "fusion_shrine_basalt"
-					rightclick: false
-					type: "questsadditions:structure"
-				}
-			]
-			x: 6.5d
+			shape: "formation"
+			size: 1.1d
+			tasks: [{
+				id: "60A2235A7BFF4BAC"
+				item: "spectrum:fusion_shrine_basalt"
+				type: "item"
+			}]
+			x: 7.5d
 			y: 0.5d
 		}
 		{
-			dependencies: ["1DCFE2A13FCAE739"]
+			dependencies: ["08515AF5A5C5E387"]
 			id: "765CEDCD01805FDD"
+			shape: "polygon"
+			size: 1.2d
 			tasks: [{
 				id: "5ACA14F3C976CDA8"
 				item: "spectrum:onyx_shard"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -0.5d
+			x: 8.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["41A296758DF83085"]
 			id: "5622947836C437B8"
+			shape: "polygon"
 			tasks: [
 				{
 					id: "64ABCEF833C43822"
@@ -453,34 +466,38 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: 2.0d
+			x: 9.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["41A296758DF83085"]
 			id: "255BDB2696556FDF"
+			shape: "polygon"
 			tasks: [{
 				id: "32D9B909E80A5933"
 				item: "spectrum:block_flooder"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["41A296758DF83085"]
 			id: "5A49DAD87973D165"
+			shape: "polygon"
+			size: 1.1d
 			tasks: [{
 				id: "4CB647E673C472E5"
 				item: "spectrum:titration_barrel"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 0.0d
+			x: 11.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["5A49DAD87973D165"]
 			id: "03733F7972538D31"
+			shape: "spiral"
 			tasks: [
 				{
 					id: "3C6D7B2FF89077D5"
@@ -498,12 +515,13 @@
 					type: "item"
 				}
 			]
-			x: 11.0d
-			y: -0.5d
+			x: 13.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["10B77353177978E4"]
 			id: "1029B883D732061E"
+			shape: "formation"
 			tasks: [{
 				id: "6083D70014783C2E"
 				item: {
@@ -525,6 +543,7 @@
 		{
 			dependencies: ["6F68A348C1755C05"]
 			id: "3C9AB3B051278959"
+			shape: "polygon"
 			tasks: [{
 				id: "09FB1BD62E7AD5F9"
 				item: {
@@ -540,12 +559,13 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.0d
+			x: 7.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["28EDB31726F0EC36"]
 			id: "635E5C9E28451CF5"
+			shape: "polygon"
 			tasks: [{
 				id: "29C1C99377D17E16"
 				item: {
@@ -561,138 +581,142 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
-			y: 4.0d
+			x: 4.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["765CEDCD01805FDD"]
 			id: "0BF06A3F5DD7DF52"
-			tasks: [
-				{
-					id: "00809E472B2FC0C3"
-					item: "spectrum:pedestal_onyx"
-					type: "item"
-				}
-				{
-					hasCustomPicture: false
-					id: "749D49F3E1D310B4"
-					ignoreState: false
-					layer: true
-					name: "pedestal_onyx"
-					rightclick: false
-					title: "Структура"
-					type: "questsadditions:structure"
-				}
-			]
-			x: 7.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["765CEDCD01805FDD"]
-			id: "515E72FC1A0F8191"
+			shape: "cube"
+			size: 1.1d
 			tasks: [{
-				id: "5BECDB6F21EA23A8"
-				item: "spectrum:crescent_clock"
-				type: "item"
-			}]
-			x: 8.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["765CEDCD01805FDD"]
-			id: "5920BD086109A47E"
-			tasks: [{
-				id: "4CBEBEBA16410E13"
-				item: "spectrum:redstone_wireless"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["41A296758DF83085"]
-			id: "302E7249E74E98C2"
-			tasks: [{
-				id: "039B0212A198672A"
-				item: "spectrum:shooting_star_glistering"
-				type: "item"
-			}]
-			x: 11.0d
-			y: 1.0d
-		}
-		{
-			dependencies: [
-				"0BF06A3F5DD7DF52"
-				"69D35F35F3D3B320"
-			]
-			id: "28F43C2C892325E9"
-			tasks: [{
-				id: "444ABE3CF3A35935"
-				item: "spectrum:stratine_gem"
-				type: "item"
-			}]
-			x: 8.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["0BF06A3F5DD7DF52"]
-			hide_dependency_lines: true
-			id: "69D35F35F3D3B320"
-			tasks: [{
-				id: "35A174E32B5C2DD5"
-				item: "spectrum:stratine_fragments"
-				type: "item"
-			}]
-			x: 7.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["69D35F35F3D3B320"]
-			id: "6CCD320BDA9E3BC5"
-			tasks: [{
-				id: "36215F4759D71779"
-				item: "spectrum:constructors_staff"
-				type: "item"
-			}]
-			x: 6.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["28F43C2C892325E9"]
-			id: "64A34882235B958B"
-			tasks: [{
-				id: "4840C3ED9790096B"
-				item: "spectrum:potion_workshop"
+				id: "00809E472B2FC0C3"
+				item: "spectrum:pedestal_onyx"
 				type: "item"
 			}]
 			x: 9.5d
 			y: -3.0d
 		}
 		{
+			dependencies: ["765CEDCD01805FDD"]
+			id: "515E72FC1A0F8191"
+			shape: "spiral"
+			tasks: [{
+				id: "5BECDB6F21EA23A8"
+				item: "spectrum:crescent_clock"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["765CEDCD01805FDD"]
+			id: "5920BD086109A47E"
+			shape: "spiral"
+			tasks: [{
+				id: "4CBEBEBA16410E13"
+				item: "spectrum:redstone_wireless"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["41A296758DF83085"]
+			id: "302E7249E74E98C2"
+			shape: "cube"
+			size: 1.2d
+			tasks: [{
+				id: "039B0212A198672A"
+				item: "spectrum:shooting_star_glistering"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"51BC797CB9A15104"
+				"69D35F35F3D3B320"
+			]
+			id: "28F43C2C892325E9"
+			shape: "formation"
+			size: 1.1d
+			tasks: [{
+				id: "444ABE3CF3A35935"
+				item: "spectrum:stratine_gem"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0BF06A3F5DD7DF52"]
+			hide_dependency_lines: true
+			id: "69D35F35F3D3B320"
+			shape: "spiral"
+			tasks: [{
+				id: "35A174E32B5C2DD5"
+				item: "spectrum:stratine_fragments"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["69D35F35F3D3B320"]
+			id: "6CCD320BDA9E3BC5"
+			shape: "formation"
+			tasks: [{
+				id: "36215F4759D71779"
+				item: "spectrum:constructors_staff"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["28F43C2C892325E9"]
+			id: "64A34882235B958B"
+			shape: "polygon"
+			size: 1.1d
+			tasks: [{
+				id: "4840C3ED9790096B"
+				item: "spectrum:potion_workshop"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -4.5d
+		}
+		{
 			dependencies: ["64A34882235B958B"]
 			id: "2196E505C6834340"
+			shape: "spiral"
 			tasks: [{
 				id: "00AE477A557E97FE"
 				item: "spectrum:liquid_crystal_bucket"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -4.5d
+			x: 14.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2196E505C6834340"]
 			id: "178332593984F1DD"
+			shape: "formation"
+			size: 1.1d
 			tasks: [{
 				id: "3A4DACAB45A71109"
 				item: "spectrum:radiance_pin"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -5.0d
+			x: 14.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0BF06A3F5DD7DF52"]
 			id: "208248B95BA93403"
+			shape: "spiral"
 			tasks: [
 				{
 					id: "17BFA624E8BF8C43"
@@ -710,34 +734,37 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: -2.5d
+			x: 9.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["28F43C2C892325E9"]
 			id: "57FB5D0599B92434"
+			shape: "spiral"
 			tasks: [{
 				id: "0EDCB35FA5E99E21"
 				item: "spectrum:jeopardant"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -1.5d
+			x: 10.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["69D35F35F3D3B320"]
 			id: "496C59A55204AA0C"
+			shape: "spiral"
 			tasks: [{
 				id: "46839CEA896C014F"
 				item: "spectrum:bottle_of_failing"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -5.5d
+			x: 12.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["41A296758DF83085"]
 			id: "4588B9A2589B1905"
+			shape: "spiral"
 			tasks: [
 				{
 					id: "33CC3DF32BB8BEEB"
@@ -751,18 +778,20 @@
 				}
 			]
 			x: 9.0d
-			y: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["496C59A55204AA0C"]
 			id: "6490C354303A22E3"
+			shape: "cube"
+			size: 1.2d
 			tasks: [{
 				id: "3385138B6CD3A701"
 				item: "spectrum:neolith"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -7.0d
+			x: 13.5d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -770,180 +799,275 @@
 				"7CC3BDCFCE4DDC99"
 			]
 			id: "3525BC53F2607AA0"
+			shape: "formation"
 			tasks: [{
 				id: "24071F0D723EA7B1"
 				item: "spectrum:refined_azurite"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -7.5d
+			x: 14.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["6490C354303A22E3"]
 			hide_dependency_lines: true
 			id: "7CC3BDCFCE4DDC99"
+			shape: "spiral"
+			size: 1.1d
 			tasks: [{
 				id: "32D4D829EBAE7E64"
 				item: "spectrum:raw_azurite"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -8.5d
+			x: 15.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["6490C354303A22E3"]
 			id: "20E3EC5EC0B7C86B"
+			shape: "formation"
 			tasks: [{
 				id: "340E3B79D4A83B9D"
 				item: "spectrum:midnight_aberration"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -8.5d
+			x: 15.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["6490C354303A22E3"]
 			id: "578284A758FB0963"
+			shape: "spiral"
 			tasks: [{
 				id: "39FBF888D240B4CC"
 				item: "spectrum:ashen_circlet"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -6.5d
+			x: 13.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["28F43C2C892325E9"]
 			id: "07181C68C8927D67"
+			shape: "spiral"
 			tasks: [{
 				id: "23A1CF888B0D7DC6"
 				item: "spectrum:sucking_chest"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -2.0d
+			x: 12.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["69D35F35F3D3B320"]
 			id: "040B2BA92178661B"
+			shape: "spiral"
 			tasks: [{
 				id: "12604E38CFC3CC6A"
 				item: "spectrum:restocking_chest"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -4.5d
+			x: 12.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["0BF06A3F5DD7DF52"]
 			id: "51CBDF09CC4335A1"
+			shape: "formation"
+			size: 1.1d
 			tasks: [{
 				id: "4C99F485AD4008C3"
 				item: "spectrum:upgrade_speed"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -3.5d
+			x: 9.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["0BF06A3F5DD7DF52"]
 			id: "02610178C55646C8"
+			shape: "spiral"
 			tasks: [{
 				id: "529694A6671D5F4F"
 				item: "spectrum:amethyst_semi_permeable_glass"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -1.5d
+			x: 10.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6490C354303A22E3"]
 			id: "7FC4FB805DC81F3D"
+			shape: "spiral"
 			tasks: [{
 				id: "3BA9FF788B83CF0F"
 				item: "spectrum:bottle_of_decay_away"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -8.5d
+			x: 14.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["302E7249E74E98C2"]
 			description: ["Иногда с неба падают Звёзды и, если бить их, то можно получить с них Звёздную пыль, а также другие ресурсы, в зависимости от типа звезды."]
 			id: "42643B73C5C12067"
+			shape: "formation"
 			tasks: [{
 				id: "126292A9B766D159"
 				item: "spectrum:stardust"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 0.5d
+			x: 9.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["302E7249E74E98C2"]
 			id: "751CA32B2B0D8A49"
+			shape: "formation"
 			tasks: [{
 				id: "59E7A7A6969D0BC9"
 				item: "spectrum:star_fragment"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 1.5d
+			x: 11.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["6490C354303A22E3"]
 			id: "2A1CF65B925577FC"
+			shape: "formation"
 			tasks: [{
 				id: "10A8B03FF63B9563"
 				item: "spectrum:storm_stone"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -7.0d
+			x: 13.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["2A1CF65B925577FC"]
 			id: "11B4FD7C737A8378"
+			shape: "spiral"
 			tasks: [{
 				id: "669015D0B1AB4DA4"
 				item: "spectrum:take_off_belt"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -6.5d
+			x: 12.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["20E3EC5EC0B7C86B"]
 			id: "50CDB5C9A89287E1"
+			shape: "spiral"
+			size: 1.1d
 			tasks: [{
 				id: "7BC4314103C0A5D1"
 				item: "spectrum:midnight_chip"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -10.0d
+			x: 16.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["2A1CF65B925577FC"]
 			id: "46012C1FD38AD74E"
+			shape: "spiral"
 			tasks: [{
 				id: "25A1C149599C4D73"
 				item: "spectrum:crystal_apothecary"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -7.5d
+			x: 13.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["50CDB5C9A89287E1"]
 			id: "7A7D7C6590EB4EA4"
+			shape: "cross"
+			size: 1.2d
 			tasks: [{
 				id: "7AC1BAB89A18BD01"
 				item: "spectrum:bottle_of_ruin"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -11.0d
+			x: 18.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1DB3A59DFB503458"]
+			id: "574F587D6657B9A0"
+			shape: "spiral"
+			tasks: [{
+				hasCustomPicture: false
+				id: "3A93B5066A56B5E6"
+				ignoreState: false
+				layer: true
+				name: ""
+				rightclick: false
+				title: "111"
+				type: "questsadditions:structure"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["42643B73C5C12067"]
+			id: "4DC40EEE01FD63C0"
+			shape: "spiral"
+			tasks: [{
+				id: "7B060E23BD4E9755"
+				item: "spectrum:ethereal_platform"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1DCFE2A13FCAE739"]
+			id: "08515AF5A5C5E387"
+			shape: "spiral"
+			tasks: [{
+				hasCustomPicture: false
+				id: "6056D523DE59EC7E"
+				ignoreState: false
+				layer: true
+				name: ""
+				rightclick: false
+				title: "222"
+				type: "questsadditions:structure"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0BF06A3F5DD7DF52"]
+			id: "51BC797CB9A15104"
+			shape: "spiral"
+			tasks: [{
+				hasCustomPicture: false
+				id: "54393BA807C3FD78"
+				ignoreState: false
+				layer: true
+				name: ""
+				rightclick: false
+				title: "333"
+				type: "questsadditions:structure"
+			}]
+			x: 11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["751CA32B2B0D8A49"]
+			id: "44A9670D5A52E4DF"
+			shape: "spiral"
+			tasks: [{
+				id: "25D64FD5E0F911B1"
+				item: "spectrum:particle_spawner"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.5d
 		}
 	]
 	title: "Spectrum"
