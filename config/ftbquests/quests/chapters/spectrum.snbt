@@ -320,8 +320,8 @@
 				item: "spectrum:mermaids_gem"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 3.0d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["28EDB31726F0EC36"]
@@ -332,8 +332,8 @@
 				item: "spectrum:mud_bucket"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.0d
+			x: 5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -451,7 +451,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["41A296758DF83085"]
+			dependencies: ["71573A8185B7EAC5"]
 			id: "5622947836C437B8"
 			shape: "polygon"
 			tasks: [
@@ -466,8 +466,8 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: 4.0d
+			x: 12.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["41A296758DF83085"]
@@ -482,16 +482,15 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["41A296758DF83085"]
+			dependencies: ["71573A8185B7EAC5"]
 			id: "5A49DAD87973D165"
 			shape: "polygon"
-			size: 1.1d
 			tasks: [{
 				id: "4CB647E673C472E5"
 				item: "spectrum:titration_barrel"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 14.0d
 			y: 3.5d
 		}
 		{
@@ -515,7 +514,7 @@
 					type: "item"
 				}
 			]
-			x: 13.0d
+			x: 15.5d
 			y: 3.5d
 		}
 		{
@@ -559,8 +558,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: 3.5d
+			x: 6.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["28EDB31726F0EC36"]
@@ -581,8 +580,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: 3.5d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["765CEDCD01805FDD"]
@@ -698,7 +697,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: -4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["2196E505C6834340"]
@@ -711,7 +710,7 @@
 				type: "item"
 			}]
 			x: 14.5d
-			y: -3.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["0BF06A3F5DD7DF52"]
@@ -747,7 +746,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: -4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["69D35F35F3D3B320"]
@@ -762,7 +761,7 @@
 			y: -7.5d
 		}
 		{
-			dependencies: ["41A296758DF83085"]
+			dependencies: ["71573A8185B7EAC5"]
 			id: "4588B9A2589B1905"
 			shape: "spiral"
 			tasks: [
@@ -777,8 +776,8 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: 3.0d
+			x: 12.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["496C59A55204AA0C"]
@@ -855,8 +854,8 @@
 				item: "spectrum:sucking_chest"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -3.5d
+			x: 10.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["69D35F35F3D3B320"]
@@ -942,7 +941,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: -9.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["2A1CF65B925577FC"]
@@ -954,7 +953,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -9.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["20E3EC5EC0B7C86B"]
@@ -978,8 +977,8 @@
 				item: "spectrum:crystal_apothecary"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -10.0d
+			x: 13.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["50CDB5C9A89287E1"]
@@ -1068,6 +1067,610 @@
 			}]
 			x: 10.5d
 			y: 6.5d
+		}
+		{
+			dependencies: ["7A7D7C6590EB4EA4"]
+			id: "0C3D6045B339C6F5"
+			shape: "formation"
+			tasks: [{
+				id: "02084BBE624219AF"
+				item: "spectrum:bedrock_dust"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0C3D6045B339C6F5"]
+			id: "58EC08F905BBA419"
+			shape: "cube"
+			tasks: [{
+				id: "1C1264AB8978A31A"
+				item: "spectrum:bedrock_storage_block"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"64A34882235B958B"
+				"0EE383B5F3147AE9"
+			]
+			id: "0490AE5B33C1B6E9"
+			shape: "spiral"
+			tasks: [{
+				id: "40C910A96B55208F"
+				item: "spectrum:bloodboil_syrup"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0C3D6045B339C6F5"]
+			hide_dependency_lines: true
+			id: "0EE383B5F3147AE9"
+			shape: "formation"
+			tasks: [{
+				id: "0CD84163DB071E0B"
+				item: "spectrum:blood_orchid_petal"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["50CDB5C9A89287E1"]
+			id: "7DF5D2EF5A31D0C2"
+			shape: "spiral"
+			tasks: [{
+				id: "3D246D287BBAB7EC"
+				item: "spectrum:midnight_solution_bucket"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0C3D6045B339C6F5"]
+			id: "1072075469AD1C69"
+			shape: "shield"
+			tasks: [
+				{
+					id: "161F1FA192910448"
+					item: {
+						Count: 1b
+						id: "spectrum:bedrock_helmet"
+						tag: {
+							Enchantments: [{
+								id: "minecraft:projectile_protection"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0760709DB5422B64"
+					item: {
+						Count: 1b
+						id: "spectrum:bedrock_chestplate"
+						tag: {
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04696A826068FADC"
+					item: {
+						Count: 1b
+						id: "spectrum:bedrock_leggings"
+						tag: {
+							Enchantments: [{
+								id: "minecraft:blast_protection"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7456EEE1FB751FAB"
+					item: {
+						Count: 1b
+						id: "spectrum:bedrock_boots"
+						tag: {
+							Enchantments: [{
+								id: "minecraft:fire_protection"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0C3D6045B339C6F5"]
+			id: "62FB1D01B4B54B01"
+			shape: "spiral"
+			tasks: [
+				{
+					id: "3F5ED48B5B3D73E9"
+					item: {
+						Count: 1b
+						id: "spectrum:bedrock_sword"
+						tag: {
+							Enchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 6s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "540E13CCCBF22C5A"
+					item: {
+						Count: 1b
+						id: "spectrum:bedrock_axe"
+						tag: {
+							Enchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 6s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0C3D6045B339C6F5"]
+			id: "0F6797B4D028360F"
+			shape: "spiral"
+			tasks: [
+				{
+					id: "125710A1E67F5D5D"
+					item: {
+						Count: 1b
+						id: "spectrum:bedrock_bow"
+						tag: {
+							Enchantments: [{
+								id: "minecraft:power"
+								lvl: 6s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B563282DA9E7B7E"
+					item: {
+						Count: 1b
+						id: "spectrum:bedrock_crossbow"
+						tag: {
+							Enchantments: [{
+								id: "minecraft:quick_charge"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 19.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0C3D6045B339C6F5"]
+			id: "38A406ACAB6E62CB"
+			shape: "polygon"
+			tasks: [
+				{
+					id: "086AE5A60E63707E"
+					item: {
+						Count: 1b
+						id: "spectrum:bedrock_pickaxe"
+						tag: {
+							Enchantments: [{
+								id: "minecraft:silk_touch"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5AF3A924A8066580"
+					item: {
+						Count: 1b
+						id: "spectrum:bedrock_shovel"
+						tag: {
+							Enchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 6s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A1EC56D6CF1B286"
+					item: {
+						Count: 1b
+						id: "spectrum:bedrock_hoe"
+						tag: {
+							Enchantments: [{
+								id: "minecraft:fortune"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["0C3D6045B339C6F5"]
+			id: "287091B719731F36"
+			shape: "spiral"
+			tasks: [{
+				id: "739D956A2BA3674A"
+				item: {
+					Count: 1b
+					id: "spectrum:bedrock_shears"
+					tag: {
+						Enchantments: [{
+							id: "minecraft:silk_touch"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 21.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0C3D6045B339C6F5"]
+			id: "45CD51C80B734DAA"
+			shape: "spiral"
+			tasks: [{
+				id: "0EF5079F158C844B"
+				item: {
+					Count: 1b
+					id: "spectrum:bedrock_fishing_rod"
+					tag: {
+						Enchantments: [{
+							id: "minecraft:luck_of_the_sea"
+							lvl: 4s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"71573A8185B7EAC5"
+				"428765AAA2C27B10"
+			]
+			id: "728DB410986DE72A"
+			shape: "spiral"
+			tasks: [{
+				id: "03C0ADA125AC2AD3"
+				item: "spectrum:ink_assortment"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["41A296758DF83085"]
+			hide_dependency_lines: true
+			id: "428765AAA2C27B10"
+			shape: "spiral"
+			tasks: [{
+				id: "7A9E2ACFF2263D30"
+				item: "spectrum:four_leaf_clover"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["41A296758DF83085"]
+			id: "71573A8185B7EAC5"
+			shape: "formation"
+			tasks: [{
+				id: "1326C58952B1063C"
+				title: "Спектр пигментов!"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["51BC797CB9A15104"]
+			id: "6D260CFFC5A814B0"
+			shape: "spiral"
+			tasks: [{
+				id: "49131A91635E3CFF"
+				item: "spectrum:liquid_crystal_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6D260CFFC5A814B0"]
+			id: "3E6A6740FA74F417"
+			shape: "spiral"
+			tasks: [{
+				id: "467C95B08E25DCF0"
+				title: "Водные процедуры!"
+				type: "checkmark"
+			}]
+			x: 13.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3E6A6740FA74F417"]
+			id: "45E19E231E4BD60D"
+			shape: "spiral"
+			tasks: [{
+				id: "0F77CAC80DFA8788"
+				item: "spectrum:sugar_stick"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["45E19E231E4BD60D"]
+			id: "0BE8DD67FE8CFC92"
+			shape: "spiral"
+			tasks: [{
+				id: "721B972FF7D51C5F"
+				item: "spectrum:rock_candy"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E6A6740FA74F417"]
+			id: "0150F577DC0BA931"
+			shape: "spiral"
+			tasks: [{
+				id: "3E05901D3076540E"
+				item: "spectrum:knowledge_gem"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3E6A6740FA74F417"]
+			id: "348707F57153B770"
+			shape: "formation"
+			tasks: [{
+				id: "44EB43665299B0D2"
+				item: "spectrum:enchanter"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6F68A348C1755C05"]
+			id: "3A80E85FB96B2ED4"
+			shape: "spiral"
+			tasks: [
+				{
+					id: "1450AFC2EB9685BA"
+					item: "spectrum:item_bowl_basalt"
+					type: "item"
+				}
+				{
+					id: "6494D9951B85BC6D"
+					item: "spectrum:item_bowl_calcite"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["51CBDF09CC4335A1"]
+			id: "0A19DDBFED3552F6"
+			shape: "formation"
+			tasks: [{
+				id: "68AE71BF434FAD6E"
+				title: "Квесты с улучшенными пигментными пьедесталами!"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["348707F57153B770"]
+			id: "0562EEE4C0945C25"
+			shape: "spiral"
+			tasks: [{
+				hasCustomPicture: false
+				id: "5D8EAED164AE495C"
+				ignoreState: false
+				layer: true
+				name: "enchanter"
+				rightclick: false
+				title: "444"
+				type: "questsadditions:structure"
+			}]
+			x: 16.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0562EEE4C0945C25"]
+			id: "2D3809AFD4A93031"
+			shape: "cube"
+			tasks: [{
+				id: "0AAEBCE32A65217D"
+				title: "Как правильно чаровать?"
+				type: "checkmark"
+			}]
+			x: 17.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6F68A348C1755C05"]
+			id: "1B074EC6784A55C3"
+			shape: "spiral"
+			tasks: [{
+				id: "13E3001BFDA59141"
+				item: "spectrum:phantom_frame"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1B074EC6784A55C3"]
+			id: "39EDC531F527DAE9"
+			shape: "spiral"
+			tasks: [{
+				id: "0EDE3C29F7A4F6F4"
+				item: "spectrum:glow_phantom_frame"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6F68A348C1755C05"]
+			id: "437A2EA3FC046A0D"
+			shape: "spiral"
+			tasks: [{
+				id: "710FC02F8D06AC5F"
+				item: "spectrum:glowing_glass"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["51BC797CB9A15104"]
+			id: "6918934AFF882D05"
+			shape: "spiral"
+			tasks: [{
+				id: "34481EAA9FF07D96"
+				item: "spectrum:brown_sapling"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"50CDB5C9A89287E1"
+				"0FE595C4A833369A"
+			]
+			id: "6ED29365B49A75A2"
+			shape: "spiral"
+			tasks: [{
+				id: "0465340C9F766FC4"
+				item: "spectrum:universe_spyhole"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2C7704F0EDEF4884"]
+			hide_dependency_lines: true
+			id: "0FE595C4A833369A"
+			shape: "formation"
+			tasks: [{
+				id: "1023CA3F59A5B4C4"
+				item: "spectrum:radiating_ender"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["0FE595C4A833369A"]
+			id: "65D7F2111ED59787"
+			shape: "spiral"
+			tasks: [{
+				id: "4EA95B86D92DA773"
+				item: "spectrum:ender_hopper"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["0FE595C4A833369A"]
+			id: "6B06B380CC5E4B76"
+			shape: "spiral"
+			tasks: [{
+				id: "624BA19AAEBCBDCA"
+				item: "spectrum:ender_dropper"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["0FE595C4A833369A"]
+			id: "367B8DC50BFDDB06"
+			shape: "spiral"
+			tasks: [{
+				id: "0989DF21E1463056"
+				item: "spectrum:ender_splice"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["0FE595C4A833369A"]
+			id: "2AF108ABE79AB354"
+			shape: "spiral"
+			tasks: [{
+				id: "21488CAAC94BFCF4"
+				item: "spectrum:ender_glass"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["2A1CF65B925577FC"]
+			id: "101A6CFBB756206F"
+			shape: "formation"
+			tasks: [{
+				id: "00612FC9F7E8505D"
+				item: "spectrum:upgrade_experience"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -10.5d
 		}
 	]
 	title: "Spectrum"
