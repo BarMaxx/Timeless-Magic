@@ -466,7 +466,7 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
+			x: 11.5d
 			y: 4.5d
 		}
 		{
@@ -730,6 +730,11 @@
 				{
 					id: "1E71CE5D31431699"
 					item: "spectrum:fanciful_belt"
+					type: "item"
+				}
+				{
+					id: "10417FBDA88E15E7"
+					item: "spectrum:fanciful_pendant"
 					type: "item"
 				}
 			]
@@ -1036,7 +1041,7 @@
 				title: "222"
 				type: "questsadditions:structure"
 			}]
-			x: 8.0d
+			x: 7.5d
 			y: -1.0d
 		}
 		{
@@ -1557,8 +1562,8 @@
 				item: "spectrum:glow_phantom_frame"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 4.0d
+			x: 8.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["6F68A348C1755C05"]
@@ -1609,7 +1614,7 @@
 				item: "spectrum:radiating_ender"
 				type: "item"
 			}]
-			x: 16.5d
+			x: 17.0d
 			y: -11.0d
 		}
 		{
@@ -1621,8 +1626,8 @@
 				item: "spectrum:ender_hopper"
 				type: "item"
 			}]
-			x: 18.0d
-			y: -11.5d
+			x: 16.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["0FE595C4A833369A"]
@@ -1633,8 +1638,8 @@
 				item: "spectrum:ender_dropper"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -11.0d
+			x: 16.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["0FE595C4A833369A"]
@@ -1645,7 +1650,7 @@
 				item: "spectrum:ender_splice"
 				type: "item"
 			}]
-			x: 16.5d
+			x: 17.0d
 			y: -12.5d
 		}
 		{
@@ -1657,8 +1662,8 @@
 				item: "spectrum:ender_glass"
 				type: "item"
 			}]
-			x: 18.0d
-			y: -10.5d
+			x: 17.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["2A1CF65B925577FC"]
@@ -1670,7 +1675,597 @@
 				type: "item"
 			}]
 			x: 12.5d
-			y: -10.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["7CC3BDCFCE4DDC99"]
+			id: "179347A5F0D8D2C5"
+			shape: "spiral"
+			tasks: [{
+				id: "50FC93E2C8DEF3EB"
+				item: "spectrum:azurite_block"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["179347A5F0D8D2C5"]
+			id: "1BC7932769A3A79E"
+			shape: "spiral"
+			tasks: [{
+				id: "6287E514799E057A"
+				item: "spectrum:spirit_instiller"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["0C6023B47F23352A"]
+			id: "65CD7F7DB5D5845C"
+			shape: "spiral"
+			tasks: [{
+				id: "268720A6E20A0386"
+				item: "spectrum:memory"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["69D35F35F3D3B320"]
+			id: "4BF7A7CD9D08FBB1"
+			shape: "formation"
+			tasks: [{
+				id: "3FD9A23DD50F66B9"
+				item: "spectrum:cinderhearth"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5A49DAD87973D165"]
+			id: "6B4F72D744E0121B"
+			shape: "spiral"
+			tasks: [{
+				id: "3DA7406E2E49EE14"
+				item: "spectrum:incandescent_amalgam"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"5A49DAD87973D165"
+				"41DB43BCBBFD1B32"
+			]
+			id: "723E12320AAC6AA2"
+			shape: "spiral"
+			tasks: [
+				{
+					id: "42C3FAA7884BE65C"
+					item: "spectrum:reprise"
+					type: "item"
+				}
+				{
+					id: "0C3F2BDC8F02B00E"
+					item: "spectrum:freigeist"
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6B4F72D744E0121B"]
+			id: "77A0314EECEFA25E"
+			shape: "polygon"
+			tasks: [{
+				id: "211A197166AF30ED"
+				item: {
+					Count: 1b
+					id: "spectrum:pure_alcohol"
+					tag: {
+						AgeDays: 100L
+						AlcPercent: 100
+						Thickness: 1.0f
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0C3D6045B339C6F5"]
+			hide_dependency_lines: true
+			id: "41DB43BCBBFD1B32"
+			shape: "polygon"
+			tasks: [{
+				id: "5145279F0CE7D81F"
+				item: "spectrum:blizzard_powder"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0C6023B47F23352A"]
+			id: "74E42E4671A40F59"
+			shape: "spiral"
+			tasks: [{
+				id: "0CF3F4C5E05FB7D0"
+				item: "spectrum:budding_onyx"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["71573A8185B7EAC5"]
+			id: "7DBF162D120E31F2"
+			shape: "spiral"
+			tasks: [{
+				id: "194FAE282C9982A6"
+				item: {
+					Count: 1b
+					id: "spectrum:molten_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5E4E30CBECD91C14"]
+			id: "336B47F74B2D72CC"
+			shape: "formation"
+			tasks: [
+				{
+					id: "13196494B4EE47F9"
+					item: {
+						Count: 1b
+						id: "spectrum:fetchling_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0AB5BEB33051F37B"
+					item: {
+						Count: 1b
+						id: "spectrum:ferocious_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F642FF4FF7C5FD3"
+					item: {
+						Count: 1b
+						id: "spectrum:sylph_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "642D0ADA144D202D"
+					item: {
+						Count: 1b
+						id: "spectrum:oread_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2D3809AFD4A93031"]
+			id: "595BAA7F069E6A23"
+			tasks: [{
+				id: "6CF2AE2509ABB021"
+				title: "Получение Голов!"
+				type: "checkmark"
+			}]
+			x: 19.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["595BAA7F069E6A23"]
+			id: "602C72DBD05F6BF2"
+			tasks: [{
+				id: "5050CCC0C585EAA3"
+				item: "spectrum:egg_laying_wooly_pig_head"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1BC7932769A3A79E"]
+			id: "0C6023B47F23352A"
+			shape: "formation"
+			tasks: [{
+				hasCustomPicture: false
+				id: "2DB412A012133710"
+				ignoreState: false
+				layer: true
+				name: ""
+				rightclick: false
+				title: "555"
+				type: "questsadditions:structure"
+			}]
+			x: 15.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["595BAA7F069E6A23"]
+			id: "2B666DB55C468E68"
+			tasks: [{
+				id: "17AF36CEC619A4AE"
+				item: "spectrum:axolotl_mob_block"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4BF7A7CD9D08FBB1"]
+			id: "7263EA7B790C5CF1"
+			shape: "spiral"
+			tasks: [{
+				hasCustomPicture: false
+				id: "1700D5F1783420D1"
+				ignoreState: false
+				layer: true
+				name: "cinderhearth"
+				rightclick: false
+				title: "666"
+				type: "questsadditions:structure"
+			}]
+			x: 10.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"2D3809AFD4A93031"
+				"371F1403DD43AD41"
+			]
+			id: "2A9C4A4E1EE7F04A"
+			tasks: [{
+				id: "4277AC08735967DE"
+				item: "spectrum:gilded_book"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["51BC797CB9A15104"]
+			hide_dependency_lines: true
+			id: "371F1403DD43AD41"
+			tasks: [{
+				id: "59277DA71D796870"
+				item: "spectrum:jade_vine_petals"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"03733F7972538D31"
+				"6E130BBE130634B7"
+			]
+			id: "27CF9A74E8991A36"
+			tasks: [{
+				id: "40AB78BEEDC4B7A9"
+				item: "spectrum:triple_meat_pot_pie"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1D5E12A312FB8CF7"]
+			id: "6E130BBE130634B7"
+			shape: "formation"
+			tasks: [{
+				id: "666E4301A1453CA8"
+				item: "spectrum:amaranth_grains"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["574F587D6657B9A0"]
+			hide_dependency_lines: true
+			id: "1D5E12A312FB8CF7"
+			shape: "polygon"
+			tasks: [{
+				id: "0224657437E6555A"
+				item: "spectrum:amaranth_bushel"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["728DB410986DE72A"]
+			id: "2283A9CFF25A35F8"
+			shape: "spiral"
+			tasks: [{
+				id: "67DB596E3BDFF07F"
+				item: "spectrum:pigment_palette"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["208248B95BA93403"]
+			id: "0230186452B45E3C"
+			shape: "spiral"
+			tasks: [
+				{
+					id: "481F7CBF196E2A7B"
+					item: "spectrum:azure_dike_ring"
+					type: "item"
+				}
+				{
+					id: "7386715F31BAE2C7"
+					item: "spectrum:azure_dike_belt"
+					type: "item"
+				}
+				{
+					id: "2B48EA1979343205"
+					item: "spectrum:shieldgrasp_amulet"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0FE595C4A833369A"]
+			id: "18A3E31D174F59DF"
+			shape: "formation"
+			tasks: [{
+				id: "16646E5144BAA5B9"
+				item: "spectrum:bag_of_holding"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["41A296758DF83085"]
+			id: "0E4EE02DFCDBF39E"
+			shape: "spiral"
+			tasks: [{
+				id: "31E961DBFB11685F"
+				item: "spectrum:enchantment_canvas"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["64A34882235B958B"]
+			id: "12CD40379E3C0FF9"
+			shape: "spiral"
+			tasks: [{
+				id: "4D6B4C3B803B2F44"
+				item: "spectrum:glistering_jelly_tea"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"6490C354303A22E3"
+				"0B7005E63A417F92"
+			]
+			id: "5D797C9396F2C5D0"
+			shape: "spiral"
+			tasks: [{
+				id: "20263407E72227B9"
+				item: "spectrum:gloves_of_dawns_grasp"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0BF06A3F5DD7DF52"]
+			hide_dependency_lines: true
+			id: "0B7005E63A417F92"
+			shape: "spiral"
+			tasks: [{
+				id: "65FBC68B81B3763B"
+				item: "spectrum:fanciful_gloves"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["428765AAA2C27B10"]
+			id: "4DDFE4E24B9AACD7"
+			shape: "spiral"
+			tasks: [{
+				id: "342F6E9A64F1B39F"
+				item: "spectrum:heartsingers_reward"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["208248B95BA93403"]
+			id: "66FE23B308EC3C67"
+			shape: "spiral"
+			tasks: [
+				{
+					id: "1AE1518EC5171C9F"
+					item: "spectrum:lesser_potion_pendant"
+					type: "item"
+				}
+				{
+					id: "4A5D2BC1E84ED7FB"
+					item: "spectrum:totem_pendant"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["428765AAA2C27B10"]
+			id: "31590E8FF943C4FF"
+			shape: "spiral"
+			tasks: [{
+				id: "5E413CF61041883A"
+				item: "spectrum:lucky_roll"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["371F1403DD43AD41"]
+			id: "569DD45935D79E43"
+			tasks: [{
+				id: "7E933A077D7CA6D1"
+				item: "spectrum:restoration_tea"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["428765AAA2C27B10"]
+			id: "1E0A743E4D7E0CB4"
+			shape: "spiral"
+			tasks: [{
+				id: "1EAA8EB4B91BCEDC"
+				item: "spectrum:seven_league_boots"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42643B73C5C12067"]
+			id: "0CD249098C6B706F"
+			shape: "spiral"
+			tasks: [{
+				id: "02BD63A444DEC708"
+				item: "spectrum:star_candy"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6E130BBE130634B7"]
+			id: "52D286CF8758C5F0"
+			tasks: [{
+				id: "201ED06FF7647AA8"
+				item: "spectrum:jaramel_tart"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6E130BBE130634B7"]
+			id: "6350EBC096ED79BE"
+			shape: "spiral"
+			tasks: [{
+				id: "28269951950178D7"
+				item: "spectrum:ashen_tart"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6E130BBE130634B7"]
+			id: "5451AF0A3A2BDAE2"
+			shape: "spiral"
+			tasks: [{
+				id: "3BEC37802F37C640"
+				item: "spectrum:weeping_tart"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6E130BBE130634B7"]
+			id: "225E65B902177096"
+			shape: "spiral"
+			tasks: [{
+				id: "309AEF714C030EC8"
+				item: "spectrum:whispy_tart"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6E130BBE130634B7"]
+			id: "6B9E66EA7D74D021"
+			tasks: [{
+				id: "2888E6E5ECB905C1"
+				item: "spectrum:puff_tart"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["10B77353177978E4"]
+			id: "03CB453F9F4BDA4F"
+			shape: "spiral"
+			tasks: [{
+				id: "02F803C786473D73"
+				item: "spectrum:monster_trifle"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6E130BBE130634B7"]
+			id: "72C3792144651729"
+			shape: "spiral"
+			tasks: [{
+				id: "42557124F861D264"
+				item: "spectrum:jaramel_trifle"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 2.0d
 		}
 	]
 	title: "Spectrum"
