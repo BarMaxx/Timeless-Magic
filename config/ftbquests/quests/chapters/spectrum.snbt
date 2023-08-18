@@ -1878,6 +1878,7 @@
 		{
 			dependencies: ["2D3809AFD4A93031"]
 			id: "595BAA7F069E6A23"
+			shape: "spiral"
 			tasks: [{
 				id: "6CF2AE2509ABB021"
 				title: "Получение Голов!"
@@ -1889,6 +1890,7 @@
 		{
 			dependencies: ["595BAA7F069E6A23"]
 			id: "602C72DBD05F6BF2"
+			shape: "spiral"
 			tasks: [{
 				id: "5050CCC0C585EAA3"
 				item: "spectrum:egg_laying_wooly_pig_head"
@@ -1917,6 +1919,7 @@
 		{
 			dependencies: ["595BAA7F069E6A23"]
 			id: "2B666DB55C468E68"
+			shape: "spiral"
 			tasks: [{
 				id: "17AF36CEC619A4AE"
 				item: "spectrum:axolotl_mob_block"
@@ -1948,6 +1951,7 @@
 				"371F1403DD43AD41"
 			]
 			id: "2A9C4A4E1EE7F04A"
+			shape: "spiral"
 			tasks: [{
 				id: "4277AC08735967DE"
 				item: "spectrum:gilded_book"
@@ -1960,6 +1964,7 @@
 			dependencies: ["51BC797CB9A15104"]
 			hide_dependency_lines: true
 			id: "371F1403DD43AD41"
+			shape: "spiral"
 			tasks: [{
 				id: "59277DA71D796870"
 				item: "spectrum:jade_vine_petals"
@@ -1974,6 +1979,7 @@
 				"6E130BBE130634B7"
 			]
 			id: "27CF9A74E8991A36"
+			shape: "spiral"
 			tasks: [{
 				id: "40AB78BEEDC4B7A9"
 				item: "spectrum:triple_meat_pot_pie"
@@ -2153,6 +2159,7 @@
 		{
 			dependencies: ["371F1403DD43AD41"]
 			id: "569DD45935D79E43"
+			shape: "polygon"
 			tasks: [{
 				id: "7E933A077D7CA6D1"
 				item: "spectrum:restoration_tea"
@@ -2188,6 +2195,7 @@
 		{
 			dependencies: ["6E130BBE130634B7"]
 			id: "52D286CF8758C5F0"
+			shape: "spiral"
 			tasks: [{
 				id: "201ED06FF7647AA8"
 				item: "spectrum:jaramel_tart"
@@ -2235,6 +2243,7 @@
 		{
 			dependencies: ["6E130BBE130634B7"]
 			id: "6B9E66EA7D74D021"
+			shape: "spiral"
 			tasks: [{
 				id: "2888E6E5ECB905C1"
 				item: "spectrum:puff_tart"
