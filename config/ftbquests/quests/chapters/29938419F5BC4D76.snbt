@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["0C248FCB6C14D252"]
+			dependencies: ["754C1C9768390621"]
 			id: "73A10A1C0A47C2E1"
 			shape: "cross"
 			subtitle: "Новое измерение!"
@@ -210,8 +210,8 @@
 				item: "minecraft:wither_skeleton_skull"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.0d
+			x: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["64087CF14BC13E35"]
@@ -222,8 +222,8 @@
 				item: "minecraft:nether_star"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.0d
+			x: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5552772F3B711A15"]
@@ -234,8 +234,8 @@
 				item: "fwaystones:pocket_wormhole"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -1.0d
+			x: 0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5552772F3B711A15"]
@@ -246,8 +246,8 @@
 				item: "inmis:withered_backpack"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 1.0d
+			x: 2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5552772F3B711A15"]
@@ -258,8 +258,8 @@
 				item: "minecraft:beacon"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 0.0d
+			x: 2.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["73A10A1C0A47C2E1"]
@@ -270,7 +270,7 @@
 				item: "minecraft:blaze_rod"
 				type: "item"
 			}]
-			x: 0.5d
+			x: -0.5d
 			y: 1.5d
 		}
 		{
@@ -282,8 +282,8 @@
 				item: "minecraft:blaze_powder"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 2.0d
+			x: -1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7C1C77F9DF458D3D"]
@@ -294,7 +294,7 @@
 				item: "minecraft:brewing_stand"
 				type: "item"
 			}]
-			x: 2.0d
+			x: -2.0d
 			y: 3.0d
 		}
 		{
@@ -312,7 +312,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: -1.0d
 			y: 3.5d
 		}
 		{
@@ -324,7 +324,7 @@
 				item: "zenith:hellshelf"
 				type: "item"
 			}]
-			x: 3.5d
+			x: -0.5d
 			y: 4.5d
 		}
 		{
@@ -342,7 +342,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
+			x: -3.0d
 			y: 3.5d
 		}
 		{
@@ -505,6 +505,7 @@
 		{
 			dependencies: ["14B8DD1F66798C87"]
 			id: "478502B76BDFFFB4"
+			shape: "spiral"
 			tasks: [
 				{
 					hasCustomPicture: false
@@ -548,7 +549,24 @@
 				}
 			]
 			title: "Активация Маяка"
-			x: 6.0d
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0C248FCB6C14D252"]
+			id: "754C1C9768390621"
+			shape: "cube"
+			tasks: [{
+				hasCustomPicture: false
+				id: "2427828A822E74E7"
+				ignoreState: false
+				layer: true
+				name: "portal_to_nether"
+				rightclick: false
+				title: "Портал в Ад!"
+				type: "questsadditions:structure"
+			}]
+			x: 1.5d
 			y: 0.0d
 		}
 	]
