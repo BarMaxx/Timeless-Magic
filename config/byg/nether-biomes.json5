@@ -179,6 +179,26 @@ If your settings in this file seem to have to no effect on the generation of the
 			{
 				"data": "betternether:old_swampland",
 				"weight": 2
+			},
+			{
+				"data": "regions_unexplored:mycotoxic_undergrowth",
+				"weight": 2
+			},
+			{
+				"data": "regions_unexplored:glistering_meadow",
+				"weight": 2
+			},
+			{
+				"data": "regions_unexplored:redstone_hell",
+				"weight": 2
+			},
+			{
+				"data": "regions_unexplored:corrupted_holt",
+				"weight": 2
+			},
+			{
+				"data": "regions_unexplored:blackstone_basin",
+				"weight": 2
 			}
 		]
 	},
@@ -354,6 +374,26 @@ If your settings in this file seem to have to no effect on the generation of the
 			},
 			{
 				"data": "betternether:old_swampland",
+				"weight": 2
+			},
+			{
+				"data": "regions_unexplored:mycotoxic_undergrowth",
+				"weight": 2
+			},
+			{
+				"data": "regions_unexplored:glistering_meadow",
+				"weight": 2
+			},
+			{
+				"data": "regions_unexplored:redstone_hell",
+				"weight": 2
+			},
+			{
+				"data": "regions_unexplored:corrupted_holt",
+				"weight": 2
+			},
+			{
+				"data": "regions_unexplored:blackstone_basin",
 				"weight": 2
 			}
 		]

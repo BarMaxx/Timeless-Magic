@@ -1,0 +1,7 @@
+To refresh this file, delete it and run /reload command again! Last updated: Dec 2, 2023, 5:41:48 PM
+
+#spectrum:natural
+- spectrum:simple (from Spectrum)
+- spectrum:fancy (from Spectrum)
+- spectrum:ruffled (from Spectrum)
+- spectrum:none (from Spectrum)

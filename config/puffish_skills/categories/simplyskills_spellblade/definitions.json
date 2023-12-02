@@ -1,0 +1,3995 @@
+{
+	"pathWayfarer": {
+		"title": "Path of the §bWayfarer§7 \n+3% Movement Speed",
+		"frame": "challenge",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/wayfarer_path.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"pathInitiate": {
+		"title": "Path of the §bInitiate§7 \n+1 To all schools of magic",
+		"frame": "challenge",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/initiate_path.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:healing",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:fire",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:arcane",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:frost",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:lightning",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:soul",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"spell_fire_damage_additive+2%": {
+		"title": "+2% [+] §7Fire Spell Damage",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/spell_fire_damage_add.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:fire",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"spell_fire_damage_multi+5%": {
+		"title": "+5% [x] §7Fire Spell Damage",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/spell_fire_damage_multi.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:fire",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"spell_arcane_damage_additive+2%": {
+		"title": "+2% [+] §7Arcane Spell Damage",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/spell_arcane_damage_add.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:arcane",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"spell_arcane_damage_multi+5%": {
+		"title": "+5% [x] §7Arcane Spell Damage",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/spell_arcane_damage_multi.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:arcane",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"spell_frost_damage_additive+2%": {
+		"title": "+2% [+] §7Frost Spell Damage",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/spell_frost_damage_add.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:frost",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"spell_frost_damage_multi+5%": {
+		"title": "+5% [x] §7Frost Spell Damage",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/spell_frost_damage_multi.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:frost",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"spell_healing_power_additive+2%": {
+		"title": "+2% [+] §7Healing Power",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/spell_healing_power_add.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:healing",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"spell_healing_power_multi+5%": {
+		"title": "+5% [x] §7Healing Power",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/spell_healing_power_multi.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:healing",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"spell_lightning_damage_additive+2%": {
+		"title": "+2% [+] §7Lightning Spell Damage",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/spell_lightning_damage_add.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:lightning",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"spell_lightning_damage_multi+5%": {
+		"title": "+5% [x] §7Lightning Spell Damage",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/spell_lightning_damage_multi.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:lightning",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"spell_soul_damage_additive+2%": {
+		"title": "+2% [+] §7Soul Spell Damage",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/spell_soul_damage_add.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:soul",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"spell_soul_damage_multi+5%": {
+		"title": "+5% [x] §7Soul Spell Damage",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/spell_soul_damage_multi.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:soul",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"spell_crit_damage_additive+2%": {
+		"title": "+2% [+] §7Spell Critical Damage",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/spell_crit_damage_add.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:critical_damage",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"spell_crit_damage_multi+5%": {
+		"title": "+5% [x] §7Spell Critical Damage",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/spell_crit_damage_multi.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:critical_damage",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"spell_crit_chance_additive+2%": {
+		"title": "+2% [+] §7Spell Critical Chance",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/spell_crit_chance_add.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:critical_chance",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"spell_crit_chance_multi+5%": {
+		"title": "+5% [x] §7Spell Critical Chance",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/spell_crit_chance_multi.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:critical_chance",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"spell_haste_additive+2%": {
+		"title": "+2% [+] §7Spell Haste",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/spell_haste_add.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:haste",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"spell_haste_multi+5%": {
+		"title": "+5% [x] §7Spell Haste",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/spell_haste_multi.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:haste",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"pathWarrior": {
+		"title": "Path of the §bWarrior§7 \n+3% Melee Damage",
+		"frame": "challenge",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/warrior_path.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"health+2": {
+		"title": "+1 §7Heart",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/health.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"resistance+1%": {
+		"title": "+1% [+] §7Resistance",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/resistance.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.resistance",
+					"value": 0.01,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"resistance_multi+2%": {
+		"title": "+2% [x] §7Resistance",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/resistance_multi.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.resistance",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"melee_damage+1%": {
+		"title": "+1% [+] §7Melee Damage",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/attackdamage.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.01,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"melee_damage_multi+2%": {
+		"title": "+2% [x] §7Melee Damage",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/attackdamage_multi.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"ranged_damage+1%": {
+		"title": "+1% [+] §7Ranged Damage",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/rangeddamage.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": 0.01,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"ranged_damage_multi+2%": {
+		"title": "+2% [x] §7Ranged Damage",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/rangeddamage_multi.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"attack_speed+1%": {
+		"title": "+1% [+] §7Attack Speed",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/attackspeed.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.01,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"attack_speed_multi+2%": {
+		"title": "+2% [x] §7Attack Speed",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/attackspeed_multi.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"movement_speed+1%": {
+		"title": "+1% [+] §7Movement Speed",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/movementspeed.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.01,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"movement_speed_multi+1.5%": {
+		"title": "+1.5% [x] §7Movement Speed",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/movementspeed_multi.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.015,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"luck+0.25": {
+		"title": "+0.25 §7Luck",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/luck.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"stamina+5%": {
+		"title": "+5% [+] §7Stamina",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/stamina.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"stamina_multi+7%": {
+		"title": "+7% [x] §7Stamina",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/stamina_multi.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.07,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"healing+1%": {
+		"title": "+1% §7Healing [DEPRECATED]",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/healing.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.healing",
+					"value": 0.01,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"jump+1%": {
+		"title": "+1% [+] §7Jump",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/jump.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.jump",
+					"value": 0.01,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"jump_multi+2%": {
+		"title": "+2% [x] §7Jump",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/jump_multi.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.jump",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"hardy": {
+		"title": "§7§a[Hardy]§7\nWhen taking damage, gain regeneration for a duration equal to the damage received.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/hardy.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "hardy"
+				}
+			}
+		]
+	},
+	"initiateSlowfall": {
+		"title": "§7§a[Innate Slowfall]§7\nWhen falling long distances you gain Slow Falling.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/initiate_slowfall.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "initiateSlowfall"
+				}
+			}
+		]
+	},
+	"fervour": {
+		"title": "§7§a[Fervour]§7\nLanding a killing blow grants you haste for a short duration.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/fervour.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "fervour"
+				}
+			}
+		]
+	},
+	"wayfarerStealth": {
+		"title": "§7§a[Stealth]§7 \nGain Stealth when crouching. \n\n§f(Stealth)§7 causes you to blend into the shadows, avoiding monster detection completely. Dealing or Receiving damage removes stealth.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/wayfarer_stealth.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "wayfarerStealth"
+				}
+			}
+		]
+	},
+	"wayfarerSneak": {
+		"title": "§7§a[Sneak]§7 \nGain speed when crouching.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/wayfarer_sneak.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "wayfarerSneak"
+				}
+			}
+		]
+	},
+	"wayfarerReflexive": {
+		"title": "§7§a[Reflexive]§7 \nWhen your Stealth is forcefully broken, you have a chance to trigger the Rogue Evasion Mastery signature ability.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/wayfarer_reflexive.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "wayfarerReflexive"
+				}
+			}
+		]
+	},
+	"wayfarerUnseen": {
+		"title": "§7§a[Unseen]§7 \nWhile loading a Crossbow, gain momentary Stealth.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/wayfarer_unseen.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "wayfarerUnseen"
+				}
+			}
+		]
+	},
+	"wayfarerGuarding": {
+		"title": "§7§a[Guarding]§7 \nWhile you have a Crossbow in your offhand, you periodically gain Barrier.\n\n§f(Barrier)§7 The next damage you take is completely negated.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/wayfarer_guarding.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "wayfarerGuarding"
+				}
+			}
+		]
+	},
+	"initiateNullification": {
+		"title": "§7§a[Nullification]§7 \nPeriodically strip buffs from nearby hostiles.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/initiate_nullification.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "initiateNullification"
+				}
+			}
+		]
+	},
+	"initiateGambit": {
+		"title": "§7§a[Gambit]§7 \nYour spell damage is reduced by 25%, but your spell critical damage is increased by 75%.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/initiate_gambit.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:critical_damage",
+					"value": 0.75,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:soul",
+					"value": -0.25,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:healing",
+					"value": -0.25,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:fire",
+					"value": -0.25,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:frost",
+					"value": -0.25,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:lightning",
+					"value": -0.25,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:arcane",
+					"value": -0.25,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"initiateEmpower": {
+		"title": "§7§a[Empower]§7 \nChance on spell cast to gain a stack of Attunement.\n\n§f(Attunement)§7 Increases spell damage for a specific school of magic by 5% per stack.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/initiate_empower.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "initiateEmpower"
+				}
+			}
+		]
+	},
+	"initiateAttuned": {
+		"title": "§7§a[Attuned]§7 \nWhen you have 5 or more stacks of attunement, periodically convert them into stacks of Precision.\n\n§f(Precision)§7 Increases spell critical damage and critical chance by 5% per stack.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/initiate_attuned.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "initiateAttuned"
+				}
+			}
+		]
+	},
+	"initiateLightningRod": {
+		"title": "§7§a[Lightning Rod]§7 \nDuring storms, you periodically gain stacks of Lightning Attunement.\n\n§f(Lightning Attunement)§7 Increases spell damage for lightning magic by 5% per stack.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/initiate_lightning_rod.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "initiateLightningRod"
+				}
+			}
+		]
+	},
+	"initiateEldritchEnfeeblement": {
+		"title": "§7§a[Eldritch Enfeeblement]§7 \nYour spell damage is increased by 20%, but your movespeed is decreased by 30%.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/initiate_eldritch_enfeeblement.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": -0.30,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:soul",
+					"value": 0.20,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:healing",
+					"value": 0.20,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:fire",
+					"value": 0.20,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:frost",
+					"value": 0.20,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:lightning",
+					"value": 0.20,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:arcane",
+					"value": 0.20,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"initiateHasty": {
+		"title": "§7§a[Hasty]§7 \nYour movespeed is increased by 20%, but you are inflicted with immobilize when taking damage. \n\n§f(Immobilize)§7 greatly slows and damages the victim when they attempt to move.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/initiate_hasty.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.15,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"initiatePerilousPrecision": {
+		"title": "§7§a[Perilous Precision]§7 \nYour spell critical chance is increased by 10%, but your max health is reduced by 20%.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/initiate_perilous_precision.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": -0.20,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:critical_chance",
+					"value": 0.10,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"cleric": {
+		"title": "§7§a[Cleric]§7 \nPeriodically cleanse debuffs from nearby allies.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/cleric.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "cleric"
+				}
+			}
+		]
+	},
+	"cleansing": {
+		"title": "§7§a[Cleansing]§7 \nPeriodically cleanse debuffs from yourself.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/cleanse.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "cleansing"
+				}
+			}
+		]
+	},
+	"rangerReveal": {
+		"title": "§7§a[Reveal]§7 \nPeriodically reveal nearby Stealthy enemies.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/ranger_reveal.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rangerReveal"
+				}
+			}
+		]
+	},
+	"rangerTamer": {
+		"title": "§7§a[Tamer]§7 \nWhen your pets are near to you, they gain Regeneration & Resistance.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/ranger_tamer.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rangerTamer"
+				}
+			}
+		]
+	},
+	"rangerBonded": {
+		"title": "§7§a[Bonded]§7 \nWhen your pets are near to you and are more healthy than you, they exchange their health with you. Can only trigger when your pet is above 30% HP.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/ranger_bonded.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rangerBonded"
+				}
+			}
+		]
+	},
+	"rangerTrained": {
+		"title": "§7§a[Trained]§7 \nWhen your pets are near to you and have at least 70% HP, they gain Strength & Speed.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/ranger_trained.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rangerTrained"
+				}
+			}
+		]
+	},
+	"rangerIncognito": {
+		"title": "§7§a[Incognito]§7 \nWhen your pets are near to you and you gain Stealth, they also gain Stealth.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/ranger_incognito.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rangerIncognito"
+				}
+			}
+		]
+	},
+	"rogueBackstab": {
+		"title": "§7§a[Backstab]§7 \nAttacking enemies from behind inflicts them with weakness.\nAlso, whilst in proximity to weakened enemies, you have a chance to gain Stealth for a short duration.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/rogue_backstab.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rogueBackstab"
+				}
+			}
+		]
+	},
+	"warriorHeavyArmorMastery": {
+		"title": "§7§a[Heavy Armor Mastery]§7 \nWhile your armor value is above 15, you have a chance to gain Strength when hit.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/warrior_heavy_armor_mastery.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "warriorHeavyArmorMastery"
+				}
+			}
+		]
+	},
+	"warriorMediumArmorMastery": {
+		"title": "§7§a[Medium Armor Mastery]§7 \nWhile your armor value is below 15, you have a chance to gain Absorption when hit.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/warrior_medium_armor_mastery.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "warriorMediumArmorMastery"
+				}
+			}
+		]
+	},
+	"warriorSpellbreaker": {
+		"title": "§7§a[Spellbreaker]§7 \nWhen taking damage, you have a chance to gain Spellbreaking for a short duration.\n\n§f(Spellbreaking)§7 causes hostile spell projectiles to explode when in close proximity to you.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/warrior_spellbreaker.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "warriorSpellbreaker"
+				}
+			}
+		]
+	},
+	"warriorGoliath": {
+		"title": "§7§a[Goliath]§7 \nWhen falling long distances, gain Earthshaker.\n\n§f(Earthshaker)§7 causes you to damage and knockback surrounding enemies when landing on the ground. This damage scales with your armor value.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/warrior_earthshaker.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "warriorGoliath"
+				}
+			}
+		]
+	},
+	"warriorHeavyWeight": {
+		"title": "§7§a[Heavy Weight]§7 \nYour Earthshaker effects are enhanced, causing them to deal additional damage the longer you are in the air.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/warrior_heavy_weight.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "warriorHeavyWeight"
+				}
+			}
+		]
+	},
+	"warriorDeathDefy": {
+		"title": "§7§a[Death Defy]§7 \nWhen at low HP, you gain Regeneration and Exhaustion relative to your remaining health percent. \n\n§f(Exhaustion)§7 reduces your Melee Attack and Attack Speed by 1% per stack.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/warrior_death_defy.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "warriorDeathDefy"
+				}
+			}
+		]
+	},
+	"warriorFrenzy": {
+		"title": "§7§a[Frenzy]§7 \nGain 75% increased Melee Damage, but each time you hit an enemy you gain a stack of exhaustion. \n\n§f(Exhaustion)§7 reduces your Melee Attack and Attack Speed by 1% per stack.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/warrior_frenzy.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.75,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"berserkerPath": {
+		"title": "Path of the §bBerserker§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/berserker_path.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "puffish_skills category unlock @s simplyskills_berserker"
+				}
+			}
+		]
+	},
+	"berserkerSwordMastery": {
+		"title": "§7§a[Sword Mastery]§7 \nGain pulsing Speed when wielding a sword in your mainhand.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/berserker_sword_mastery.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "berserkerSwordMastery"
+				}
+			}
+		]
+	},
+	"berserkerSwordMasteryProficient": {
+		"title": "§7§a[Sword Mastery +]§7 \nGain increased pulsing Speed when wielding a sword in your mainhand.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/berserker_sword_mastery_proficient.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "berserkerSwordMasteryProficient"
+				}
+			}
+		]
+	},
+	"berserkerSwordMasterySkilled": {
+		"title": "§7§a[Sword Mastery ++]§7 \nWhen not dual wielding, gain pulsing Might.\n\n§f(Might)§7 grants 25% increased attack damage per stack.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/berserker_sword_mastery_skilled.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "berserkerSwordMasterySkilled"
+				}
+			}
+		]
+	},
+	"berserkerAxeMastery": {
+		"title": "§7§a[Axe Mastery]§7 \nGain pulsing strength when wielding an axe in your mainhand.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/berserker_axe_mastery.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "berserkerAxeMastery"
+				}
+			}
+		]
+	},
+	"berserkerAxeMasteryProficient": {
+		"title": "§7§a[Axe Mastery +]§7 \nGain increased pulsing strength when wielding an axe in your mainhand.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/berserker_axe_mastery_proficient.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "berserkerAxeMasteryProficient"
+				}
+			}
+		]
+	},
+	"berserkerAxeMasterySkilled": {
+		"title": "§7§a[Axe Mastery ++]§7 \nGain increased pulsing strength when wielding an axe in your mainhand.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/berserker_axe_mastery_skilled.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "berserkerAxeMasterySkilled"
+				}
+			}
+		]
+	},
+	"berserkerIgnorePain": {
+		"title": "§7§a[Ignore Pain]§7 \nWhen your HP drops below 40% you gain pulsing resistance.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/berserker_ignore_pain.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "berserkerIgnorePain"
+				}
+			}
+		]
+	},
+	"berserkerIgnorePainProficient": {
+		"title": "§7§a[Ignore Pain +]§7 \nWhen your HP drops below 40% you gain increased pulsing resistance.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/berserker_ignore_pain_proficient.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "berserkerIgnorePainProficient"
+				}
+			}
+		]
+	},
+	"berserkerIgnorePainSkilled": {
+		"title": "§7§a[Ignore Pain ++]§7 \nWhen your HP drops below 40% you gain increased pulsing resistance.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/berserker_ignore_pain_skilled.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "berserkerIgnorePainSkilled"
+				}
+			}
+		]
+	},
+	"berserkerRecklessness": {
+		"title": "§7§a[Recklessness]§7 \nWhen your HP rises above 70% you are inflicted with pulsing weakness.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/berserker_recklessness.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "berserkerRecklessness"
+				}
+			}
+		]
+	},
+	"berserkerChallenge": {
+		"title": "§7§a[Challenge]§7 \nGain a stack of haste for each nearby enemy.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/berserker_challenge.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "berserkerChallenge"
+				}
+			}
+		]
+	},
+	"berserkerExploit": {
+		"title": "§7§a[Exploit]§7 \nHitting immobilized enemies inflicts them with weakness.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/berserker_challenge.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "berserkerExploit"
+				}
+			}
+		]
+	},
+	"bulwarkPath": {
+		"title": "Path of the §bBulwark§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/bulwark_path.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "bulwarkPath"
+				}
+			}
+		]
+	},
+	"bulwarkShieldMastery": {
+		"title": "§7§a[Shield Mastery]§7 \nGain weakness & resistance when wielding a shield.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/bulwark_shield_mastery.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "bulwarkShieldMastery"
+				}
+			}
+		]
+	},
+	"bulwarkShieldMasteryProficient": {
+		"title": "§7§a[Shield Mastery +]§7 \nGain weakness & increased resistance when wielding a shield.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/bulwark_shield_mastery_proficient.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "bulwarkShieldMasteryProficient"
+				}
+			}
+		]
+	},
+	"bulwarkShieldMasterySkilled": {
+		"title": "§7§a[Shield Mastery ++]§7 \nGain weakness & increased resistance when wielding a shield.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/bulwark_shield_mastery_skilled.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "bulwarkShieldMasterySkilled"
+				}
+			}
+		]
+	},
+	"bulwarkRebuke": {
+		"title": "§7§a[Rebuke]§7 \n25% Chance on block to inflict your attacker with weakness.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/bulwark_rebuke.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "bulwarkRebuke"
+				}
+			}
+		]
+	},
+	"wayfarerSlender": {
+		"title": "§7§a[Slender]§7 \nWhen you have 15 or more armor, you are inflicted with Slowness",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/wayfarer_slender.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "wayfarerSlender"
+				}
+			}
+		]
+	},
+	"roguePath": {
+		"title": "Path of the §bRogue§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/rogue_path.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "puffish_skills category unlock @s simplyskills_rogue"
+				}
+			}
+		]
+	},
+	"rogueSmokeBomb": {
+		"title": "§7§a[Smoke Bomb]§7 \nChance to blind nearby enemies and gain Immobilizing Aura when hit.\n\n§f(Immobilizing Aura)§7 periodically inflicts nearby enemies with Immobilize.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/rogue_smoke_bomb.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rogueSmokeBomb"
+				}
+			}
+		]
+	},
+	"rogueOpportunisticMastery": {
+		"title": "§7§a[Opportunistic Mastery]§7 \nAttacking while under the effects of Stealth causes you to poison your target for a short duration.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/rogue_opportunistic_mastery.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rogueOpportunisticMastery"
+				}
+			}
+		]
+	},
+	"rogueOpportunisticMasteryProficient": {
+		"title": "§7§a[Opportunistic Mastery +]§7 \nAttacking while under the effects of Stealth causes you to poison your target for a moderate duration.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/rogue_opportunistic_mastery_proficient.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rogueOpportunisticMasteryProficient"
+				}
+			}
+		]
+	},
+	"rogueOpportunisticMasterySkilled": {
+		"title": "§7§a[Opportunistic Mastery ++]§7 \nAttacking while under the effects of Stealth causes you to poison your target for a long duration.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/rogue_opportunistic_mastery_skilled.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rogueOpportunisticMasterySkilled"
+				}
+			}
+		]
+	},
+	"rogueEvasionMastery": {
+		"title": "§7§a[Evasion Mastery]§7 \nWhen below the armor threshold of the Wayfarer Slender passive, you have a 15% Chance to completely avoid incoming damage.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/rogue_evasion_mastery.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rogueEvasionMastery"
+				}
+			}
+		]
+	},
+	"rogueEvasionMasteryProficient": {
+		"title": "§7§a[Evasion Mastery +]§7 \nWhen below the armor threshold of the Wayfarer Slender passive, you have a 20% Chance to completely avoid incoming damage.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/rogue_evasion_mastery_proficient.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rogueEvasionMasteryProficient"
+				}
+			}
+		]
+	},
+	"rogueEvasionMasterySkilled": {
+		"title": "§7§a[Evasion Mastery ++]§7 \nWhen below the armor threshold of the Wayfarer Slender passive, you have a 25% Chance to completely avoid incoming damage.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/rogue_evasion_mastery_skilled.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rogueEvasionMasterySkilled"
+				}
+			}
+		]
+	},
+	"rogueExploitation": {
+		"title": "§7§a[Exploitation]§7 \nWhile under the effects of stealth, your back attacks inflict Death Mark.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/rogue_exploitation.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rogueExploitation"
+				}
+			}
+		]
+	},
+	"rogueRecovery": {
+		"title": "§7§a[Recovery]§7 \nWhen you gain Stealth, you also gain Regeneration.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/rogue_recovery.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rogueRecovery"
+				}
+			}
+		]
+	},
+	"rogueShadowVeil": {
+		"title": "§7§a[Shadow Veil]§7 \nWhile under the effects of Stealth, you periodically gain increasing Resistance.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/rogue_shadow_veil.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rogueShadowVeil"
+				}
+			}
+		]
+	},
+	"rogueDeflection": {
+		"title": "§7§a[Deflection]§7 \nWhen dual wielding weapons §f(axes do not count)§7, the base evasion chance of your Evasion Mastery passive is increased by 10%.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/rogue_deflection.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rogueDeflection"
+				}
+			}
+		]
+	},
+	"rogueFleetfooted": {
+		"title": "§7§a[Fleetfooted]§7 \nWhen you are forcefully removed from Stealth, you gain momentary Speed.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/rogue_fleetfooted.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rogueFleetfooted"
+				}
+			}
+		]
+	},
+	"rangerPath": {
+		"title": "Path of the §bRanger§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/ranger_path.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "puffish_skills category unlock @s simplyskills_ranger"
+				}
+			}
+		]
+	},
+	"initiateFrail": {
+		"title": "§7§a[Frail]§7 \nWhen you have 10 or more armor, you are inflicted with Slowness. Also, you cannot effectively use weapons with more than 6 Attack Power.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/initiate_frail.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "initiateFrail"
+				}
+			}
+		]
+	},
+	"crusaderPath": {
+		"title": "Path of the §bCrusader§7\n§eNOT YET IMPLEMENTED§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/crusader_path.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "puffish_skills category unlock @s simplyskills_crusader"
+				}
+			}
+		]
+	},
+	"frostguardPath": {
+		"title": "Path of the §bFrostguard§7\n§eNOT YET IMPLEMENTED§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/frostguard_path.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "puffish_skills category unlock @s simplyskills_frostguard"
+				}
+			}
+		]
+	},
+	"spellbladePath": {
+		"title": "Path of the §bSpellblade§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/spellblade_path.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "puffish_skills category unlock @s simplyskills_spellblade"
+				}
+			}
+		]
+	},
+	"spellbladeWeaponExpert": {
+		"title": "§7§a[Weapon Expert]§7 \nYou are no longer penalised for using high damage weapons due to the Initiate Frail passive.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/spellblade_weapon_expert.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "spellbladeWeaponExpert"
+				}
+			}
+		]
+	},
+	"spellbladeSpellweaving": {
+		"title": "§7§a[Spellweaving]§7 \nYou now have a 15% chance to summon a random spell when you hit an enemy.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/spellblade_spellweaving.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "spellbladeSpellweaving"
+				}
+			}
+		]
+	},
+	"spellbladeSignatureElementalSurge": {
+		"title": "Signature Ability: \n§6[Elemental Surge]§7 \nGrants you Elemental Surge for 15s. \n\n§f(Elemental Surge)§7 causes you to periodically release elemental novas.\n\n§a30s Cooldown§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/spellblade_signature_elemental_surge.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "spellbladeSignatureElementalSurge"
+				}
+			}
+		]
+	},
+	"spellbladeSignatureElementalSurgeNoFrost": {
+		"title": "§7Removes Frost Novas from your §6[Elemental Surge]§7 spell pool.\nIf no elements remain in the spell pool, Elemental Surge will instead release Arcane Novas.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/spellblade_signature_elemental_surge.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "spellbladeSignatureElementalSurgeNoFrost"
+				}
+			}
+		]
+	},
+	"spellbladeSignatureElementalSurgeNoFire": {
+		"title": "§7Removes Fire Novas from your §6[Elemental Surge]§7 spell pool.\nIf no elements remain in the spell pool, Elemental Surge will instead release Arcane Novas.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/spellblade_signature_elemental_surge.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "spellbladeSignatureElementalSurgeNoFire"
+				}
+			}
+		]
+	},
+	"spellbladeSignatureElementalSurgeRenewal": {
+		"title": "§7Hitting enemies while you have §6[Elemental Surge]§7 has a 15% chance to extend the its duration by 3 seconds.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/spellblade_signature_elemental_surge.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "spellbladeSignatureElementalSurgeRenewal"
+				}
+			}
+		]
+	},
+	"spellbladeSignatureElementalSurgeNoLightning": {
+		"title": "§7Removes Lightning Novas from your §6[Elemental Surge]§7 spell pool.\nIf no elements remain in the spell pool, Elemental Surge will instead release Arcane Novas.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/spellblade_signature_elemental_surge.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "spellbladeSignatureElementalSurgeNoLightning"
+				}
+			}
+		]
+	},
+	"spellbladeSignatureElementalImpact": {
+		"title": "Signature Ability: \n§6[Elemental Impact]§7 \nCauses you to dash forward with extreme power, releasing elemental explosions as you move.\n\n§a30s Cooldown§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/spellblade_signature_elemental_impact.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "spellbladeSignatureElementalImpact"
+				}
+			}
+		]
+	},
+	"spellbladeSignatureElementalImpactMagnet": {
+		"title": "§7Your §6[Elemental Impact]§7 now pulls nearby enemies into the path of impact.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/spellblade_signature_elemental_impact.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "spellbladeSignatureElementalImpactMagnet"
+				}
+			}
+		]
+	},
+	"spellbladeSignatureElementalImpactResistance": {
+		"title": "§7Your §6[Elemental Impact]§7 now also grants you brief resistance.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/spellblade_signature_elemental_impact.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "spellbladeSignatureElementalImpactResistance"
+				}
+			}
+		]
+	},
+	"spellbladeSignatureSpellweaver": {
+		"title": "Signature Ability: \n§6[Spellweaver]§7 \nDoubles the chance of your Spellweaving passive for 25s.\n\n§a40s Cooldown§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/spellblade_signature_spellweaver.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "spellbladeSignatureSpellweaver"
+				}
+			}
+		]
+	},
+	"spellbladeSignatureSpellweaverHaste": {
+		"title": "§7Your Spellweaving procs now grant you 5s of Haste stacking up to 5 times.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/spellblade_signature_spellweaver.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "spellbladeSignatureSpellweaverHaste"
+				}
+			}
+		]
+	},
+	"spellbladeSignatureSpellweaverRegeneration": {
+		"title": "§7Your Spellweaving procs now have a 50% chance to grant you regeneration for 5s.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/spellblade_signature_spellweaver.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "spellbladeSignatureSpellweaverRegeneration"
+				}
+			}
+		]
+	},
+	"wizardPath": {
+		"title": "Path of the §bWizard§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/wizard_path.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "puffish_skills category unlock @s simplyskills_wizard"
+				}
+			}
+		]
+	},
+	"shamanPath": {
+		"title": "Path of the §bShaman§7\n§eNOT YET IMPLEMENTED§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/shaman_path.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "puffish_skills category unlock @s simplyskills_shaman"
+				}
+			}
+		]
+	},
+	"clericPath": {
+		"title": "Path of the §bCleric§7\n§eNOT YET IMPLEMENTED§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/cleric_path.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "puffish_skills category unlock @s simplyskills_cleric"
+				}
+			}
+		]
+	},
+	"necromancerPath": {
+		"title": "Path of the §bNecromancer§7\n§eNOT YET IMPLEMENTED§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/necromancer_path.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "puffish_skills category unlock @s simplyskills_necromancer"
+				}
+			}
+		]
+	},
+	"wizardPassiveSpellEcho": {
+		"title": "§7§a[Spell Echo]§7 \nYour spell hits have a chance to echo, casting an additional random spell at the target.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/wizard_spell_echo.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "wizardPassiveSpellEcho"
+				}
+			}
+		]
+	},
+	"wizardSignatureMeteorShower": {
+		"title": "Signature Ability: \n§6[Meteor Shower]§7 \nCalls down meteors on nearby enemies.\n\n§a40s Cooldown§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/wizard_signature_meteor_shower.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "wizardSignatureMeteorShower"
+				}
+			}
+		]
+	},
+	"wizardSignatureMeteorShowerGreater": {
+		"title": "§7§6[Meteor Shower]§7 Now summons a single larger meteor that deals significantly more damage in a larger area.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/wizard_signature_meteor_shower.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "wizardSignatureMeteorShowerGreater"
+				}
+			}
+		]
+	},
+	"wizardSignatureMeteorShowerWrath": {
+		"title": "§7Casting §6[Meteor Shower]§7 now grants you 10 stacks of Meteoric Wrath. \n \n§f(Meteoric Wrath)§7 periodically summons meteors above nearby enemies.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/wizard_signature_meteor_shower.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "wizardSignatureMeteorShowerWrath"
+				}
+			}
+		]
+	},
+	"wizardSignatureMeteorShowerRenewingWrath": {
+		"title": "§7When Meteoric Wrath triggers it has a 10% chance to not consume a stack.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/wizard_signature_meteor_shower.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "wizardSignatureMeteorShowerRenewingWrath"
+				}
+			}
+		]
+	},
+	"wizardSignatureMeteorShowerRenewingWrath++": {
+		"title": "§7When Meteoric Wrath triggers it has a 30% chance to not consume a stack.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/wizard_signature_meteor_shower.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "wizardSignatureMeteorShowerRenewingWrath++"
+				}
+			}
+		]
+	},
+	"wizardSignatureMeteorShowerRenewingWrath+++": {
+		"title": "§7When Meteoric Wrath triggers it has a 50% chance to not consume a stack.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/wizard_signature_meteor_shower.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "wizardSignatureMeteorShowerRenewingWrath+++"
+				}
+			}
+		]
+	},
+	"wizardSignatureIceComet": {
+		"title": "Signature Ability: \n§6[Ice Comet]§7 \nCalls down an Ice Comet that deals damage to and slows enemies in a large radius.\n\n§a30s Cooldown§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/wizard_signature_ice_comet.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "wizardSignatureIceComet"
+				}
+			}
+		]
+	},
+	"wizardSignatureIceCometLeap": {
+		"title": "§7Casting §6[Ice Comet]§7 now causes you to leap backwards and gain momentary slow falling.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/wizard_signature_ice_comet.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "wizardSignatureIceCometLeap"
+				}
+			}
+		]
+	},
+	"wizardSignatureIceCometVolley": {
+		"title": "§7Casting §6[Ice Comet]§7 now grants you 6 stacks of frost volley. \n \n§f(Frost Volley)§7 causes you to periodically summon Frost Bolts at nearby or targeted enemies.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/wizard_signature_ice_comet.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "wizardSignatureIceCometVolley"
+				}
+			}
+		]
+	},
+	"wizardSignatureIceCometDamage+": {
+		"title": "§7§6[Ice Comet]§7 Is now larger and deals more damage & knockback.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/wizard_signature_ice_comet.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "wizardSignatureIceCometDamage+"
+				}
+			}
+		]
+	},
+	"wizardSignatureIceCometDamage++": {
+		"title": "§7§6[Ice Comet]§7 Is now larger and deals much more damage & knockback.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/wizard_signature_ice_comet.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "wizardSignatureIceCometDamage++"
+				}
+			}
+		]
+	},
+	"wizardSignatureIceCometDamage+++": {
+		"title": "§7§6[Ice Comet]§7 Is now larger and deals significantly more damage & knockback.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/wizard_signature_ice_comet.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "wizardSignatureIceCometDamage+++"
+				}
+			}
+		]
+	},
+	"wizardSignatureStaticDischarge": {
+		"title": "Signature Ability: \n§6[Static Discharge]§7 \nReleases a high damage electrical discharge at your target, inflicting them with weakness.\n\n§a35s Cooldown§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/wizard_signature_lightning_beam.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "wizardSignatureStaticDischarge"
+				}
+			}
+		]
+	},
+	"wizardSignatureStaticDischargeLeap": {
+		"title": "§7Your §6[Discharge]§7 can now leap between nearby enemies up to 8 times.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/wizard_signature_lightning_beam.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "wizardSignatureStaticDischargeLeap"
+				}
+			}
+		]
+	},
+	"wizardSignatureStaticDischargeLeap++": {
+		"title": "§7Your §6[Static Discharge]§7 can now leap between nearby enemies up to 16 times.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/wizard_signature_lightning_beam.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "wizardSignatureStaticDischargeLeap++"
+				}
+			}
+		]
+	},
+	"wizardSignatureStaticDischargeLeap+++": {
+		"title": "§7Your §6[Static Discharge]§7 can now leap between nearby enemies up to 24 times.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/wizard_signature_lightning_beam.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "wizardSignatureStaticDischargeLeap+++"
+				}
+			}
+		]
+	},
+	"wizardSignatureStaticDischargeSpeed": {
+		"title": "§7Each time §6[Static Discharge]§7 leaps or is cast, you have a 5% chance to gain speed.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/wizard_signature_lightning_beam.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "wizardSignatureStaticDischargeSpeed"
+				}
+			}
+		]
+	},
+	"wizardSignatureStaticDischargeSpeed++": {
+		"title": "§7Each time §6[Static Discharge]§7 leaps or is cast, you have a 10% chance to gain speed.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/wizard_signature_lightning_beam.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "wizardSignatureStaticDischargeSpeed++"
+				}
+			}
+		]
+	},
+	"wizardSignatureStaticDischargeSpeed+++": {
+		"title": "§7Each time §6[Static Discharge]§7 leaps or is cast, you have a 15% chance to gain speed.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/wizard_signature_lightning_beam.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "wizardSignatureStaticDischargeSpeed+++"
+				}
+			}
+		]
+	},
+	"wizardSignatureArcaneBolt": {
+		"title": "Signature Ability: \n§6[Arcane Bolt]§7 \nFires a concentrated bolt of arcane energy at your target.\n\n§a35s Cooldown§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/wizard_signature_arcane_bolt.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "wizardSignatureArcaneBolt"
+				}
+			}
+		]
+	},
+	"wizardSignatureArcaneBoltLesser": {
+		"title": "§7Your §6[Arcane Bolt]§7 now fires multiple Lesser Arcane Bolts in a larger area. These bolts move faster and have less damage.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/wizard_signature_arcane_bolt.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "wizardSignatureArcaneBoltLesser"
+				}
+			}
+		]
+	},
+	"wizardSignatureArcaneBoltVolley": {
+		"title": "§7Casting §6[Arcane Bolt]§7 now grants you 10 stacks of Arcane Volley. \n \n§f(Arcane Volley)§7 causes you to rapidly cast Lesser Arcane Bolts at targeted enemies.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/wizard_signature_arcane_bolt.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "wizardSignatureArcaneBoltVolley"
+				}
+			}
+		]
+	},
+	"wizardSignatureArcaneBoltGreater": {
+		"title": "§7You now cast a §6[Greater Arcane Bolt]§7 that deals increased damage. \n \nThis does not affect Lesser Arcane Bolts.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/wizard_signature_arcane_bolt.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "wizardSignatureArcaneBoltGreater"
+				}
+			}
+		]
+	},
+	"shamanSignatureAstralTotem": {
+		"title": "Signature Ability: §6[Astral Totem]§7 Summon a Totem that periodically casts elemental comets on nearby enemies.\n\n§a30s Cooldown§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/shaman_signature_astral_totem.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "shamanSignatureAstralTotem"
+				}
+			}
+		]
+	},
+	"shamanSignatureNovaTotem": {
+		"title": "Signature Ability: §6[Nova Totem]§7 Summon a Totem that periodically casts elemental novas.\n\n§a30s Cooldown§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/shaman_signature_nova_totem.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "shamanSignatureNovaTotem"
+				}
+			}
+		]
+	},
+	"shamanSignatureBoltTotem": {
+		"title": "Signature Ability: §6[Bolt Totem]§7 Summon a Totem that periodically fires elemental bolts at nearby enemies.\n\n§a30s Cooldown§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/shaman_signature_bolt_totem.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "shamanSignatureBoltTotem"
+				}
+			}
+		]
+	},
+	"rogueSignatureEvasion": {
+		"title": "Signature Ability: \n§6[Evasion]§7 \nThe effects of your Evasion Mastery passive are doubled for 8s.\n\n§a30s Cooldown§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/rogue_signature_evasion.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rogueSignatureEvasion"
+				}
+			}
+		]
+	},
+	"rogueSignatureEvasionFanOfBlades": {
+		"title": "§7§6[Evasion]§7 Now also grants you 10 stacks of Fan of Blades.\n\n§f(Fan of Blades)§7 causes you to throw daggers at enemies in front of you.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/rogue_signature_evasion_fanofblades.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rogueSignatureEvasionFanOfBlades"
+				}
+			}
+		]
+	},
+	"rogueSignatureEvasionFanOfBladesDisenchantment": {
+		"title": "§7Your Fan of Blades now also inflict enemies with Disenchantment.\n\n§f(Disenchantment)§7 periodically strips buffs from the victim.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/rogue_signature_evasion_fanofblades.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rogueSignatureEvasionFanOfBladesDisenchantment"
+				}
+			}
+		]
+	},
+	"rogueSignatureEvasionFanOfBladesAssault": {
+		"title": "§7You now gain 20 stacks of Fan of Blades with increased throw frequency but decreased damage.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/rogue_signature_evasion_fanofblades.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rogueSignatureEvasionFanOfBladesAssault"
+				}
+			}
+		]
+	},
+	"rogueSignatureEvasionFanOfBladesRenewal": {
+		"title": "§7Gain two stacks of Fan of Blades on kill.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/rogue_signature_evasion_fanofblades.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rogueSignatureEvasionFanOfBladesRenewal"
+				}
+			}
+		]
+	},
+	"rogueSignaturePreparation": {
+		"title": "Signature Ability: \n§6[Preparation]§7 \nGain Stealth and Speed 3 for 8s.\n\n§a15s Cooldown§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/rogue_signature_preparation.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rogueSignaturePreparation"
+				}
+			}
+		]
+	},
+	"rogueSignaturePreparationShadowstrike": {
+		"title": "§7§6[Preparation]§7 now causes you to dash forward at lightning speed, dealing mainhand damage to enemies in your path.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/rogue_signature_preparation.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rogueSignaturePreparationShadowstrike"
+				}
+			}
+		]
+	},
+	"rogueSignaturePreparationShadowstrikeVampire": {
+		"title": "§7You steal buffs from enemies caught within the path of your dash.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/rogue_signature_preparation.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rogueSignaturePreparationShadowstrikeVampire"
+				}
+			}
+		]
+	},
+	"rogueSignaturePreparationShadowstrikeBolt": {
+		"title": "§7When dashing forward you cast Lesser Soul Bolts at enemies in your path.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/rogue_signature_preparation.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rogueSignaturePreparationShadowstrikeBolt"
+				}
+			}
+		]
+	},
+	"rogueSignatureSiphoningStrikes": {
+		"title": "Signature Ability: \n§6[Siphoning Strikes]§7 \nGain 10 stacks of Siphoning Strikes.\n\n§f(Siphoning Strikes)§7 causes you to siphon health health and strip buffs from your enemies on hit.\n\n§a30s Cooldown§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/rogue_signature_siphoning_strikes.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rogueSignatureSiphoningStrikes"
+				}
+			}
+		]
+	},
+	"rogueSignatureSiphoningStrikesMighty": {
+		"title": "§7When you gain §6[Siphoning Strikes]§7 you also gain Might.\n\n§f(Might)§7 grants 25% increased attack damage per stack.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/rogue_signature_siphoning_strikes.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rogueSignatureSiphoningStrikesMighty"
+				}
+			}
+		]
+	},
+	"rogueSignatureSiphoningStrikesAura": {
+		"title": "§7When you gain §6[Siphoning Strikes]§7 you also gain Immobilizing Aura.\n\n§f(Immobilizing Aura)§7 periodically inflicts nearby enemies with Immobilize.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/rogue_signature_siphoning_strikes.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rogueSignatureSiphoningStrikesAura"
+				}
+			}
+		]
+	},
+	"rogueSignatureSiphoningStrikesVanish": {
+		"title": "§7Your §6[Siphoning Strikes]§7 also cleanse you of all stacks of Revealed on hit.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/rogue_signature_siphoning_strikes.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rogueSignatureSiphoningStrikesVanish"
+				}
+			}
+		]
+	},
+	"rangerSignatureArrowRain": {
+		"title": "Signature Ability: \n§6[Arrow Rain]§7 \nGain one stack of Arrow Rain. \n \n§f(Arrow Rain)§7 causes your next fully-charged bow attack will summon a rain of arrows at the targeted area.\n\n§a35s Cooldown§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/ranger_signature_arrow_rain.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rangerSignatureArrowRain"
+				}
+			}
+		]
+	},
+	"rangerSignatureArrowRainElemental": {
+		"title": "§7Your §6[Arrow Rain]§7 is now elementally enhanced and deals additional elemental damage.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/ranger_signature_arrow_rain.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rangerSignatureArrowRainElemental"
+				}
+			}
+		]
+	},
+	"rangerSignatureArrowRainEplosive": {
+		"title": "§7Your §6[Arrow Rain]§7 now leaves behind proximity explosive arrows.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/ranger_signature_arrow_rain.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rangerSignatureArrowRainEplosive"
+				}
+			}
+		]
+	},
+	"rangerSignatureArrowRainVolley+": {
+		"title": "§7Your §6[Arrow Rain]§7 now fires one additional volley.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/ranger_signature_arrow_rain.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rangerSignatureArrowRainVolley+"
+				}
+			}
+		]
+	},
+	"rangerSignatureArrowRainVolley++": {
+		"title": "§7Your §6[Arrow Rain]§7 now fires two additional volleys.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/ranger_signature_arrow_rain.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rangerSignatureArrowRainVolley++"
+				}
+			}
+		]
+	},
+	"rangerSignatureArrowRainVolley+++": {
+		"title": "§7Your §6[Arrow Rain]§7 now fires three additional volleys.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/ranger_signature_arrow_rain.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rangerSignatureArrowRainVolley+++"
+				}
+			}
+		]
+	},
+	"rangerSignatureArrowRainRadius+": {
+		"title": "§7Your §6[Arrow Rain]§7 now has +1 radius.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/ranger_signature_arrow_rain.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rangerSignatureArrowRainRadius+"
+				}
+			}
+		]
+	},
+	"rangerSignatureArrowRainRadius++": {
+		"title": "§7Your §6[Arrow Rain]§7 now has +2 radius.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/ranger_signature_arrow_rain.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rangerSignatureArrowRainRadius++"
+				}
+			}
+		]
+	},
+	"rangerSignatureArrowRainRadius+++": {
+		"title": "§7Your §6[Arrow Rain]§7 now has +3 radius.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/ranger_signature_arrow_rain.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rangerSignatureArrowRainRadius+++"
+				}
+			}
+		]
+	},
+	"rangerSignatureDisengage": {
+		"title": "Signature Ability: \n§6[Disengage]§7 \nSlow nearby enemies and leap backwards.\n\n§a15s Cooldown§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/ranger_signature_disengage.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rangerSignatureDisengage"
+				}
+			}
+		]
+	},
+	"rangerSignatureDisengageRecuperate": {
+		"title": "§7§6[Disengage]§7 now heals all nearby pets to full health.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/ranger_signature_disengage.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rangerSignatureDisengageRecuperate"
+				}
+			}
+		]
+	},
+	"rangerSignatureDisengageExploitation": {
+		"title": "§7§6[Disengage]§7 now grants all nearby pets Immobilizing Aura for a short duration. \n\n§f(Immobilizing Aura)§7 periodically inflicts nearby enemies with Immobilize.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/ranger_signature_disengage.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rangerSignatureDisengageExploitation"
+				}
+			}
+		]
+	},
+	"rangerSignatureDisengageMarksman": {
+		"title": "§7§6[Disengage]§7 now grants you a stack of Marksman. \n\n§f(Marksman)§7 Causes your next fully charged ranged attack to fire a marksman arrow, dealing high damage and inflicting the target with Death Mark. \n\n§f(Death Mark)§7 Reduces the victims resistance and healing by 25% per stack.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/ranger_signature_disengage.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rangerSignatureDisengageMarksman"
+				}
+			}
+		]
+	},
+	"rangerSignatureElementalArrows": {
+		"title": "Signature Ability: \n§6[Elemental Arrows]§7 \nGain 5 stacks of Elemental Arrows.\n\n§a45s Cooldown§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/ranger_signature_elemental_arrows.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rangerSignatureElementalArrows"
+				}
+			}
+		]
+	},
+	"rangerSignatureElementalArrowsFrostAttuned": {
+		"title": "§7Your §6[Elemental Arrows]§7 will always be frost attuned.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/ranger_signature_elemental_arrows.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rangerSignatureElementalArrowsFrostAttuned"
+				}
+			}
+		]
+	},
+	"rangerSignatureElementalArrowsFireAttuned": {
+		"title": "§7Your §6[Elemental Arrows]§7 will always be fire attuned.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/ranger_signature_elemental_arrows.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rangerSignatureElementalArrowsFireAttuned"
+				}
+			}
+		]
+	},
+	"rangerSignatureElementalArrowsLightningAttuned": {
+		"title": "§7Your §6[Elemental Arrows]§7 will always be lightning attuned.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/ranger_signature_elemental_arrows.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rangerSignatureElementalArrowsLightningAttuned"
+				}
+			}
+		]
+	},
+	"rangerSignatureElementalArrowsRadius+": {
+		"title": "§7The radius of your §6[Elemental Arrows]§7 is increased by 2.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/ranger_signature_elemental_arrows.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rangerSignatureElementalArrowsRadius+"
+				}
+			}
+		]
+	},
+	"rangerSignatureElementalArrowsRadius++": {
+		"title": "§7The radius of your §6[Elemental Arrows]§7 is increased by 4.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/ranger_signature_elemental_arrows.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rangerSignatureElementalArrowsRadius++"
+				}
+			}
+		]
+	},
+	"rangerSignatureElementalArrowsRadius+++": {
+		"title": "§7The radius of your §6[Elemental Arrows]§7 is increased by 6.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/ranger_signature_elemental_arrows.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rangerSignatureElementalArrowsRadius+++"
+				}
+			}
+		]
+	},
+	"rangerSignatureElementalArrowsStacks+": {
+		"title": "§7You gain one additional stack of §6[Elemental Arrows]§7.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/ranger_signature_elemental_arrows.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rangerSignatureElementalArrowsStacks+"
+				}
+			}
+		]
+	},
+	"rangerSignatureElementalArrowsStacks++": {
+		"title": "§7You gain two additional stacks of §6[Elemental Arrows]§7.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/ranger_signature_elemental_arrows.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rangerSignatureElementalArrowsStacks++"
+				}
+			}
+		]
+	},
+	"rangerSignatureElementalArrowsStacks+++": {
+		"title": "§7You gain three additional stacks of §6[Elemental Arrows]§7.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/ranger_signature_elemental_arrows.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rangerSignatureElementalArrowsStacks+++"
+				}
+			}
+		]
+	},
+	"rangerSignatureElementalArrowsRenewal": {
+		"title": "§7You have a 35% chance on kill to gain a stack of §6[Elemental Arrows]§7.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/ranger_signature_elemental_arrows.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "rangerSignatureElementalArrowsRenewal"
+				}
+			}
+		]
+	},
+	"necromancerSignatureEnrage": {
+		"title": "Signature Ability: \n§6[Enrage]§7 \nSend nearby minions into a frenzy, granting them speed, strength and resistance.\n\n§a30s Cooldown§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/necromancer_signature_enrage.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "necromancerSignatureEnrage"
+				}
+			}
+		]
+	},
+	"necromancerSignatureSacrifice": {
+		"title": "Signature Ability: \n§6[Sacrifice]§7 \nSacrifice nearby minions, gaining a stack of strength, haste, and resistance for each minion sacrificed.\n\n§a30s Cooldown§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/necromancer_signature_sacrifice.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "necromancerSignatureSacrifice"
+				}
+			}
+		]
+	},
+	"necromancerSignatureSpectralGrasp": {
+		"title": "Signature Ability: \n§6[Spectral Grasp]§7 \nDamage your target and pull them towards you, inflicting them with slowness & mining fatigue.\n\n§a30s Cooldown§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/necromancer_signature_spectral_grasp.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "necromancerSignatureSpectralGrasp"
+				}
+			}
+		]
+	},
+	"frostguardSignatureConjuringStrikes": {
+		"title": "Signature Ability: \n§6[Conjuring Strikes]§7 \nGain 6 stacks of Conjuring Strikes.\n\n§a30s Cooldown§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/frostguard_signature_conjuring_strikes.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "frostguardSignatureConjuringStrikes"
+				}
+			}
+		]
+	},
+	"frostguardSignatureFrostNova": {
+		"title": "Signature Ability: \n§6[Frost Nova]§7 \nRelease a Frost Nova, damaging and slowing nearby enemies.\n\n§a30s Cooldown§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/frostguard_signature_frost_nova.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "frostguardSignatureFrostNova"
+				}
+			}
+		]
+	},
+	"frostguardSignatureIceBlock": {
+		"title": "Signature Ability: \n§6[Ice Block]§7 \nGain Ice Block for 6s.\n\n§a30s Cooldown§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/frostguard_signature_ice_block.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "frostguardSignatureIceBlock"
+				}
+			}
+		]
+	},
+	"crusaderSignatureConsecration": {
+		"title": "Signature Ability: \n§6[Consecration]§7 \nGain Consecration for 15s.\n\n§a30s Cooldown§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/crusader_signature_consecration.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "crusaderSignatureConsecration"
+				}
+			}
+		]
+	},
+	"crusaderSignatureStubborn": {
+		"title": "Signature Ability: \n§6[Stubborn]§7 \nHeal yourself to full and gain resistance for 5s.\n\n§a30s Cooldown§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/crusader_signature_stubborn.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "crusaderSignatureStubborn"
+				}
+			}
+		]
+	},
+	"crusaderSignatureWarbanner": {
+		"title": "Signature Ability: \n§6[Warbanner]§7 \nSummon a Warbanner that periodically damages nearby enemies with fire spells and heals nearby allies.\n\n§a30s Cooldown§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/crusader_signature_warbanner.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "crusaderSignatureWarbanner"
+				}
+			}
+		]
+	},
+	"clericSignatureRestoration": {
+		"title": "Signature Ability: \n§6[Restoration]§7 \nRelease a healing nova, healing you and nearby allies whilst granting absorption.\n\n§a30s Cooldown§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/cleric_signature_restoration.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "clericSignatureRestoration"
+				}
+			}
+		]
+	},
+	"clericSignatureDivineIntervention": {
+		"title": "Signature Ability: \n§6[Divine Intervention]§7 \nGain Divine Intervention for 10s.\n\n§a30s Cooldown§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/cleric_signature_divine_intervention.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "clericSignatureDivineIntervention"
+				}
+			}
+		]
+	},
+	"clericSignatureDivineAscent": {
+		"title": "Signature Ability: \n§6[Divine Ascent]§7 \nRise towards the heavens, gaining resistance, regeneration, and levitation for 8s.\n\n§a30s Cooldown§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/cleric_signature_divine_ascent.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "clericSignatureDivineAscent"
+				}
+			}
+		]
+	},
+	"berserkerSignatureRampage": {
+		"title": "Signature Ability: \n§6[Rampage]§7 \nGain Rampage for 15s.\n\n§f(Rampage)§7 grants you random buffs each time you take damage.\n\n§a30s Cooldown§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/berserker_signature_rampage.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "berserkerSignatureRampage"
+				}
+			}
+		]
+	},
+	"berserkerSignatureRampageCharge": {
+		"title": "§7§6[Rampage]§7 now immediately grants you regeneration and resistance and causes you to barrel forward, dealing damage and knocking back enemies.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/berserker_signature_rampage_bullrush.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "berserkerSignatureRampageCharge"
+				}
+			}
+		]
+	},
+	"berserkerSignatureRampageChargeRelentless": {
+		"title": "§7When your charge deals damage, you convert your stacks of Exhaustion into Strength.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/berserker_signature_rampage_bullrush.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "berserkerSignatureRampageChargeRelentless"
+				}
+			}
+		]
+	},
+	"berserkerSignatureRampageChargeImmob": {
+		"title": "§7Enemies hit by your charge are also inflicted with Immobilize. \n\n§f(Immobilize)§7 greatly slows and damages the victim when they attempt to move.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/berserker_signature_rampage_bullrush.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "berserkerSignatureRampageChargeImmob"
+				}
+			}
+		]
+	},
+	"berserkerSignatureBloodthirsty": {
+		"title": "Signature Ability: \n§6[Bloodthirsty]§7 \nGain Bloodthirsty for 20s.\n\n§f(Bloodthirsty)§7 grants you 25% of your max health each time you defeat an enemy.\n\n§a25s Cooldown§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/berserker_signature_bloodthirsty.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "berserkerSignatureBloodthirsty"
+				}
+			}
+		]
+	},
+	"berserkerSignatureBloodthirstyMighty": {
+		"title": "§7§6[Bloodthirsty]§7 Now grants you Might on use.\n\n§f(Might)§7 grants 25% increased attack damage per stack.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/berserker_signature_bloodthirsty.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "berserkerSignatureBloodthirstyMighty"
+				}
+			}
+		]
+	},
+	"berserkerSignatureBloodthirstyTireless": {
+		"title": "§7While §6[Bloodthirsty]§7 is active, you have a chance to remove stacks of Exhaustion on hit.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/berserker_signature_bloodthirsty.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "berserkerSignatureBloodthirstyTireless"
+				}
+			}
+		]
+	},
+	"berserkerSignatureBloodthirstyTremor": {
+		"title": "§7While §6[Bloodthirsty]§7 is active, you have a chance to gain Earthshaker on hit.\n\n§f(Earthshaker)§7 causes you to damage and knockback surrounding enemies when landing on the ground. This damage scales with your armor value.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/berserker_signature_bloodthirsty.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "berserkerSignatureBloodthirstyTremor"
+				}
+			}
+		]
+	},
+	"berserkerSignatureBerserking": {
+		"title": "Signature Ability: \n§6[Berserking]§7 \nSacrifice 30% Total HP. Gain Berserking for a duration equal to the amount of hearts lost.\n\n§f(Berserking)§7 grants you stacking offensive buffs each time you hit an enemy.\n\n§a25s Cooldown§7",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/berserker_signature_berserking.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "berserkerSignatureBerserking"
+				}
+			}
+		]
+	},
+	"berserkerSignatureBerserkingLeap": {
+		"title": "§7§6[Berserking]§7 now causes you to perform a forward leap slam, damaging and knocking back enemies at the landing location.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/berserker_signature_berserking_leapslam.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "berserkerSignatureBerserkingLeap"
+				}
+			}
+		]
+	},
+	"berserkerSignatureBerserkingLeapImmob": {
+		"title": "§7Leap Slam now also inflicts enemies with Immobilize.\n\n§f(Immobilize)§7 greatly slows and damages the victim when they attempt to move.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/berserker_signature_berserking_leapslam.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "berserkerSignatureBerserkingLeapImmob"
+				}
+			}
+		]
+	},
+	"berserkerSignatureBerserkingLeapPull": {
+		"title": "§7Leap Slam now pulls nearby enemies instead of knocking them back.",
+		"frame": "goal",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/berserker_signature_berserking_leapslam.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "berserkerSignatureBerserkingLeapPull"
+				}
+			}
+		]
+	}
+}
