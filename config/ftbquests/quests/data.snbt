@@ -18,6 +18,6 @@
 	}
 	pause_game: false
 	progression_mode: "linear"
-	title: "&l&5Timeless Magic"
+	title: "{quests.timeless_magic.main_title}"
 	version: 13
 }

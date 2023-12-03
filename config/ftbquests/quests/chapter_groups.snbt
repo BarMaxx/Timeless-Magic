@@ -1,5 +1,6 @@
 {
 	chapter_groups: [
+		{ id: "378AB2F5B8715020", title: "1 Эпоха" }
 		{ id: "1947F8CB8800FABA", title: "Начало" }
 		{ id: "24E98FFC5447C5AE", title: "Продвижение" }
 		{ id: "0C96E52A5A78812E", title: "Заключение" }
