@@ -1100,6 +1100,73 @@
 			x: -4.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["201065710811A272"]
+			description: [
+				"Для усиления своей боевой магии мне нужно создать &6Одеяние Волшебника&r. Оно даёт мало &7защиты&r, но &3усиливает&r мою боевую магию, поэтому мне необходимо создать его."
+				""
+				"Для создания одеяния волшебника мне нужна &7шерсть&r и &3лазурит&r. Всё это следует создавать на &aВерстаке&r."
+				""
+				"В будущем я смогу &2улучшить&r одеяние волшебника и оно будет усиливать мою боевую магию ещё &cсильнее&r."
+			]
+			id: "2BA24198E000328B"
+			rewards: [{
+				id: "44C7EC3156DA65AB"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "cross"
+			subtitle: "Начало Боевой Магии!"
+			tasks: [
+				{
+					id: "750376952F6485C6"
+					item: {
+						Count: 1b
+						id: "wizards:wizard_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66155BDDEDD39025"
+					item: {
+						Count: 1b
+						id: "wizards:wizard_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6813A8B83C59803F"
+					item: {
+						Count: 1b
+						id: "wizards:wizard_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "108DE5BAD5567A92"
+					item: {
+						Count: 1b
+						id: "wizards:wizard_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Одеяние Волшебника"
+			x: 0.0d
+			y: 0.0d
+		}
 	]
 	title: "Боевая Магия"
 }
