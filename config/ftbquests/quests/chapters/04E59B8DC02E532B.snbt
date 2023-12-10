@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "04E59B8DC02E532B"
-	group: "1947F8CB8800FABA"
+	group: "378AB2F5B8715020"
 	icon: "candlelight:cooking_pot"
 	id: "04E59B8DC02E532B"
 	order_index: 2
@@ -1612,5 +1612,5 @@
 			y: -1.5d
 		}
 	]
-	title: "Кулинария"
+	title: "Дополнительно: Кулинария"
 }

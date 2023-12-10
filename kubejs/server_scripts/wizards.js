@@ -10,7 +10,7 @@ ServerEvents.recipes(event => {
 		'S  '
 	  ], 
 	  {
-		I: 'minecraft:iron_ingot',
+		I: 'minecraft:copper_ingot',
 		S: '#forge:rods/wooden',
 		C: '#minecraft:coals'
 	  }

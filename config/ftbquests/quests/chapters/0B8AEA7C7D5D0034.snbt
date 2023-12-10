@@ -15,48 +15,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["15FAEC4BA6F51CA9"]
-			id: "38240B4A9BEE6D54"
-			shape: "cross"
-			tasks: [{
-				id: "0AEC3C9BD49A0DBD"
-				item: "bewitchment:raw_silver"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["38240B4A9BEE6D54"]
-			id: "17A34C0D1A2A3702"
-			shape: "formation"
-			tasks: [{
-				id: "539C7F42053940D8"
-				item: "bewitchment:silver_ingot"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["17A34C0D1A2A3702"]
-			id: "05AFA6ABEC776BA2"
-			shape: "spiral"
-			tasks: [{
-				id: "38BF2BAA020220F5"
-				item: {
-					Count: 1b
-					id: "bewitchment:athame"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 2.5d
-			y: 0.0d
-		}
-		{
 			dependencies: ["05AFA6ABEC776BA2"]
 			id: "00820248052B9827"
 			shape: "spiral"

@@ -22,6 +22,17 @@
         "value": 2048
       }
     },
+    "amethyst_core:spell_mana_cost": {
+      "enabled": false,
+      "min": {
+        "default": -8.9,
+        "value": -8.9
+      },
+      "max": {
+        "default": 1.99,
+        "value": 1.99
+      }
+    },
     "spell_power:critical_chance": {
       "enabled": false,
       "min": {
@@ -165,6 +176,17 @@
         "value": 1024
       }
     },
+    "amethyst_core:shielding": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "additionalentityattributes:bonus_loot_count_rolls": {
       "enabled": false,
       "min": {
@@ -174,6 +196,17 @@
       "max": {
         "default": 128,
         "value": 128
+      }
+    },
+    "amethyst_core:spell_level": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "additionalentityattributes:lung_capacity": {
@@ -231,6 +264,17 @@
         "value": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
       }
     },
+    "amethyst_core:damage_multiplication": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 32,
+        "value": 32
+      }
+    },
     "minecraft:zombie.spawn_reinforcements": {
       "enabled": true,
       "min": {
@@ -286,6 +330,28 @@
         "value": 1024
       }
     },
+    "amethyst_core:spell_duration": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 32,
+        "value": 32
+      }
+    },
+    "amethyst_core:spell_range": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 5,
+        "value": 5
+      }
+    },
     "additionalentityattributes:water_visibility": {
       "enabled": false,
       "min": {
@@ -306,6 +372,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "amethyst_core:spell_amplifier": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 32,
+        "value": 32
       }
     },
     "puffish_skills:player.mining_speed": {
@@ -506,6 +583,28 @@
         "value": 2048
       }
     },
+    "amethyst_core:spell_experience": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 32,
+        "value": 32
+      }
+    },
+    "amethyst_core:spell_cooldown": {
+      "enabled": false,
+      "min": {
+        "default": -8.9,
+        "value": -8.9
+      },
+      "max": {
+        "default": 1.99,
+        "value": 1.99
+      }
+    },
     "minecraft:generic.movement_speed": {
       "enabled": true,
       "min": {
@@ -537,6 +636,17 @@
       "max": {
         "default": 1024,
         "value": 1000000
+      }
+    },
+    "amethyst_core:player_experience": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "additionalentityattributes:lava_speed": {
@@ -583,6 +693,17 @@
         "value": 2
       }
     },
+    "amethyst_core:magic_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "spell_power:healing": {
       "enabled": false,
       "min": {
@@ -614,6 +735,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "amethyst_core:spell_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 32,
+        "value": 32
       }
     }
   }

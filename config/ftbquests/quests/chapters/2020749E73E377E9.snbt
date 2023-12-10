@@ -10,94 +10,6 @@
 	quests: [
 		{
 			dependencies: ["267857E9A44175A7"]
-			description: [
-				"После добычи алмазов я могу создать новую кирку - &6Алмазную кирку&r. Она может &3добыть&r очень твёрдые блоки, такие, как обсидиан. Также она очень прочная, поэтому, я думаю, что ещё долго буду ей пользоваться. В отличии от всех своих старых кирок."
-				""
-				"Для &2создания&r алмазной кирки мне нужно 3 алмаза и 2 палки. Всё это я должен соединить на верстаке, а после я смогу забрать свою драгоценную кирку."
-			]
-			id: "785DC98ABA9951D7"
-			rewards: [
-				{
-					id: "2C3A9761C470665E"
-					item: {
-						Count: 1b
-						id: "minecraft:enchanted_book"
-						tag: {
-							StoredEnchantments: [{
-								id: "minecraft:fortune"
-								lvl: 1s
-							}]
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "50E08EF588AB94DB"
-					item: {
-						Count: 1b
-						id: "minecraft:enchanted_book"
-						tag: {
-							StoredEnchantments: [{
-								id: "minecraft:unbreaking"
-								lvl: 2s
-							}]
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "spiral"
-			subtitle: "Блестит на солнце!"
-			tasks: [{
-				id: "48BFD84607732CAC"
-				item: {
-					Count: 1b
-					id: "minecraft:diamond_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 12.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["785DC98ABA9951D7"]
-			description: [
-				"После создания алмазной кирки я могу добыть очень твёрдый материал - &6Обсидиан&r. Он мне &3нужен&r для создания портала в &4Незер&r, крафта чародейского стола, улучшения сундуков и бочек, а также ещё для очень многих интересных и полезных предметов."
-				""
-				"Чтобы &2получить&r и &2добыть&r обсидиан, мне нужен залить водой источник лавы, а после сломать его моей новой алмазной киркой."
-			]
-			id: "0C248FCB6C14D252"
-			rewards: [
-				{
-					count: 4
-					id: "636B82FA7C555A8F"
-					item: "minecraft:obsidian"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					count: 4
-					id: "34567EE5834194BE"
-					item: "minecraft:crying_obsidian"
-					type: "item"
-				}
-			]
-			shape: "bottle"
-			subtitle: "Довольно твёрдый!"
-			tasks: [{
-				count: 5L
-				id: "2A1B2CFB9D071ED5"
-				item: "minecraft:obsidian"
-				type: "item"
-			}]
-			x: 14.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["267857E9A44175A7"]
 			id: "31D94F60F99A6D22"
 			shape: "spiral"
 			tasks: [
@@ -259,39 +171,6 @@
 			}]
 			x: 11.0d
 			y: -2.0d
-		}
-		{
-			dependencies: ["0C248FCB6C14D252"]
-			description: [
-				"После получения обсидиана я могу создать новый предмет - &6Чародейский стол&r. Он нужен для того, чтобы &3улучшать&r свои инструменты, броню и оружие за счёт опыта и лазурита. Чем лучше зачарование (то есть улучшение) - тем больше требуется опыта и лазурита. "
-				""
-				"Для &2создания&r чародейского стола мне потребуется: 4 обсидиана, 2 алмаза и 1 книга. Всё это мне следует соединить на верстаке."
-				""
-				"Подробнее про более полезные будет в &eследующем&r квесте."
-			]
-			id: "6B25B68CB13CBA08"
-			rewards: [
-				{
-					count: 7
-					id: "1EB0796D864C8B93"
-					item: "minecraft:obsidian"
-					type: "item"
-				}
-				{
-					id: "1B00092F1CA0D5E8"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-			]
-			shape: "cross"
-			subtitle: "Улучшение инструментов и брони!"
-			tasks: [{
-				id: "60D3219BFDAE56A0"
-				item: "minecraft:enchanting_table"
-				type: "item"
-			}]
-			x: 15.5d
-			y: 0.0d
 		}
 		{
 			dependencies: ["6B25B68CB13CBA08"]
@@ -554,18 +433,6 @@
 			}]
 			x: 16.0d
 			y: 1.0d
-		}
-		{
-			dependencies: ["6B25B68CB13CBA08"]
-			id: "07142BE120A0CF13"
-			shape: "cube"
-			tasks: [{
-				id: "5B73B0BDD74FDC09"
-				title: "Улучшение чародейского стола"
-				type: "checkmark"
-			}]
-			x: 17.0d
-			y: 0.0d
 		}
 	]
 	title: "Начальный этап"
