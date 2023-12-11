@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1_3"
+	group: "73067D7AC661366B"
+	id: "7A25A4C0C3556757"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "441496557A6D2FC6"
+		tasks: [{
+			id: "3990E52BB890D587"
+			title: "Появление в городе - Тайм Лесс"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "1 Глава: Где Я?"
+}

@@ -80,60 +80,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["26326049E5A0E153"]
-			description: [
-				"После добычи алмазов я могу создать новую кирку - &6Алмазную кирку&r. Она может &3добыть&r очень твёрдые блоки, такие, как обсидиан. Также она очень прочная, поэтому, я думаю, что ещё долго буду ей пользоваться. В отличии от всех своих старых кирок."
-				""
-				"Для &2создания&r алмазной кирки мне нужно 3 алмаза и 2 палки. Всё это я должен соединить на верстаке, а после я смогу забрать свою драгоценную кирку."
-			]
-			id: "785DC98ABA9951D7"
-			rewards: [
-				{
-					id: "2C3A9761C470665E"
-					item: {
-						Count: 1b
-						id: "minecraft:enchanted_book"
-						tag: {
-							StoredEnchantments: [{
-								id: "minecraft:fortune"
-								lvl: 1s
-							}]
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "50E08EF588AB94DB"
-					item: {
-						Count: 1b
-						id: "minecraft:enchanted_book"
-						tag: {
-							StoredEnchantments: [{
-								id: "minecraft:unbreaking"
-								lvl: 2s
-							}]
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "spiral"
-			subtitle: "Блестит на солнце!"
-			tasks: [{
-				id: "48BFD84607732CAC"
-				item: {
-					Count: 1b
-					id: "minecraft:diamond_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 4.0d
-			y: 1.0d
-		}
-		{
 			dependencies: ["54EC50963CD485BC"]
 			description: [
 				"После создания алмазной кирки я могу добыть очень твёрдый материал - &6Обсидиан&r. Он мне &3нужен&r для создания портала в &4Незер&r, крафта чародейского стола, улучшения сундуков и бочек, а также ещё для очень многих интересных и полезных предметов."
@@ -256,6 +202,436 @@
 			}]
 			x: 6.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["05AFA6ABEC776BA2"]
+			id: "00820248052B9827"
+			shape: "spiral"
+			tasks: [{
+				id: "0712D82895FF06C8"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "bewitchment:barks"
+					}
+				}
+				title: "Кора"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["00820248052B9827"]
+			id: "57C7D9B1F4E9009C"
+			shape: "formation"
+			tasks: [{
+				id: "5D1CB5B41B37AE5F"
+				item: "bewitchment:witch_cauldron"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00820248052B9827"]
+			id: "605EF696E127C957"
+			tasks: [{
+				id: "28808F10E6D4DE1D"
+				title: "Пестик и ступка"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["57C7D9B1F4E9009C"]
+			id: "3CBE7F33EFCE7762"
+			shape: "bottle"
+			tasks: [{
+				id: "4DE463CCD206D232"
+				item: "bewitchment:grim_elixir"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["605EF696E127C957"]
+			id: "73DCCA60DBA9D00B"
+			tasks: [{
+				id: "65B5A1E71E4DD1D8"
+				title: "Магические опилки"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3CBE7F33EFCE7762"]
+			id: "6E99C467875761CD"
+			tasks: [{
+				id: "6788AE7E64F01594"
+				title: "Первая стадия гема"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["57C7D9B1F4E9009C"]
+			id: "0BD6D1E3B59810AD"
+			tasks: [{
+				id: "702D7280CDC3E5F8"
+				item: "bewitchment:aqua_cerate"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"0BD6D1E3B59810AD"
+				"73DCCA60DBA9D00B"
+			]
+			id: "589D7ED2DA13C7C2"
+			tasks: [{
+				id: "0B972E624E6DDF82"
+				title: "Выращиватель гемов"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["589D7ED2DA13C7C2"]
+			id: "408C53963526547B"
+			tasks: [{
+				id: "411B9B9C91373AEB"
+				title: "Гем"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["408C53963526547B"]
+			id: "1C23476583AD1864"
+			tasks: [{
+				id: "7D663B7C16F3E393"
+				item: "amethyst_imbuement:gem_dust"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1C23476583AD1864"]
+			id: "12C02C827E2D57CF"
+			tasks: [{
+				id: "7BB0063F2E32B634"
+				item: "amethyst_imbuement:crystal_altar"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["12C02C827E2D57CF"]
+			id: "0676AB67EBE3B152"
+			tasks: [{
+				id: "2A0309F60B384AFF"
+				item: "amethyst_imbuement:imbued_lapis"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["26326049E5A0E153"]
+			id: "105AAA8BA5D48B2E"
+			tasks: [{
+				id: "42AE416EB9FE0F60"
+				title: "Основа посоха "
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["105AAA8BA5D48B2E"]
+			description: [
+				"Жезл новичка я могу улучшить и создать из него &5Жезл Арканы&r. Он позволит мне использовать не 1 &dзаклинание&r, а сразу 3 разных, если у меня будет прокаченный &5Том Арканы&r. Но для использований всех видов &dзаклинаний&r мне потребуются &5Руны Арканы&r. "
+				""
+				"Для создания жезла арканы мне необходимо: 1 &6золотой слиток&r, 1 &8жезл новичка&r и 1 &dосколок аметиста&r. Всё это требуется соединить на &aВерстаке&r. "
+				""
+				"В будущем я смогу улучшить жезл огня и получить &5Посох Арканы&r или же &5Незеритовый Жезл Арканы&r."
+			]
+			id: "59242352581195B9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0BBA303B06736E22"
+					table_id: 4958571349976656085L
+					type: "choice"
+				}
+				{
+					count: 2
+					id: "686786D2CA3DF5C0"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 7
+					id: "481278183838E7AD"
+					item: "runes:arcane_stone"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			shape: "formation"
+			subtitle: "Начало Магии Арканы!"
+			tasks: [{
+				id: "359421C292E7E557"
+				item: {
+					Count: 1b
+					id: "wizards:wand_arcane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["105AAA8BA5D48B2E"]
+			description: [
+				"Жезл новичка я могу улучшить и создать из него &6Жезл Огня&r. Он позволит мне использовать не 1 &dзаклинание&r, а сразу 3 разных, если у меня будет прокаченный &6Том Огня&r. Но для использований всех видов &dзаклинаний&r мне потребуются &6Руны Огня&r. "
+				""
+				"Для создания жезла огня мне необходимо: 1 &6золотой слиток&r, 1 &8жезл новичка&r и 1 &7порох&r. Всё это требуется соединить на &aВерстаке&r. "
+				""
+				"В будущем я смогу улучшить жезл огня и получить &6Посох Огня&r или же &6Незеритовый Жезл Огня&r."
+			]
+			id: "75306BEB120631A3"
+			rewards: [
+				{
+					count: 4
+					id: "38536DD3B4BFBFBD"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "58D76C4E76D5D776"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 7
+					id: "41A6528D749DD88E"
+					item: "runes:fire_stone"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			shape: "formation"
+			subtitle: "Начало Огненной Магии!"
+			tasks: [{
+				id: "2B72C65ADE6DD49D"
+				item: {
+					Count: 1b
+					id: "wizards:wand_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["105AAA8BA5D48B2E"]
+			description: [
+				"Жезл новичка я могу улучшить и создать из него &bЖезл Мороза&r. Он позволит мне использовать не 1 &dзаклинание&r, а сразу 3 разных, если у меня будет прокаченный &bТом Мороза&r. Но для использований всех видов &dзаклинаний&r мне потребуются &bРуны Мороза&r. "
+				""
+				"Для создания жезла мороза мне необходимо: 1 &7железный слиток&r, 1 &8жезл новичка&r и 1 &3снежок&r. Всё это требуется соединить на &aВерстаке&r. "
+				""
+				"В будущем я смогу улучшить жезл огня и получить &bПосох Мороза&r или же &bНезеритовый Жезл Мороза&r."
+			]
+			id: "6339C6240DBC2A26"
+			rewards: [
+				{
+					count: 4
+					id: "2C0EDC5788F7F1F2"
+					item: "minecraft:snowball"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "58AA8B22F43D93C1"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 7
+					id: "74388673DC4E3908"
+					item: "runes:frost_stone"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			shape: "formation"
+			subtitle: "Начало Морозной Магии!"
+			tasks: [{
+				id: "10F2C2A729A82D5E"
+				item: {
+					Count: 1b
+					id: "wizards:wand_frost"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1C23476583AD1864"]
+			id: "4E1E35CF8091B1D3"
+			tasks: [{
+				id: "0D20C93B0669809E"
+				item: "amethyst_imbuement:citrine"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["12C02C827E2D57CF"]
+			id: "32CD87B090C15C25"
+			tasks: [{
+				id: "790824143BB991ED"
+				title: "Хлорофит"
+				type: "checkmark"
+			}]
+			x: 13.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"32CD87B090C15C25"
+				"261576AAA669B025"
+			]
+			id: "23C665697F7FC547"
+			tasks: [{
+				id: "1C5C484991CB48A3"
+				item: "kubejs:board"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"11852C45E4650199"
+				"31803B0EB2F25E6D"
+			]
+			id: "261576AAA669B025"
+			tasks: [{
+				id: "173F20FAD9D3C1C3"
+				title: "Магические механизмы"
+				type: "checkmark"
+			}]
+			x: 14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["23C665697F7FC547"]
+			id: "661B4703862C42C1"
+			tasks: [{
+				id: "5DF8AD3BE3D70AD0"
+				item: "kubejs:display"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["23C665697F7FC547"]
+			id: "54FD0F9B1B8BEA69"
+			tasks: [{
+				id: "2B851CE68C8A9D81"
+				item: "kubejs:panel_1"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"54FD0F9B1B8BEA69"
+				"661B4703862C42C1"
+			]
+			id: "1DF855E307217A35"
+			tasks: [{
+				id: "0BEDC1268880AF52"
+				item: "kubejs:screen_1"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4E1E35CF8091B1D3"
+				"12C02C827E2D57CF"
+			]
+			id: "4C35555F3D5E4C2A"
+			tasks: [{
+				id: "4366572EA00786C1"
+				item: "minecraft:beehive"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4C35555F3D5E4C2A"]
+			id: "6A85CB7E075DF99B"
+			tasks: [{
+				dimension: "the_bumblezone:the_bumblezone"
+				id: "354DC9418D5BA82B"
+				type: "dimension"
+			}]
+			x: 14.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6A85CB7E075DF99B"]
+			id: "11852C45E4650199"
+			tasks: [{
+				id: "74FDC09707ED31A6"
+				item: "the_bumblezone:beehive_beeswax"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6A85CB7E075DF99B"]
+			id: "31803B0EB2F25E6D"
+			tasks: [{
+				id: "13DEE116F4644832"
+				item: "the_bumblezone:pollen_puff"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.5d
 		}
 	]
 	title: "2 Глава: Ведьмоство"

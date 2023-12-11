@@ -434,6 +434,60 @@
 			x: 16.0d
 			y: 1.0d
 		}
+		{
+			dependencies: ["26326049E5A0E153"]
+			description: [
+				"После добычи алмазов я могу создать новую кирку - &6Алмазную кирку&r. Она может &3добыть&r очень твёрдые блоки, такие, как обсидиан. Также она очень прочная, поэтому, я думаю, что ещё долго буду ей пользоваться. В отличии от всех своих старых кирок."
+				""
+				"Для &2создания&r алмазной кирки мне нужно 3 алмаза и 2 палки. Всё это я должен соединить на верстаке, а после я смогу забрать свою драгоценную кирку."
+			]
+			id: "785DC98ABA9951D7"
+			rewards: [
+				{
+					id: "2C3A9761C470665E"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:fortune"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50E08EF588AB94DB"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "spiral"
+			subtitle: "Блестит на солнце!"
+			tasks: [{
+				id: "48BFD84607732CAC"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
 	]
 	title: "Начальный этап"
 }

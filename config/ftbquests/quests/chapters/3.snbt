@@ -1,0 +1,23 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3"
+	group: "378AB2F5B8715020"
+	icon: "alloy_forgery:bricks_forge_controller"
+	id: "2E3CE5CE69DB8ABF"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["1DF855E307217A35"]
+		id: "003979155FFDEAF3"
+		shape: "formation"
+		tasks: [{
+			id: "61CF9C27DFA8E1A9"
+			item: "alloy_forgery:bricks_forge_controller"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "3 Глава: Кузнечное дело"
+}

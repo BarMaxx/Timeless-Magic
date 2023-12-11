@@ -9,20 +9,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["754C1C9768390621"]
-			id: "73A10A1C0A47C2E1"
-			shape: "cross"
-			subtitle: "Новое измерение!"
-			tasks: [{
-				dimension: "minecraft:the_nether"
-				id: "6CA23ADDE73DBF22"
-				title: "Посетить &4Незер&r"
-				type: "dimension"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
 			dependencies: ["73A10A1C0A47C2E1"]
 			id: "118E53FC6E875869"
 			shape: "spiral"
@@ -551,23 +537,6 @@
 			title: "Активация Маяка"
 			x: 4.5d
 			y: 3.5d
-		}
-		{
-			dependencies: ["0C248FCB6C14D252"]
-			id: "754C1C9768390621"
-			shape: "cube"
-			tasks: [{
-				hasCustomPicture: false
-				id: "2427828A822E74E7"
-				ignoreState: false
-				layer: true
-				name: "portal_to_nether"
-				rightclick: false
-				title: "Портал в Ад!"
-				type: "questsadditions:structure"
-			}]
-			x: 1.5d
-			y: 0.0d
 		}
 	]
 	title: "Незер"

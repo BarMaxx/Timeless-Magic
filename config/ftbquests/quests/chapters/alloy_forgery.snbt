@@ -9,18 +9,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["736DABDDD868D72D"]
-			id: "003979155FFDEAF3"
-			shape: "formation"
-			tasks: [{
-				id: "61CF9C27DFA8E1A9"
-				item: "alloy_forgery:bricks_forge_controller"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
 			dependencies: ["003979155FFDEAF3"]
 			id: "420DE7337597EE27"
 			shape: "spiral"

@@ -15,37 +15,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["05AFA6ABEC776BA2"]
-			id: "00820248052B9827"
-			shape: "spiral"
-			tasks: [{
-				id: "0712D82895FF06C8"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "bewitchment:barks"
-					}
-				}
-				title: "Кора"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["00820248052B9827"]
-			id: "57C7D9B1F4E9009C"
-			shape: "formation"
-			tasks: [{
-				id: "5D1CB5B41B37AE5F"
-				item: "bewitchment:witch_cauldron"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 0.0d
-		}
-		{
 			dependencies: ["00820248052B9827"]
 			id: "3190A1B0B221B216"
 			shape: "polygon"
@@ -260,25 +229,6 @@
 			]
 			x: 7.0d
 			y: -1.0d
-		}
-		{
-			dependencies: ["57C7D9B1F4E9009C"]
-			id: "3CBE7F33EFCE7762"
-			shape: "bottle"
-			tasks: [
-				{
-					id: "4DE463CCD206D232"
-					item: "bewitchment:grim_elixir"
-					type: "item"
-				}
-				{
-					id: "3228CE28B5CA4EB5"
-					item: "bewitchment:aqua_cerate"
-					type: "item"
-				}
-			]
-			x: 5.5d
-			y: -1.5d
 		}
 		{
 			dependencies: ["3CBE7F33EFCE7762"]

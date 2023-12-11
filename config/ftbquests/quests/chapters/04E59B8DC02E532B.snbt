@@ -5,7 +5,7 @@
 	group: "378AB2F5B8715020"
 	icon: "candlelight:cooking_pot"
 	id: "04E59B8DC02E532B"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
