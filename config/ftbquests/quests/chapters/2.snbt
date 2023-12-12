@@ -345,8 +345,8 @@
 				item: "amethyst_imbuement:imbued_lapis"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 0.5d
+			x: 12.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["26326049E5A0E153"]
@@ -357,7 +357,7 @@
 				type: "checkmark"
 			}]
 			x: 4.0d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["105AAA8BA5D48B2E"]
@@ -404,7 +404,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["105AAA8BA5D48B2E"]
@@ -451,7 +451,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["105AAA8BA5D48B2E"]
@@ -498,7 +498,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1C23476583AD1864"]
@@ -551,7 +551,10 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["23C665697F7FC547"]
+			dependencies: [
+				"23C665697F7FC547"
+				"56A523F9E2FE4C77"
+			]
 			id: "661B4703862C42C1"
 			tasks: [{
 				id: "5DF8AD3BE3D70AD0"
@@ -559,7 +562,7 @@
 				type: "item"
 			}]
 			x: 13.5d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["23C665697F7FC547"]
@@ -570,7 +573,7 @@
 				type: "item"
 			}]
 			x: 14.5d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -584,7 +587,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -631,6 +634,98 @@
 				type: "item"
 			}]
 			x: 13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"2BF9B898178271EB"
+				"0451EDD6146D41F3"
+			]
+			id: "026C398A7CBFF358"
+			tasks: [
+				{
+					id: "0EC24C46A0999925"
+					title: "Призыв Океанского крипера"
+					type: "checkmark"
+				}
+				{
+					entity: "creeperoverhaul:ocean_creeper"
+					id: "2084F98BEA066B06"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["12C02C827E2D57CF"]
+			id: "2BF9B898178271EB"
+			tasks: [{
+				id: "5CCE33E1EFDE23DB"
+				title: "Кристальный порох"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["026C398A7CBFF358"]
+			id: "327219551072B6CC"
+			tasks: [{
+				id: "4DA436A6F79100B1"
+				title: "Океанский песок"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["327219551072B6CC"]
+			id: "719F2A274080416B"
+			tasks: [{
+				id: "204DA33997706A90"
+				title: "Чистое стекло"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"719F2A274080416B"
+				"0676AB67EBE3B152"
+			]
+			id: "56A523F9E2FE4C77"
+			tasks: [{
+				id: "512C23421B2E9E0F"
+				title: "Обработанное стекло"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0BD6D1E3B59810AD"]
+			id: "0451EDD6146D41F3"
+			tasks: [{
+				id: "06A0D49045B13175"
+				title: "Океанский элексир"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00820248052B9827"]
+			id: "544BB3E30C19AB60"
+			shape: "polygon"
+			tasks: [{
+				id: "4C1E781F68BC1FF5"
+				item: "bewitchment:wood_ash"
+				type: "item"
+			}]
+			x: 6.0d
 			y: 1.5d
 		}
 	]
