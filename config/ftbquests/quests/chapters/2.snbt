@@ -246,7 +246,10 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["57C7D9B1F4E9009C"]
+			dependencies: [
+				"57C7D9B1F4E9009C"
+				"4EEF22E350F0BEDA"
+			]
 			id: "3CBE7F33EFCE7762"
 			shape: "bottle"
 			tasks: [{
@@ -258,7 +261,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["605EF696E127C957"]
+			dependencies: [
+				"605EF696E127C957"
+				"57D8F7D63F00E805"
+			]
 			id: "73DCCA60DBA9D00B"
 			tasks: [{
 				id: "65B5A1E71E4DD1D8"
@@ -727,6 +733,59 @@
 			}]
 			x: 6.0d
 			y: 1.5d
+		}
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "4EEF22E350F0BEDA"
+			shape: "cross"
+			tasks: [
+				{
+					id: "18219B1C0320FEA3"
+					item: "bewitchment:mandrake_root"
+					type: "item"
+				}
+				{
+					id: "0B94422BB1C61870"
+					item: "bewitchment:belladonna"
+					type: "item"
+				}
+				{
+					id: "422504AFD27E16AB"
+					item: "bewitchment:garlic"
+					type: "item"
+				}
+				{
+					id: "1752A66BAE3B5002"
+					item: "bewitchment:aconite"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "28187C202FDF8F26"
+			shape: "cross"
+			tasks: [{
+				id: "53CBD25145974233"
+				item: "bewitchment:salt_ore"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["28187C202FDF8F26"]
+			id: "57D8F7D63F00E805"
+			shape: "spiral"
+			tasks: [{
+				id: "791CAC8BAA528240"
+				item: "bewitchment:salt"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
 		}
 	]
 	title: "2 Глава: Ведьмоство"

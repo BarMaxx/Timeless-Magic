@@ -7,10 +7,11 @@
 	order_index: 0
 	quest_links: [ ]
 	quests: [{
+		dependencies: ["15FAEC4BA6F51CA9"]
 		id: "441496557A6D2FC6"
 		tasks: [{
 			id: "3990E52BB890D587"
-			title: "Появление в городе - Тайм Лесс"
+			title: "Появление в городе - Тайм-Лесс"
 			type: "checkmark"
 		}]
 		x: 0.0d

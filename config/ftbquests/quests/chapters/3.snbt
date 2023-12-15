@@ -7,17 +7,66 @@
 	id: "2E3CE5CE69DB8ABF"
 	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["1DF855E307217A35"]
-		id: "003979155FFDEAF3"
-		shape: "formation"
-		tasks: [{
-			id: "61CF9C27DFA8E1A9"
-			item: "alloy_forgery:bricks_forge_controller"
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["1DF855E307217A35"]
+			id: "003979155FFDEAF3"
+			shape: "formation"
+			tasks: [{
+				id: "61CF9C27DFA8E1A9"
+				item: "alloy_forgery:bricks_forge_controller"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"614BD4E748739707"
+				"6C705A60C084D1A9"
+			]
+			id: "4AA20B691CE58C54"
+			tasks: [{
+				id: "012F165A48FDBDF0"
+				item: "mythicmetals:bronze_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["003979155FFDEAF3"]
+			id: "614BD4E748739707"
+			tasks: [{
+				id: "6CDD247192805F48"
+				title: "Постройка кузницы"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1DF855E307217A35"]
+			id: "6C705A60C084D1A9"
+			tasks: [{
+				id: "5476FC93D3566D5C"
+				item: "mythicmetals:raw_tin"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4AA20B691CE58C54"]
+			id: "18330F750425A804"
+			tasks: [{
+				id: "4B4EB48DCA7858ED"
+				item: "mythicmetals:bronze_anvil"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+	]
 	title: "3 Глава: Кузнечное дело"
 }
