@@ -188,8 +188,8 @@
 				item: "bewitchment:raw_silver"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -2.0d
+			x: 7.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["38240B4A9BEE6D54"]
@@ -786,6 +786,94 @@
 			}]
 			x: 8.0d
 			y: 3.5d
+		}
+		{
+			dependencies: [
+				"17A34C0D1A2A3702"
+				"04B009FD2E75DF53"
+			]
+			id: "272B71CFFCBA45A4"
+			shape: "spiral"
+			tasks: [{
+				id: "2CA8CBF339897A24"
+				item: "bewitchment:brazier"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "04B009FD2E75DF53"
+			shape: "cross"
+			tasks: [
+				{
+					id: "6607F2321B896132"
+					item: "bewitchment:juniper_log"
+					type: "item"
+				}
+				{
+					id: "3164C4506312F570"
+					item: "bewitchment:cypress_log"
+					type: "item"
+				}
+				{
+					id: "596DD555A6A9A0E9"
+					item: "bewitchment:elder_log"
+					type: "item"
+				}
+				{
+					id: "09CC5CA4F972DD7D"
+					item: "bewitchment:dragons_blood_log"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6211A78F62546126"]
+			id: "076C1581F6C4A81F"
+			tasks: [{
+				id: "5FFA4FF71030D23A"
+				item: "bewitchment:ectoplasm"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["267857E9A44175A7"]
+			id: "6211A78F62546126"
+			tasks: [
+				{
+					id: "6F4C5ED4B178B9BF"
+					title: "Призвы призрака"
+					type: "checkmark"
+				}
+				{
+					entity: "bewitchment:ghost"
+					id: "6DA146F180638855"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"272B71CFFCBA45A4"
+				"076C1581F6C4A81F"
+			]
+			id: "48006301B8CBC724"
+			tasks: [{
+				id: "215F7660CFFB1213"
+				title: "Благовония"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -3.0d
 		}
 	]
 	title: "2 Глава: Ведьмоство"

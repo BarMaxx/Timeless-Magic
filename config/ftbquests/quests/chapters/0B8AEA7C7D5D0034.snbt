@@ -48,18 +48,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["17A34C0D1A2A3702"]
-			id: "272B71CFFCBA45A4"
-			shape: "spiral"
-			tasks: [{
-				id: "2CA8CBF339897A24"
-				item: "bewitchment:brazier"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -1.0d
-		}
-		{
 			dependencies: ["544BB3E30C19AB60"]
 			id: "5682B0BA045A51A2"
 			shape: "spiral"
@@ -618,35 +606,6 @@
 			}]
 			x: 9.0d
 			y: 2.0d
-		}
-		{
-			dependencies: ["736DABDDD868D72D"]
-			id: "04B009FD2E75DF53"
-			shape: "cross"
-			tasks: [
-				{
-					id: "6607F2321B896132"
-					item: "bewitchment:juniper_log"
-					type: "item"
-				}
-				{
-					id: "3164C4506312F570"
-					item: "bewitchment:cypress_log"
-					type: "item"
-				}
-				{
-					id: "596DD555A6A9A0E9"
-					item: "bewitchment:elder_log"
-					type: "item"
-				}
-				{
-					id: "09CC5CA4F972DD7D"
-					item: "bewitchment:dragons_blood_log"
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: -1.0d
 		}
 	]
 	title: "Bewitchment"
