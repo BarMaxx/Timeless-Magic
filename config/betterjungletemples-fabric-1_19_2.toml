@@ -1,0 +1,4 @@
+[betterJungleTemples.general]
+disableVanillaJungleTemples = true
+[betterJungleTemples.compat]
+pickYourPoisonEnabled = true

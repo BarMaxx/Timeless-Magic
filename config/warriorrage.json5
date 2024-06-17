@@ -5,14 +5,18 @@
 	"rageDuration": 20,
 	// Max kill count for rage bonus damage
 	"maxKillCountCap": 20,
-	// Number of kills, which will multiply the bonus damage eg. 5 means, every 5 kills attack damage will be increased by bonusDamageMultiplier value
+	// Number of kills, which will multiply the bonus damage eg. 5 means, every 5 kills attack damage will be increased by bonusDamage value
 	"killIntervalBetweenNextBonus": 4,
 	// Bonus damage per 4 kills in a row
-	"bonusDamageMultiplier": 0.5,
-	// Enable Fire Damage on full kill count
+	"bonusDamage": 0.5,
+	// Enable Fire Damage
 	"enableFireDamage": true,
-	// Render Rage Overlay on experience bar
-	"renderRageOverlay": true,
+	// Required minimal kill count for fire damage to apply
+	"fireDamageRequiredKillCount": 20,
+	// Render Rage Bar on experience bar
+	"renderRageBar": true,
+	// Render Rage Icon next to player's Hotbar
+	"renderRageIcon": true,
 	// Negative offsets to left side, positive to right
 	"offsetX": 0,
 	// Negative offsets to up, positive to down

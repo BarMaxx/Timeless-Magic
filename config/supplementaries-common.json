@@ -25,11 +25,16 @@
     },
     "turn_table": {
       "enabled": true,
+      "shuffle_inventories": true,
       "rotate_entities": true
     },
     "pulley_block": {
       "enabled": true,
       "mineshaft_elevator": 0.02
+    },
+    "crystal_display": {
+      "enabled": true,
+      "display_carry_over": true
     },
     "wind_vane": true,
     "clock_block": true,
@@ -41,7 +46,6 @@
     "gold_trapdoor": true,
     "lock_block": true,
     "dispenser_minecart": true,
-    "crystal_display": true,
     "relayer": true
   },
   "functional": {
@@ -196,6 +200,7 @@
     "sconce": true,
     "sconce_lever": true,
     "sconce_green": false,
+    "altimeter": false,
     "pancake": true,
     "netherite_door": true,
     "netherite_trapdoor": true,
@@ -220,10 +225,15 @@
       "enabled": true,
       "use_without_slow": true,
       "slots": 6,
-      "quiver_skeleton_chance": 0.2,
+      "quiver_skeleton_spawn_chance": 0.025,
       "only_works_in_curio": false,
       "quiver_pickup": true
     },
+    "slice_map": {
+      "enabled": true,
+      "range_multiplier": 0.25
+    },
+    "altimeter": true,
     "bubble_blower": {
       "enabled": true,
       "stasis_cost": 5,
@@ -338,7 +348,10 @@
     },
     "map_tweaks": {
       "random_adventurer_maps": true,
-      "block_map_markers": true
+      "random_adventurer_maps_select_random_structure": true,
+      "block_map_markers": true,
+      "death_marker": "WITH_COMPASS",
+      "colored_map": true
     },
     "ceiling_banners": {
       "enabled": true
