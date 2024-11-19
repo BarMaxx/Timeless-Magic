@@ -17,6 +17,6 @@
 	}
 	pause_game: false
 	progression_mode: "linear"
-	title: "Timeless Magic"
+	title: "&5Timeless Magic"
 	version: 13
 }

@@ -51,6 +51,14 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "zenith": {
+    "adventure": true,
+    "ench": true,
+    "spawner": true
+  },
+  "supplementaries": {
+    "hat_stand": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
