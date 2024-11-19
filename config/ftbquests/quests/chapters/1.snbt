@@ -102,7 +102,7 @@
 				item: "minecraft:amethyst_shard"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: 1.5d
 		}
 		{
@@ -155,7 +155,11 @@
 			subtitle: "Полезен в путешествии!"
 			tasks: [{
 				id: "7380D11358B98953"
-				item: "inmis:frayed_backpack"
+				item: {
+					Count: 1
+					id: "inmis:frayed_backpack"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 2.0d
@@ -590,7 +594,11 @@
 			subtitle: "Вмещает больше предметов!"
 			tasks: [{
 				id: "7E0A2E2CAECE5116"
-				item: "inmis:plated_backpack"
+				item: {
+					Count: 1
+					id: "inmis:plated_backpack"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 7.0d
@@ -789,15 +797,26 @@
 			}]
 			shape: "shield"
 			subtitle: "Находит любой биом!"
-			tasks: [{
-				id: "02A022C8C5CA3E61"
-				item: {
-					Count: 1
-					id: "naturescompass:naturescompass"
-					tag: { }
+			tasks: [
+				{
+					id: "02A022C8C5CA3E61"
+					item: {
+						Count: 1
+						id: "naturescompass:naturescompass"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "443946F36242B6D2"
+					item: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			x: 9.5d
 			y: 2.0d
 		}
@@ -1427,7 +1446,11 @@
 			subtitle: "Вмещает ещё больше предметов!"
 			tasks: [{
 				id: "14F209F07F435A48"
-				item: "inmis:gilded_backpack"
+				item: {
+					Count: 1
+					id: "inmis:gilded_backpack"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 9.5d
