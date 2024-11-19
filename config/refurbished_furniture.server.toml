@@ -13,16 +13,16 @@
 
 # Kitchen Sink related properties
 [kitchenSink]
-	# If enabled, when interacting with this block it will dispense free water into
-	# it's fluid tank, assuming the tank is empty or contains water but has not reached it's
-	# capacity.
-	# Valid values: true, false
-	dispenseWater = true
 	# The storage capacity of the fluid tank contained in this block. If you're using Forge,
 	# 1000 units represents the capacity of a bucket, while it's 81000 on Fabric. So if you
 	# want 3 buckets worth of storage, it will be 3000 (Forge) or 243000 (Fabric)
 	# Valid range: 1 to 9223372036854775807 (inclusive)
 	fluidCapacity = 243000
+	# If enabled, when interacting with this block it will dispense free water into
+	# it's fluid tank, assuming the tank is empty or contains water but has not reached it's
+	# capacity.
+	# Valid values: true, false
+	dispenseWater = true
 
 # Electricity related properties
 [electricity]
@@ -55,14 +55,14 @@
 
 	# Cheats for electricity. Free power, etc.
 	[electricity.cheats]
-		# Electricity Generators will now output free power, and stay on forever.
-		# Valid values: true, false
-		freeGeneratorPower = false
 		# Makes all blocks that require electricity always be powered without them being
 		# connected to an Electricity Generator. Warning, some blocks may no longer work as
 		# expected. Use at your own risk of a downgraded experience.
 		# Valid values: true, false
 		everythingIsPowered = false
+		# Electricity Generators will now output free power, and stay on forever.
+		# Valid values: true, false
+		freeGeneratorPower = false
 
 # Trampoline related properties
 [trampoline]

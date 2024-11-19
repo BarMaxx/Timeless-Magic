@@ -1,5 +1,20 @@
 {
   "ranged_weapons": {
+    "archers:netherite_rapid_crossbow": {
+      "pull_time": 20,
+      "damage": 9.5,
+      "velocity": 0.0
+    },
+    "archers:netherite_longbow": {
+      "pull_time": 30,
+      "damage": 12.0,
+      "velocity": 0.0
+    },
+    "archers:rapid_crossbow": {
+      "pull_time": 20,
+      "damage": 8.5,
+      "velocity": 0.0
+    },
     "archers:netherite_heavy_crossbow": {
       "pull_time": 35,
       "damage": 15.0,
@@ -10,14 +25,24 @@
       "damage": 9.0,
       "velocity": 0.0
     },
-    "archers:royal_longbow": {
-      "pull_time": 30,
+    "archers:crystal_shortbow": {
+      "pull_time": 16,
       "damage": 10.0,
       "velocity": 0.0
     },
-    "archers:netherite_rapid_crossbow": {
-      "pull_time": 20,
-      "damage": 9.5,
+    "archers:ruby_heavy_crossbow": {
+      "pull_time": 35,
+      "damage": 17.0,
+      "velocity": 0.0
+    },
+    "archers:crystal_longbow": {
+      "pull_time": 30,
+      "damage": 13.5,
+      "velocity": 0.0
+    },
+    "archers:royal_longbow": {
+      "pull_time": 30,
+      "damage": 10.0,
       "velocity": 0.0
     },
     "archers:heavy_crossbow": {
@@ -25,19 +50,14 @@
       "damage": 13.0,
       "velocity": 0.0
     },
-    "archers:netherite_longbow": {
-      "pull_time": 30,
-      "damage": 12.0,
+    "archers:ruby_rapid_crossbow": {
+      "pull_time": 20,
+      "damage": 10.5,
       "velocity": 0.0
     },
     "archers:composite_longbow": {
       "pull_time": 30,
       "damage": 8.0,
-      "velocity": 0.0
-    },
-    "archers:rapid_crossbow": {
-      "pull_time": 20,
-      "damage": 8.5,
       "velocity": 0.0
     },
     "archers:mechanic_shortbow": {
@@ -49,6 +69,11 @@
   "melee_weapons": {
     "golden_spear": {
       "attack_damage": 3.0,
+      "attack_speed": -2.6,
+      "attributes": []
+    },
+    "ruby_spear": {
+      "attack_damage": 8.0,
       "attack_speed": -2.6,
       "attributes": []
     },
@@ -69,6 +94,11 @@
     },
     "iron_spear": {
       "attack_damage": 5.0,
+      "attack_speed": -2.6,
+      "attributes": []
+    },
+    "aeternium_spear": {
+      "attack_damage": 8.0,
       "attack_speed": -2.6,
       "attributes": []
     }

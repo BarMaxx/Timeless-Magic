@@ -1,0 +1,2228 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "spectrum"
+	group: "2DACFC3E9FC620BE"
+	icon: "spectrum:pedestal_basic_amethyst"
+	id: "1A39283EA11DE147"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "03643EBAE658900F"
+			shape: "spiral"
+			tasks: [{
+				id: "43532FEAC1B07E8C"
+				item: "spectrum:polished_calcite"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["736DABDDD868D72D"]
+			id: "3ED4C9720C5044C1"
+			shape: "spiral"
+			tasks: [{
+				id: "3D2534EB4E9AADB1"
+				item: "spectrum:polished_basalt"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3ED4C9720C5044C1"
+				"03643EBAE658900F"
+				"2C7704F0EDEF4884"
+			]
+			id: "5E4E30CBECD91C14"
+			shape: "cross"
+			size: 1.2d
+			tasks: [{
+				id: "24A56FC1A4D26964"
+				item: "spectrum:paintbrush"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"3ED4C9720C5044C1"
+				"03643EBAE658900F"
+				"2C7704F0EDEF4884"
+			]
+			id: "22BF75EB7F4A0AB8"
+			shape: "formation"
+			size: 1.1d
+			tasks: [{
+				id: "14092FC4816CED7D"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "spectrum:pedestals"
+					}
+				}
+				title: "Any #spectrum:pedestals"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["15FAEC4BA6F51CA9"]
+			id: "2C7704F0EDEF4884"
+			shape: "spiral"
+			tasks: [
+				{
+					id: "10582900824D38DB"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					id: "3C598D9524E57477"
+					item: "spectrum:citrine_shard"
+					type: "item"
+				}
+				{
+					id: "347E58ED89A0CB3A"
+					item: "spectrum:topaz_shard"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["22BF75EB7F4A0AB8"]
+			id: "3C9683C9B3363775"
+			shape: "spiral"
+			tasks: [
+				{
+					id: "037F982083182D1C"
+					item: "spectrum:amethyst_powder"
+					type: "item"
+				}
+				{
+					id: "26F766E69B5E0AAA"
+					item: "spectrum:citrine_powder"
+					type: "item"
+				}
+				{
+					id: "6C2337CEC99DA930"
+					item: "spectrum:topaz_powder"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3C9683C9B3363775"]
+			id: "3618D2F67C0150B8"
+			shape: "spiral"
+			tasks: [{
+				id: "1992B9A6E6D3296A"
+				item: "spectrum:compacting_chest"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3C9683C9B3363775"]
+			id: "60761710F8AED113"
+			shape: "formation"
+			tasks: [
+				{
+					id: "5B27E2D7A7F0103C"
+					item: {
+						Count: 1
+						id: "spectrum:glow_vision_goggles"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "56D9C46C1CB972DA"
+					item: {
+						Count: 1
+						id: "spectrum:razor_falchion"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:looting"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "097484A0745A3977"
+					item: "spectrum:crafting_tablet"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3C9683C9B3363775"]
+			id: "64DB21D2DAD013D7"
+			shape: "spiral"
+			tasks: [
+				{
+					id: "7B149BDFDE63EEBC"
+					item: "spectrum:redstone_sand"
+					type: "item"
+				}
+				{
+					id: "0D6030209619CA84"
+					item: "spectrum:redstone_calculator"
+					type: "item"
+				}
+				{
+					id: "5F5522516C072107"
+					item: "spectrum:redstone_timer"
+					type: "item"
+				}
+				{
+					id: "5E79CB733EA032F1"
+					item: "spectrum:block_placer"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3C9683C9B3363775"]
+			id: "1DB3A59DFB503458"
+			shape: "spiral"
+			size: 1.1d
+			tasks: [{
+				id: "1E2EAE3DD589B827"
+				item: "spectrum:pedestal_all_basic"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1DB3A59DFB503458"]
+			id: "57F0F397512A4FAE"
+			shape: "polygon"
+			tasks: [{
+				id: "73268EFC91622DE8"
+				item: {
+					Count: 1
+					id: "spectrum:multitool"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:efficiency"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"1DB3A59DFB503458"
+				"10B77353177978E4"
+			]
+			id: "55955D52A4AA279D"
+			shape: "spiral"
+			tasks: [{
+				id: "2D5FEF80ED45BCF8"
+				item: {
+					Count: 1
+					id: "spectrum:bottomless_bundle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5949D7A592629716"]
+			id: "10B77353177978E4"
+			shape: "polygon"
+			size: 1.1d
+			tasks: [{
+				id: "4E8D6E878A29335E"
+				item: "spectrum:quitoxic_powder"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1DB3A59DFB503458"]
+			hide_dependency_lines: true
+			id: "5949D7A592629716"
+			shape: "formation"
+			size: 1.1d
+			tasks: [{
+				id: "3A1913E745A72649"
+				item: "spectrum:quitoxic_reeds"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"574F587D6657B9A0"
+				"28EDB31726F0EC36"
+			]
+			id: "72ADFD477DE798A6"
+			shape: "polygon"
+			tasks: [{
+				id: "6940906A9ECBAB5B"
+				item: {
+					Count: 1
+					id: "spectrum:lagoon_rod"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:lure"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1DB3A59DFB503458"]
+			hide_dependency_lines: true
+			id: "28EDB31726F0EC36"
+			shape: "formation"
+			size: 1.1d
+			tasks: [{
+				id: "7089B01C2E04E129"
+				item: "spectrum:mermaids_gem"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["28EDB31726F0EC36"]
+			id: "648F1D63CB238963"
+			shape: "bottle"
+			tasks: [{
+				id: "2D73A952159F5CAD"
+				item: "spectrum:mud_bucket"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"574F587D6657B9A0"
+				"6F68A348C1755C05"
+			]
+			id: "5126FE7ADAB505BA"
+			shape: "bottle"
+			tasks: [{
+				id: "48B66001985D3514"
+				item: "spectrum:bottle_of_fading"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1DB3A59DFB503458"]
+			hide_dependency_lines: true
+			id: "6F68A348C1755C05"
+			shape: "spiral"
+			tasks: [{
+				id: "5773610E672450C6"
+				item: "spectrum:shimmerstone_gem"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5126FE7ADAB505BA"]
+			id: "4F3C8759729EE754"
+			shape: "formation"
+			size: 1.1d
+			tasks: [{
+				id: "030AA4D4B5DE40A1"
+				item: "spectrum:vegetal"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4F3C8759729EE754"]
+			id: "16062746CF4D5EFF"
+			shape: "spiral"
+			tasks: [{
+				id: "2163AC62FB1F73E7"
+				item: "spectrum:red_sapling"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4F3C8759729EE754"]
+			id: "576813E840D9ADE1"
+			shape: "spiral"
+			tasks: [{
+				id: "31470A4F6DDF86EA"
+				item: "spectrum:glistering_melon_seeds"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["576813E840D9ADE1"]
+			id: "28D9CD02316ACD88"
+			shape: "spiral"
+			tasks: [{
+				id: "70DA77879773E31A"
+				item: "minecraft:glistering_melon_slice"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16062746CF4D5EFF"]
+			id: "41A296758DF83085"
+			shape: "bottle"
+			tasks: [{
+				id: "62191F09C72253E3"
+				item: "spectrum:red_pigment"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["574F587D6657B9A0"]
+			id: "1DCFE2A13FCAE739"
+			shape: "formation"
+			size: 1.1d
+			tasks: [{
+				id: "60A2235A7BFF4BAC"
+				item: "spectrum:fusion_shrine_basalt"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["08515AF5A5C5E387"]
+			id: "765CEDCD01805FDD"
+			shape: "polygon"
+			size: 1.2d
+			tasks: [{
+				id: "5ACA14F3C976CDA8"
+				item: "spectrum:onyx_shard"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["71573A8185B7EAC5"]
+			id: "5622947836C437B8"
+			shape: "polygon"
+			tasks: [
+				{
+					id: "64ABCEF833C43822"
+					item: "spectrum:radiance_staff"
+					type: "item"
+				}
+				{
+					id: "1532E61D1323DAD3"
+					item: "spectrum:natures_staff"
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["41A296758DF83085"]
+			id: "255BDB2696556FDF"
+			shape: "polygon"
+			tasks: [{
+				id: "32D9B909E80A5933"
+				item: "spectrum:block_flooder"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["71573A8185B7EAC5"]
+			id: "5A49DAD87973D165"
+			shape: "polygon"
+			tasks: [{
+				id: "4CB647E673C472E5"
+				item: "spectrum:titration_barrel"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5A49DAD87973D165"]
+			id: "03733F7972538D31"
+			shape: "spiral"
+			tasks: [
+				{
+					id: "3C6D7B2FF89077D5"
+					item: "spectrum:kimchi"
+					type: "item"
+				}
+				{
+					id: "6116D6DF29343D86"
+					item: "spectrum:clotted_cream"
+					type: "item"
+				}
+				{
+					id: "64EDDA273D2BFDCF"
+					item: "spectrum:fresh_chocolate"
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["10B77353177978E4"]
+			id: "1029B883D732061E"
+			shape: "formation"
+			tasks: [{
+				id: "6083D70014783C2E"
+				item: {
+					Count: 1
+					id: "spectrum:oblivion_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "spectrum:voiding"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6F68A348C1755C05"]
+			id: "3C9AB3B051278959"
+			shape: "polygon"
+			tasks: [{
+				id: "09FB1BD62E7AD5F9"
+				item: {
+					Count: 1
+					id: "spectrum:lucky_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:fortune"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["28EDB31726F0EC36"]
+			id: "635E5C9E28451CF5"
+			shape: "polygon"
+			tasks: [{
+				id: "29C1C99377D17E16"
+				item: {
+					Count: 1
+					id: "spectrum:tender_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:silk_touch"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["765CEDCD01805FDD"]
+			id: "0BF06A3F5DD7DF52"
+			shape: "cube"
+			size: 1.1d
+			tasks: [{
+				id: "00809E472B2FC0C3"
+				item: "spectrum:pedestal_onyx"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["765CEDCD01805FDD"]
+			id: "515E72FC1A0F8191"
+			shape: "spiral"
+			tasks: [{
+				id: "5BECDB6F21EA23A8"
+				item: "spectrum:crescent_clock"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"51BC797CB9A15104"
+				"69D35F35F3D3B320"
+			]
+			id: "28F43C2C892325E9"
+			shape: "formation"
+			size: 1.1d
+			tasks: [{
+				id: "444ABE3CF3A35935"
+				item: "spectrum:stratine_gem"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0BF06A3F5DD7DF52"]
+			hide_dependency_lines: true
+			id: "69D35F35F3D3B320"
+			shape: "spiral"
+			tasks: [{
+				id: "35A174E32B5C2DD5"
+				item: "spectrum:stratine_fragments"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["69D35F35F3D3B320"]
+			id: "6CCD320BDA9E3BC5"
+			shape: "formation"
+			tasks: [{
+				id: "36215F4759D71779"
+				item: "spectrum:constructors_staff"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["28F43C2C892325E9"]
+			id: "64A34882235B958B"
+			shape: "polygon"
+			size: 1.1d
+			tasks: [{
+				id: "4840C3ED9790096B"
+				item: "spectrum:potion_workshop"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["64A34882235B958B"]
+			id: "2196E505C6834340"
+			shape: "spiral"
+			tasks: [{
+				id: "00AE477A557E97FE"
+				item: "spectrum:liquid_crystal_bucket"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2196E505C6834340"]
+			id: "178332593984F1DD"
+			shape: "formation"
+			size: 1.1d
+			tasks: [{
+				id: "3A4DACAB45A71109"
+				item: {
+					Count: 1
+					id: "spectrum:radiance_pin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0BF06A3F5DD7DF52"]
+			id: "208248B95BA93403"
+			shape: "spiral"
+			tasks: [
+				{
+					id: "17BFA624E8BF8C43"
+					item: "spectrum:fanciful_stone_ring"
+					type: "item"
+				}
+				{
+					id: "2759448FC5A3CA37"
+					item: "spectrum:fanciful_circlet"
+					type: "item"
+				}
+				{
+					id: "1E71CE5D31431699"
+					item: "spectrum:fanciful_belt"
+					type: "item"
+				}
+				{
+					id: "10417FBDA88E15E7"
+					item: "spectrum:fanciful_pendant"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["28F43C2C892325E9"]
+			id: "57FB5D0599B92434"
+			shape: "spiral"
+			tasks: [{
+				id: "0EDCB35FA5E99E21"
+				item: {
+					Count: 1
+					id: "spectrum:jeopardant"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["69D35F35F3D3B320"]
+			id: "496C59A55204AA0C"
+			shape: "spiral"
+			tasks: [{
+				id: "46839CEA896C014F"
+				item: "spectrum:bottle_of_failing"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["71573A8185B7EAC5"]
+			id: "4588B9A2589B1905"
+			shape: "spiral"
+			tasks: [
+				{
+					id: "33CC3DF32BB8BEEB"
+					item: "spectrum:color_picker"
+					type: "item"
+				}
+				{
+					id: "63810FCCB650EACE"
+					item: "spectrum:ink_flask"
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["496C59A55204AA0C"]
+			id: "6490C354303A22E3"
+			shape: "cube"
+			size: 1.2d
+			tasks: [{
+				id: "3385138B6CD3A701"
+				item: "spectrum:neolith"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"6490C354303A22E3"
+				"7CC3BDCFCE4DDC99"
+			]
+			id: "3525BC53F2607AA0"
+			shape: "formation"
+			tasks: [{
+				id: "24071F0D723EA7B1"
+				item: "spectrum:refined_azurite"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6490C354303A22E3"]
+			hide_dependency_lines: true
+			id: "7CC3BDCFCE4DDC99"
+			shape: "spiral"
+			size: 1.1d
+			tasks: [{
+				id: "32D4D829EBAE7E64"
+				item: "spectrum:raw_azurite"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["6490C354303A22E3"]
+			id: "20E3EC5EC0B7C86B"
+			shape: "formation"
+			tasks: [{
+				id: "340E3B79D4A83B9D"
+				item: "spectrum:midnight_aberration"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6490C354303A22E3"]
+			id: "578284A758FB0963"
+			shape: "spiral"
+			tasks: [{
+				id: "39FBF888D240B4CC"
+				item: {
+					Count: 1
+					id: "spectrum:ashen_circlet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["69D35F35F3D3B320"]
+			id: "040B2BA92178661B"
+			shape: "spiral"
+			tasks: [{
+				id: "12604E38CFC3CC6A"
+				item: "spectrum:restocking_chest"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0BF06A3F5DD7DF52"]
+			id: "51CBDF09CC4335A1"
+			shape: "formation"
+			size: 1.1d
+			tasks: [{
+				id: "4C99F485AD4008C3"
+				item: "spectrum:upgrade_speed"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0BF06A3F5DD7DF52"]
+			id: "02610178C55646C8"
+			shape: "spiral"
+			tasks: [{
+				id: "529694A6671D5F4F"
+				item: "spectrum:amethyst_semi_permeable_glass"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6490C354303A22E3"]
+			id: "7FC4FB805DC81F3D"
+			shape: "spiral"
+			tasks: [{
+				id: "3BA9FF788B83CF0F"
+				item: "spectrum:bottle_of_decay_away"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["41A296758DF83085"]
+			description: ["Иногда с неба падают Звёзды и, если бить их, то можно получить с них Звёздную пыль, а также другие ресурсы, в зависимости от типа звезды."]
+			id: "42643B73C5C12067"
+			shape: "formation"
+			tasks: [{
+				id: "126292A9B766D159"
+				item: "spectrum:stardust"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["41A296758DF83085"]
+			id: "751CA32B2B0D8A49"
+			shape: "formation"
+			tasks: [{
+				id: "59E7A7A6969D0BC9"
+				item: "spectrum:star_fragment"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6490C354303A22E3"]
+			id: "2A1CF65B925577FC"
+			shape: "formation"
+			tasks: [{
+				id: "10A8B03FF63B9563"
+				item: "spectrum:storm_stone"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2A1CF65B925577FC"]
+			id: "11B4FD7C737A8378"
+			shape: "spiral"
+			tasks: [{
+				id: "669015D0B1AB4DA4"
+				item: {
+					Count: 1
+					id: "spectrum:take_off_belt"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["20E3EC5EC0B7C86B"]
+			id: "50CDB5C9A89287E1"
+			shape: "spiral"
+			size: 1.1d
+			tasks: [{
+				id: "7BC4314103C0A5D1"
+				item: "spectrum:midnight_chip"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2A1CF65B925577FC"]
+			id: "46012C1FD38AD74E"
+			shape: "spiral"
+			tasks: [{
+				id: "25A1C149599C4D73"
+				item: "spectrum:crystal_apothecary"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["50CDB5C9A89287E1"]
+			id: "7A7D7C6590EB4EA4"
+			shape: "cross"
+			size: 1.2d
+			tasks: [{
+				id: "7AC1BAB89A18BD01"
+				item: "spectrum:bottle_of_ruin"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1DB3A59DFB503458"]
+			id: "574F587D6657B9A0"
+			shape: "spiral"
+			tasks: [{
+				id: "22A6B329B0D41A88"
+				title: "Постройка структуры"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["42643B73C5C12067"]
+			id: "4DC40EEE01FD63C0"
+			shape: "spiral"
+			tasks: [{
+				id: "7B060E23BD4E9755"
+				item: "spectrum:ethereal_platform"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1DCFE2A13FCAE739"]
+			id: "08515AF5A5C5E387"
+			shape: "spiral"
+			tasks: [{
+				id: "3146C7CBA1589894"
+				title: "Постройка структуры"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0BF06A3F5DD7DF52"]
+			id: "51BC797CB9A15104"
+			shape: "spiral"
+			tasks: [{
+				id: "4F564A6A9652F881"
+				title: "Постройка структуры"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["751CA32B2B0D8A49"]
+			id: "44A9670D5A52E4DF"
+			shape: "spiral"
+			tasks: [{
+				id: "25D64FD5E0F911B1"
+				item: "spectrum:particle_spawner"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7A7D7C6590EB4EA4"]
+			id: "0C3D6045B339C6F5"
+			shape: "formation"
+			tasks: [{
+				id: "02084BBE624219AF"
+				item: "spectrum:bedrock_dust"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0C3D6045B339C6F5"]
+			id: "58EC08F905BBA419"
+			shape: "cube"
+			tasks: [{
+				id: "1C1264AB8978A31A"
+				item: "spectrum:bedrock_storage_block"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"64A34882235B958B"
+				"0EE383B5F3147AE9"
+			]
+			id: "0490AE5B33C1B6E9"
+			shape: "spiral"
+			tasks: [{
+				id: "40C910A96B55208F"
+				item: "spectrum:bloodboil_syrup"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0C3D6045B339C6F5"]
+			hide_dependency_lines: true
+			id: "0EE383B5F3147AE9"
+			shape: "formation"
+			tasks: [{
+				id: "0CD84163DB071E0B"
+				item: "spectrum:blood_orchid_petal"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["50CDB5C9A89287E1"]
+			id: "7DF5D2EF5A31D0C2"
+			shape: "spiral"
+			tasks: [{
+				id: "3D246D287BBAB7EC"
+				item: "spectrum:midnight_solution_bucket"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0C3D6045B339C6F5"]
+			id: "1072075469AD1C69"
+			shape: "shield"
+			tasks: [
+				{
+					id: "161F1FA192910448"
+					item: {
+						Count: 1
+						id: "spectrum:bedrock_helmet"
+						tag: {
+							Enchantments: [{
+								id: "minecraft:projectile_protection"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0760709DB5422B64"
+					item: {
+						Count: 1
+						id: "spectrum:bedrock_chestplate"
+						tag: {
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04696A826068FADC"
+					item: {
+						Count: 1
+						id: "spectrum:bedrock_leggings"
+						tag: {
+							Enchantments: [{
+								id: "minecraft:blast_protection"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7456EEE1FB751FAB"
+					item: {
+						Count: 1
+						id: "spectrum:bedrock_boots"
+						tag: {
+							Enchantments: [{
+								id: "minecraft:fire_protection"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0C3D6045B339C6F5"]
+			id: "62FB1D01B4B54B01"
+			shape: "spiral"
+			tasks: [
+				{
+					id: "3F5ED48B5B3D73E9"
+					item: {
+						Count: 1
+						id: "spectrum:bedrock_sword"
+						tag: {
+							Enchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 6s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "540E13CCCBF22C5A"
+					item: {
+						Count: 1
+						id: "spectrum:bedrock_axe"
+						tag: {
+							Enchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 6s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0C3D6045B339C6F5"]
+			id: "0F6797B4D028360F"
+			shape: "spiral"
+			tasks: [
+				{
+					id: "125710A1E67F5D5D"
+					item: {
+						Count: 1
+						id: "spectrum:bedrock_bow"
+						tag: {
+							Enchantments: [{
+								id: "minecraft:power"
+								lvl: 6s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B563282DA9E7B7E"
+					item: {
+						Count: 1
+						id: "spectrum:bedrock_crossbow"
+						tag: {
+							Enchantments: [{
+								id: "minecraft:quick_charge"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 19.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0C3D6045B339C6F5"]
+			id: "38A406ACAB6E62CB"
+			shape: "polygon"
+			tasks: [
+				{
+					id: "086AE5A60E63707E"
+					item: {
+						Count: 1
+						id: "spectrum:bedrock_pickaxe"
+						tag: {
+							Enchantments: [{
+								id: "minecraft:silk_touch"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5AF3A924A8066580"
+					item: {
+						Count: 1
+						id: "spectrum:bedrock_shovel"
+						tag: {
+							Enchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 6s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A1EC56D6CF1B286"
+					item: {
+						Count: 1
+						id: "spectrum:bedrock_hoe"
+						tag: {
+							Enchantments: [{
+								id: "minecraft:fortune"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["0C3D6045B339C6F5"]
+			id: "287091B719731F36"
+			shape: "spiral"
+			tasks: [{
+				id: "739D956A2BA3674A"
+				item: {
+					Count: 1
+					id: "spectrum:bedrock_shears"
+					tag: {
+						Enchantments: [{
+							id: "minecraft:silk_touch"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 21.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0C3D6045B339C6F5"]
+			id: "45CD51C80B734DAA"
+			shape: "spiral"
+			tasks: [{
+				id: "0EF5079F158C844B"
+				item: {
+					Count: 1
+					id: "spectrum:bedrock_fishing_rod"
+					tag: {
+						Enchantments: [{
+							id: "minecraft:luck_of_the_sea"
+							lvl: 4s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"71573A8185B7EAC5"
+				"428765AAA2C27B10"
+			]
+			id: "728DB410986DE72A"
+			shape: "spiral"
+			tasks: [{
+				id: "03C0ADA125AC2AD3"
+				item: "spectrum:ink_assortment"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["41A296758DF83085"]
+			hide_dependency_lines: true
+			id: "428765AAA2C27B10"
+			shape: "spiral"
+			tasks: [{
+				id: "7A9E2ACFF2263D30"
+				item: "spectrum:four_leaf_clover"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["41A296758DF83085"]
+			id: "71573A8185B7EAC5"
+			shape: "formation"
+			tasks: [{
+				id: "1326C58952B1063C"
+				title: "Спектр пигментов!"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["51BC797CB9A15104"]
+			id: "6D260CFFC5A814B0"
+			shape: "spiral"
+			tasks: [{
+				id: "49131A91635E3CFF"
+				item: "spectrum:liquid_crystal_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6D260CFFC5A814B0"]
+			id: "3E6A6740FA74F417"
+			shape: "spiral"
+			tasks: [{
+				id: "467C95B08E25DCF0"
+				title: "Водные процедуры!"
+				type: "checkmark"
+			}]
+			x: 13.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3E6A6740FA74F417"]
+			id: "45E19E231E4BD60D"
+			shape: "spiral"
+			tasks: [{
+				id: "0F77CAC80DFA8788"
+				item: "spectrum:sugar_stick"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["45E19E231E4BD60D"]
+			id: "0BE8DD67FE8CFC92"
+			shape: "spiral"
+			tasks: [{
+				id: "721B972FF7D51C5F"
+				item: "spectrum:rock_candy"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E6A6740FA74F417"]
+			id: "0150F577DC0BA931"
+			shape: "spiral"
+			tasks: [{
+				id: "3E05901D3076540E"
+				item: "spectrum:knowledge_gem"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3E6A6740FA74F417"]
+			id: "348707F57153B770"
+			shape: "formation"
+			tasks: [{
+				id: "44EB43665299B0D2"
+				item: "spectrum:enchanter"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6F68A348C1755C05"]
+			id: "3A80E85FB96B2ED4"
+			shape: "spiral"
+			tasks: [
+				{
+					id: "1450AFC2EB9685BA"
+					item: "spectrum:item_bowl_basalt"
+					type: "item"
+				}
+				{
+					id: "6494D9951B85BC6D"
+					item: "spectrum:item_bowl_calcite"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["51CBDF09CC4335A1"]
+			id: "0A19DDBFED3552F6"
+			shape: "formation"
+			tasks: [{
+				id: "68AE71BF434FAD6E"
+				title: "Квесты с улучшенными пигментными пьедесталами!"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["348707F57153B770"]
+			id: "0562EEE4C0945C25"
+			shape: "spiral"
+			tasks: [{
+				id: "7E05B5438F143D41"
+				title: "Постройка структуры"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0562EEE4C0945C25"]
+			id: "2D3809AFD4A93031"
+			shape: "cube"
+			tasks: [{
+				id: "0AAEBCE32A65217D"
+				title: "Как правильно чаровать?"
+				type: "checkmark"
+			}]
+			x: 17.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6F68A348C1755C05"]
+			id: "1B074EC6784A55C3"
+			shape: "spiral"
+			tasks: [{
+				id: "13E3001BFDA59141"
+				item: "spectrum:phantom_frame"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1B074EC6784A55C3"]
+			id: "39EDC531F527DAE9"
+			shape: "spiral"
+			tasks: [{
+				id: "0EDE3C29F7A4F6F4"
+				item: "spectrum:glow_phantom_frame"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["51BC797CB9A15104"]
+			id: "6918934AFF882D05"
+			shape: "spiral"
+			tasks: [{
+				id: "34481EAA9FF07D96"
+				item: "spectrum:brown_sapling"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"50CDB5C9A89287E1"
+				"0FE595C4A833369A"
+			]
+			id: "6ED29365B49A75A2"
+			shape: "spiral"
+			tasks: [{
+				id: "0465340C9F766FC4"
+				item: "spectrum:universe_spyhole"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2C7704F0EDEF4884"]
+			hide_dependency_lines: true
+			id: "0FE595C4A833369A"
+			shape: "formation"
+			tasks: [{
+				id: "1023CA3F59A5B4C4"
+				item: "spectrum:radiating_ender"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["0FE595C4A833369A"]
+			id: "65D7F2111ED59787"
+			shape: "spiral"
+			tasks: [{
+				id: "4EA95B86D92DA773"
+				item: "spectrum:ender_hopper"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["0FE595C4A833369A"]
+			id: "6B06B380CC5E4B76"
+			shape: "spiral"
+			tasks: [{
+				id: "624BA19AAEBCBDCA"
+				item: "spectrum:ender_dropper"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["0FE595C4A833369A"]
+			id: "367B8DC50BFDDB06"
+			shape: "spiral"
+			tasks: [{
+				id: "0989DF21E1463056"
+				item: "spectrum:ender_splice"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["0FE595C4A833369A"]
+			id: "2AF108ABE79AB354"
+			shape: "spiral"
+			tasks: [{
+				id: "21488CAAC94BFCF4"
+				item: "spectrum:ender_glass"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2A1CF65B925577FC"]
+			id: "101A6CFBB756206F"
+			shape: "formation"
+			tasks: [{
+				id: "00612FC9F7E8505D"
+				item: "spectrum:upgrade_experience"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["7CC3BDCFCE4DDC99"]
+			id: "179347A5F0D8D2C5"
+			shape: "spiral"
+			tasks: [{
+				id: "50FC93E2C8DEF3EB"
+				item: "spectrum:azurite_block"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["179347A5F0D8D2C5"]
+			id: "1BC7932769A3A79E"
+			shape: "spiral"
+			tasks: [{
+				id: "6287E514799E057A"
+				item: "spectrum:spirit_instiller"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["0C6023B47F23352A"]
+			id: "65CD7F7DB5D5845C"
+			shape: "spiral"
+			tasks: [{
+				id: "268720A6E20A0386"
+				item: "spectrum:memory"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["69D35F35F3D3B320"]
+			id: "4BF7A7CD9D08FBB1"
+			shape: "formation"
+			tasks: [{
+				id: "3FD9A23DD50F66B9"
+				item: "spectrum:cinderhearth"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5A49DAD87973D165"]
+			id: "6B4F72D744E0121B"
+			shape: "spiral"
+			tasks: [{
+				id: "3DA7406E2E49EE14"
+				item: "spectrum:incandescent_amalgam"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5A49DAD87973D165"]
+			id: "723E12320AAC6AA2"
+			shape: "spiral"
+			tasks: [
+				{
+					id: "42C3FAA7884BE65C"
+					item: "spectrum:reprise"
+					type: "item"
+				}
+				{
+					id: "0C3F2BDC8F02B00E"
+					item: "spectrum:freigeist"
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6B4F72D744E0121B"]
+			id: "77A0314EECEFA25E"
+			shape: "polygon"
+			tasks: [{
+				id: "211A197166AF30ED"
+				item: {
+					Count: 1
+					id: "spectrum:pure_alcohol"
+					tag: {
+						AgeDays: 100L
+						AlcPercent: 100
+						Thickness: 1.0f
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0C6023B47F23352A"]
+			id: "74E42E4671A40F59"
+			shape: "spiral"
+			tasks: [{
+				id: "0CF3F4C5E05FB7D0"
+				item: "spectrum:budding_onyx"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["71573A8185B7EAC5"]
+			id: "7DBF162D120E31F2"
+			shape: "spiral"
+			tasks: [{
+				id: "194FAE282C9982A6"
+				item: {
+					Count: 1
+					id: "spectrum:molten_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5E4E30CBECD91C14"]
+			id: "336B47F74B2D72CC"
+			shape: "formation"
+			tasks: [
+				{
+					id: "13196494B4EE47F9"
+					item: {
+						Count: 1
+						id: "spectrum:fetchling_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0AB5BEB33051F37B"
+					item: {
+						Count: 1
+						id: "spectrum:ferocious_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F642FF4FF7C5FD3"
+					item: {
+						Count: 1
+						id: "spectrum:sylph_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "642D0ADA144D202D"
+					item: {
+						Count: 1
+						id: "spectrum:oread_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2D3809AFD4A93031"]
+			id: "595BAA7F069E6A23"
+			shape: "spiral"
+			tasks: [{
+				id: "6CF2AE2509ABB021"
+				title: "Получение Голов!"
+				type: "checkmark"
+			}]
+			x: 19.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["595BAA7F069E6A23"]
+			id: "602C72DBD05F6BF2"
+			shape: "spiral"
+			tasks: [{
+				id: "5050CCC0C585EAA3"
+				item: "spectrum:egg_laying_wooly_pig_head"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1BC7932769A3A79E"]
+			id: "0C6023B47F23352A"
+			shape: "formation"
+			tasks: [{
+				id: "711490F158273019"
+				title: "Постройка структуры"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["4BF7A7CD9D08FBB1"]
+			id: "7263EA7B790C5CF1"
+			shape: "spiral"
+			tasks: [{
+				hasCustomPicture: false
+				id: "1700D5F1783420D1"
+				ignoreState: false
+				layer: true
+				name: "cinderhearth"
+				rightclick: false
+				title: "666"
+				type: "questsadditions:structure"
+			}]
+			x: 10.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"2D3809AFD4A93031"
+				"371F1403DD43AD41"
+			]
+			id: "2A9C4A4E1EE7F04A"
+			shape: "spiral"
+			tasks: [{
+				id: "4277AC08735967DE"
+				item: "spectrum:gilded_book"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["51BC797CB9A15104"]
+			hide_dependency_lines: true
+			id: "371F1403DD43AD41"
+			shape: "spiral"
+			tasks: [{
+				id: "59277DA71D796870"
+				item: "spectrum:jade_vine_petals"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"03733F7972538D31"
+				"6E130BBE130634B7"
+			]
+			id: "27CF9A74E8991A36"
+			shape: "spiral"
+			tasks: [{
+				id: "40AB78BEEDC4B7A9"
+				item: "spectrum:triple_meat_pot_pie"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1D5E12A312FB8CF7"]
+			id: "6E130BBE130634B7"
+			shape: "formation"
+			tasks: [{
+				id: "666E4301A1453CA8"
+				item: "spectrum:amaranth_grains"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["574F587D6657B9A0"]
+			hide_dependency_lines: true
+			id: "1D5E12A312FB8CF7"
+			shape: "polygon"
+			tasks: [{
+				id: "0224657437E6555A"
+				item: "spectrum:amaranth_bushel"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["728DB410986DE72A"]
+			id: "2283A9CFF25A35F8"
+			shape: "spiral"
+			tasks: [{
+				id: "67DB596E3BDFF07F"
+				item: {
+					Count: 1
+					id: "spectrum:pigment_palette"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["208248B95BA93403"]
+			id: "0230186452B45E3C"
+			shape: "spiral"
+			tasks: [
+				{
+					id: "481F7CBF196E2A7B"
+					item: {
+						Count: 1
+						id: "spectrum:azure_dike_ring"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7386715F31BAE2C7"
+					item: {
+						Count: 1
+						id: "spectrum:azure_dike_belt"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2B48EA1979343205"
+					item: {
+						Count: 1
+						id: "spectrum:shieldgrasp_amulet"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0FE595C4A833369A"]
+			id: "18A3E31D174F59DF"
+			shape: "formation"
+			tasks: [{
+				id: "16646E5144BAA5B9"
+				item: "spectrum:bag_of_holding"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["41A296758DF83085"]
+			id: "0E4EE02DFCDBF39E"
+			shape: "spiral"
+			tasks: [{
+				id: "31E961DBFB11685F"
+				item: "spectrum:enchantment_canvas"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["64A34882235B958B"]
+			id: "12CD40379E3C0FF9"
+			shape: "spiral"
+			tasks: [{
+				id: "4D6B4C3B803B2F44"
+				item: "spectrum:glistering_jelly_tea"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"6490C354303A22E3"
+				"0B7005E63A417F92"
+			]
+			id: "5D797C9396F2C5D0"
+			shape: "spiral"
+			tasks: [{
+				id: "20263407E72227B9"
+				item: {
+					Count: 1
+					id: "spectrum:gloves_of_dawns_grasp"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0BF06A3F5DD7DF52"]
+			hide_dependency_lines: true
+			id: "0B7005E63A417F92"
+			shape: "spiral"
+			tasks: [{
+				id: "65FBC68B81B3763B"
+				item: "spectrum:fanciful_gloves"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["428765AAA2C27B10"]
+			id: "4DDFE4E24B9AACD7"
+			shape: "spiral"
+			tasks: [{
+				id: "342F6E9A64F1B39F"
+				item: {
+					Count: 1
+					id: "spectrum:heartsingers_reward"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["208248B95BA93403"]
+			id: "66FE23B308EC3C67"
+			shape: "spiral"
+			tasks: [
+				{
+					id: "1AE1518EC5171C9F"
+					item: {
+						Count: 1
+						id: "spectrum:lesser_potion_pendant"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4A5D2BC1E84ED7FB"
+					item: {
+						Count: 1
+						id: "spectrum:totem_pendant"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["428765AAA2C27B10"]
+			id: "31590E8FF943C4FF"
+			shape: "spiral"
+			tasks: [{
+				id: "5E413CF61041883A"
+				item: "spectrum:lucky_roll"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["371F1403DD43AD41"]
+			id: "569DD45935D79E43"
+			shape: "polygon"
+			tasks: [{
+				id: "7E933A077D7CA6D1"
+				item: "spectrum:restoration_tea"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["428765AAA2C27B10"]
+			id: "1E0A743E4D7E0CB4"
+			shape: "spiral"
+			tasks: [{
+				id: "1EAA8EB4B91BCEDC"
+				item: {
+					Count: 1
+					id: "spectrum:seven_league_boots"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42643B73C5C12067"]
+			id: "0CD249098C6B706F"
+			shape: "spiral"
+			tasks: [{
+				id: "02BD63A444DEC708"
+				item: "spectrum:star_candy"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6E130BBE130634B7"]
+			id: "52D286CF8758C5F0"
+			shape: "spiral"
+			tasks: [{
+				id: "201ED06FF7647AA8"
+				item: "spectrum:jaramel_tart"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6E130BBE130634B7"]
+			id: "6350EBC096ED79BE"
+			shape: "spiral"
+			tasks: [{
+				id: "28269951950178D7"
+				item: "spectrum:ashen_tart"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6E130BBE130634B7"]
+			id: "5451AF0A3A2BDAE2"
+			shape: "spiral"
+			tasks: [{
+				id: "3BEC37802F37C640"
+				item: "spectrum:weeping_tart"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6E130BBE130634B7"]
+			id: "225E65B902177096"
+			shape: "spiral"
+			tasks: [{
+				id: "309AEF714C030EC8"
+				item: "spectrum:whispy_tart"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6E130BBE130634B7"]
+			id: "6B9E66EA7D74D021"
+			shape: "spiral"
+			tasks: [{
+				id: "2888E6E5ECB905C1"
+				item: "spectrum:puff_tart"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["10B77353177978E4"]
+			id: "03CB453F9F4BDA4F"
+			shape: "spiral"
+			tasks: [{
+				id: "02F803C786473D73"
+				item: "spectrum:monster_trifle"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6E130BBE130634B7"]
+			id: "72C3792144651729"
+			shape: "spiral"
+			tasks: [{
+				id: "42557124F861D264"
+				item: "spectrum:jaramel_trifle"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 2.0d
+		}
+	]
+	title: "&aСпектральная магия"
+}

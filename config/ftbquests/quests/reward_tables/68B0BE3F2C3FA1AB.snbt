@@ -1,0 +1,24 @@
+{
+	hide_tooltip: true
+	icon: "candlelight:pork_ribs"
+	id: "68B0BE3F2C3FA1AB"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ item: "candlelight:beetroot_salad" }
+		{ item: "candlelight:broccoli_salad" }
+		{ item: "candlelight:tomato_mozzarella_salad" }
+		{ item: "candlelight:pasta" }
+		{ item: "candlelight:chicken_teriyaki" }
+		{ item: "candlelight:chicken" }
+		{ item: "candlelight:beef_tartare" }
+		{ item: "candlelight:broccoli_tomato" }
+		{ item: "candlelight:salmon_wine" }
+		{ item: "candlelight:veggie_plate" }
+		{ item: "candlelight:pork_ribs" }
+		{ item: "candlelight:pancake" }
+		{ item: "candlelight:lasagne" }
+		{ item: "candlelight:pizza_slice" }
+	]
+	title: "Еда"
+}

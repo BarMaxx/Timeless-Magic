@@ -1,0 +1,6 @@
+{
+	chapter_groups: [
+		{ id: "2DACFC3E9FC620BE", title: "&6Основное" }
+		{ id: "62CE987ADA56E8DE", title: "&6Дополнительное" }
+	]
+}

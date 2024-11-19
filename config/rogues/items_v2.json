@@ -1,18 +1,8 @@
 {
   "weapons": {
-    "netherite_double_axe": {
-      "attack_damage": 9.6,
-      "attack_speed": -2.8,
-      "attributes": []
-    },
     "iron_double_axe": {
       "attack_damage": 7.0,
       "attack_speed": -2.8,
-      "attributes": []
-    },
-    "golden_sickle": {
-      "attack_damage": 2.4,
-      "attack_speed": -2.0,
       "attributes": []
     },
     "golden_dagger": {
@@ -20,29 +10,14 @@
       "attack_speed": -1.6,
       "attributes": []
     },
-    "diamond_double_axe": {
-      "attack_damage": 8.3,
-      "attack_speed": -2.8,
-      "attributes": []
-    },
-    "netherite_glaive": {
-      "attack_damage": 8.1,
-      "attack_speed": -2.6,
-      "attributes": []
-    },
     "golden_double_axe": {
       "attack_damage": 4.3,
       "attack_speed": -2.8,
       "attributes": []
     },
-    "iron_dagger": {
-      "attack_damage": 3.3,
-      "attack_speed": -1.6,
-      "attributes": []
-    },
-    "diamond_sickle": {
-      "attack_damage": 5.0,
-      "attack_speed": -2.0,
+    "aeternium_glaive": {
+      "attack_damage": 9.3,
+      "attack_speed": -2.6,
       "attributes": []
     },
     "flint_dagger": {
@@ -55,24 +30,34 @@
       "attack_speed": -2.6,
       "attributes": []
     },
+    "ruby_sickle": {
+      "attack_damage": 6.8,
+      "attack_speed": -2.0,
+      "attributes": []
+    },
+    "aeternium_dagger": {
+      "attack_damage": 5.5,
+      "attack_speed": -1.6,
+      "attributes": []
+    },
     "iron_glaive": {
       "attack_damage": 5.8,
       "attack_speed": -2.6,
       "attributes": []
     },
-    "diamond_dagger": {
-      "attack_damage": 4.0,
-      "attack_speed": -1.6,
-      "attributes": []
-    },
-    "stone_double_axe": {
-      "attack_damage": 5.6,
-      "attack_speed": -2.8,
-      "attributes": []
-    },
     "netherite_sickle": {
       "attack_damage": 5.9,
       "attack_speed": -2.0,
+      "attributes": []
+    },
+    "aeternium_sickle": {
+      "attack_damage": 6.8,
+      "attack_speed": -2.0,
+      "attributes": []
+    },
+    "ruby_glaive": {
+      "attack_damage": 9.3,
+      "attack_speed": -2.6,
       "attributes": []
     },
     "iron_sickle": {
@@ -85,9 +70,64 @@
       "attack_speed": -1.6,
       "attributes": []
     },
+    "aeternium_double_axe": {
+      "attack_damage": 11.0,
+      "attack_speed": -2.8,
+      "attributes": []
+    },
     "diamond_glaive": {
       "attack_damage": 7.0,
       "attack_speed": -2.6,
+      "attributes": []
+    },
+    "netherite_double_axe": {
+      "attack_damage": 9.6,
+      "attack_speed": -2.8,
+      "attributes": []
+    },
+    "golden_sickle": {
+      "attack_damage": 2.4,
+      "attack_speed": -2.0,
+      "attributes": []
+    },
+    "ruby_double_axe": {
+      "attack_damage": 11.0,
+      "attack_speed": -2.8,
+      "attributes": []
+    },
+    "diamond_double_axe": {
+      "attack_damage": 8.3,
+      "attack_speed": -2.8,
+      "attributes": []
+    },
+    "netherite_glaive": {
+      "attack_damage": 8.1,
+      "attack_speed": -2.6,
+      "attributes": []
+    },
+    "iron_dagger": {
+      "attack_damage": 3.3,
+      "attack_speed": -1.6,
+      "attributes": []
+    },
+    "diamond_sickle": {
+      "attack_damage": 5.0,
+      "attack_speed": -2.0,
+      "attributes": []
+    },
+    "ruby_dagger": {
+      "attack_damage": 5.5,
+      "attack_speed": -1.6,
+      "attributes": []
+    },
+    "diamond_dagger": {
+      "attack_damage": 4.0,
+      "attack_speed": -1.6,
+      "attributes": []
+    },
+    "stone_double_axe": {
+      "attack_damage": 5.6,
+      "attack_speed": -2.8,
       "attributes": []
     }
   },
