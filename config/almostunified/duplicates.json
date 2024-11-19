@@ -6,6 +6,8 @@
   "defaultDuplicateRules": {
     "ignoredFields": [
       "fabric:load_conditions",
+      "show_notification",
+      "category",
       "group"
     ],
     "rules": {
@@ -20,6 +22,8 @@
       "ignoredFields": [
         "fabric:load_conditions",
         "pattern",
+        "show_notification",
+        "category",
         "key",
         "group"
       ],

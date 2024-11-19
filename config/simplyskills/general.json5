@@ -1,8 +1,0 @@
-{
-	"enablePlayerExCompatibility": false,
-	"treeResetOnDeath": false,
-	"removeUnlockRestrictions": false,
-	"spellHasteCooldownReductionModifier": 0.4000000059604645,
-	"minimumAchievableCooldown": 5,
-	"minimumTimeBetweenAbilityUse": 0.5
-}

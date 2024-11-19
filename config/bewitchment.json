@@ -1,9 +1,10 @@
 {
   "disabledPoppets": [],
   "enableCurses": true,
+  "enablePolymorph": true,
   "altarDistributionRadius": 24,
-  "generateSilver": true,
   "generateSalt": true,
+  "generateSilver": true,
   "owlWeight": 10,
   "owlMinGroupCount": 1,
   "owlMaxGroupCount": 2,

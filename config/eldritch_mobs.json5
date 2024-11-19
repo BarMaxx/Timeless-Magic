@@ -32,6 +32,8 @@
 	"combinedLootDrop": true,
 	// Buffed mobs have generic titles w/o abilities
 	"genericTitles": false,
+	// Allows to see eldritch mobs' name tags from any distance
+	"distantVisibleNameTags": false,
 	"alchemistConfig": {
 		"name": "Alchemist",
 		"disabled": false,

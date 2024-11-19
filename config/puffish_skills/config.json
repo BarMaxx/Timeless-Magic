@@ -1,12 +1,5 @@
 {
-	"version": 1,
+	"version": 3,
 
-	"categories": [
-		"simplyskills",
-		"simplyskills_wizard",
-		"simplyskills_berserker",
-		"simplyskills_rogue",
-		"simplyskills_ranger",
-		"simplyskills_spellblade"
-	]
+	"show_warnings": true
 }
