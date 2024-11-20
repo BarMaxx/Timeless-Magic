@@ -1,6 +1,6 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: "rsquare"
+	default_quest_shape: "spiral"
 	filename: "1"
 	group: "2DACFC3E9FC620BE"
 	icon: "minecraft:crafting_table"
@@ -11,7 +11,6 @@
 		{
 			dependencies: ["15FAEC4BA6F51CA9"]
 			description: ["Я ещё совсем &lновичок&r в этом мире, ведь я только в него пришёл. И первым делом мне необходимо &3добыть&r любые 4 &6Бревна&r. Это не должно быть сложным, ведь это первое задание. Для добычи брёвен мне всего-то нужно оглядеться вокруг, найти дерево и добыть его ствол. Да, прямо рукой. Урона я получить не должен."]
-			hide_until_deps_visible: true
 			id: "630598CBCA58CC52"
 			rewards: [{
 				count: 4
@@ -135,7 +134,13 @@
 		}
 		{
 			dependencies: ["16E6D880EF9D7A01"]
-			description: ["После создания верстака мне открылись новые возможности в плане создания предметов. Сейчас мне необходимо создать &6Изношенный рюкзак&r. Он нужен мне для того, чтобы &3складывать&r в нём вещи во время путешествий. Для создания рюкзака мне нужно соединить 8 штучек кожи и 1 сундук. В дальнейшем я смогу &2улучшать&r свой рюкзак и тогда он будет вмещать в себе больше предметов и ресурсов."]
+			description: [
+				"После создания верстака мне открылись новые возможности в плане создания предметов. Сейчас мне необходимо создать &6Изношенный рюкзак&r. "
+				""
+				"Он нужен мне для того, чтобы &3складывать&r в нём вещи во время путешествий. "
+				""
+				"Для создания рюкзака мне нужно соединить 8 штучек кожи и 1 сундук. В дальнейшем я смогу &2улучшать&r свой рюкзак и тогда он будет вмещать в себе больше предметов и ресурсов."
+			]
 			id: "690383B6BC72C17F"
 			rewards: [
 				{
@@ -672,8 +677,8 @@
 				item: "minecraft:redstone"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 1.0d
+			x: 9.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2BC184CB97E7A4AF"]
@@ -724,8 +729,8 @@
 				item: "minecraft:diamond"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 0.0d
+			x: 9.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["14DD0B5C8535AA1D"]
@@ -747,8 +752,8 @@
 				item: "minecraft:compass"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 1.5d
+			x: 11.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0B91A16FEDE771A0"]
@@ -779,8 +784,8 @@
 				item: "minecraft:recovery_compass"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 2.0d
+			x: 12.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["0B91A16FEDE771A0"]
@@ -817,8 +822,8 @@
 					type: "item"
 				}
 			]
-			x: 9.5d
-			y: 2.0d
+			x: 12.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4D0AF750B79132EF"]
@@ -1455,6 +1460,204 @@
 			}]
 			x: 9.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["47FBD8889627B0C8"]
+			id: "1FC7C0281238B8A4"
+			tasks: [{
+				id: "2631A26E4CAA7B59"
+				item: {
+					Count: 1
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1FC7C0281238B8A4"]
+			id: "6F407AEAD58889DB"
+			tasks: [{
+				id: "1A0D304F0F402DF6"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["478618D89F89E7E3"]
+			id: "165A0803BF90F6E5"
+			tasks: [
+				{
+					id: "38F677C6EFC7B779"
+					item: {
+						Count: 1
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57A99966793BF516"
+					item: {
+						Count: 1
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "246BC11EB353E747"
+					item: {
+						Count: 1
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6EDD6C4A5F1704D9"
+					item: {
+						Count: 1
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["267857E9A44175A7"]
+			id: "5E625B83DFA14B7A"
+			tasks: [{
+				id: "266ED76F3A8B6FCE"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["267857E9A44175A7"]
+			id: "7B4DC4F49E6DB8ED"
+			tasks: [
+				{
+					id: "15382D324CD710A6"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "537A8C0CA6FD3268"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "077C7CB02C733DA8"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37AC576B876C9FFB"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5E625B83DFA14B7A"]
+			id: "4D19821A7E82C7F8"
+			tasks: [{
+				id: "414831DC99BA562D"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["267857E9A44175A7"]
+			id: "4BC67AFA65A78757"
+			tasks: [
+				{
+					id: "1395ECDC3D014A5D"
+					item: "ironchests:diamond_chest"
+					type: "item"
+				}
+				{
+					id: "552168DF714B7677"
+					item: "ironchests:diamond_barrel"
+					type: "item"
+				}
+				{
+					id: "616A00E75EB0D113"
+					item: "ironchests:diamond_chest_upgrade"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["267857E9A44175A7"]
+			id: "394F5CD9BED6F57F"
+			tasks: [{
+				id: "77CDA85D6EF33797"
+				item: {
+					Count: 1
+					id: "inmis:bejeweled_backpack"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
 		}
 	]
 	title: "&aСнова начало"
