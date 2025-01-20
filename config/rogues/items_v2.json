@@ -387,6 +387,159 @@
           }
         ]
       }
+    },
+    "netherite_assassin_armor": {
+      "armor_toughness": 0.0,
+      "knockback_resistance": 0.0,
+      "head": {
+        "armor": 2,
+        "attributes": [
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.05,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.attack_speed",
+            "value": 0.05,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.movement_speed",
+            "value": 0.05,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "chest": {
+        "armor": 4,
+        "attributes": [
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.05,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.attack_speed",
+            "value": 0.05,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.movement_speed",
+            "value": 0.05,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "legs": {
+        "armor": 4,
+        "attributes": [
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.05,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.attack_speed",
+            "value": 0.05,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.movement_speed",
+            "value": 0.05,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "feet": {
+        "armor": 2,
+        "attributes": [
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.05,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.attack_speed",
+            "value": 0.05,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.movement_speed",
+            "value": 0.05,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      }
+    },
+    "netherite_berserker_armor": {
+      "armor_toughness": 0.0,
+      "knockback_resistance": 0.0,
+      "head": {
+        "armor": 3,
+        "attributes": [
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.05,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.knockback_resistance",
+            "value": 0.1,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "chest": {
+        "armor": 8,
+        "attributes": [
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.05,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.knockback_resistance",
+            "value": 0.1,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "legs": {
+        "armor": 6,
+        "attributes": [
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.05,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.knockback_resistance",
+            "value": 0.1,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "feet": {
+        "armor": 3,
+        "attributes": [
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.05,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.knockback_resistance",
+            "value": 0.1,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.armor_toughness",
+            "value": 1.0,
+            "operation": "ADDITION"
+          }
+        ]
+      }
     }
   }
 }

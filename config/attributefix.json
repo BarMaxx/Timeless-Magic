@@ -1,5 +1,27 @@
 {
   "attributes": {
+    "bettertrims:swim_speed": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "obscure_api:penetration": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "minecraft:generic.follow_range": {
       "enabled": true,
       "min": {
@@ -9,6 +31,50 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "bettertrims:moons_blessing": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 4,
+        "value": 4
+      }
+    },
+    "bettertrims:ends_blessing": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 4,
+        "value": 4
+      }
+    },
+    "bettertrims:light_footed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 4,
+        "value": 4
+      }
+    },
+    "obscure_api:dodge": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "spell_power:critical_chance": {
@@ -33,6 +99,17 @@
         "value": 64
       }
     },
+    "bettertrims:fire_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "extraspellattributes:endurance": {
       "enabled": false,
       "min": {
@@ -44,7 +121,40 @@
         "value": 999
       }
     },
+    "bettertrims:player_block_break_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "obscure_api:regeneration": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 40,
+        "value": 40
+      }
+    },
     "malum:soul_ward_recovery_rate": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
+    "bettertrims:projectile_damage": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -77,6 +187,17 @@
         "value": 1024
       }
     },
+    "bettertrims:projectile_deflect_chance": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "extraspellattributes:spellsuppression": {
       "enabled": false,
       "min": {
@@ -97,6 +218,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "obscure_api:magic_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "zenith_attributes:healing_received": {
@@ -132,6 +264,17 @@
         "value": 1000
       }
     },
+    "bettertrims:bouncy": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "additionalentityattributes:player.lava_visibility": {
       "enabled": false,
       "min": {
@@ -152,6 +295,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "bettertrims:projectile_speed": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
       }
     },
     "amethyst_core:spell_level": {
@@ -198,6 +352,17 @@
         "value": 1024
       }
     },
+    "bettertrims:blast_mining": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 4,
+        "value": 4
+      }
+    },
     "extraspellattributes:glancingblow": {
       "enabled": false,
       "min": {
@@ -218,6 +383,17 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "bettertrims:hydrophobic": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "minecraft:zombie.spawn_reinforcements": {
@@ -242,6 +418,17 @@
         "value": 1
       }
     },
+    "bettertrims:resistance": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "minecraft:generic.armor_toughness": {
       "enabled": true,
       "min": {
@@ -253,6 +440,17 @@
         "value": 1000000
       }
     },
+    "bettertrims:looting": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 4,
+        "value": 4
+      }
+    },
     "malum:scythe_proficiency": {
       "enabled": false,
       "min": {
@@ -262,6 +460,28 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "bettertrims:fire_aspect": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 4,
+        "value": 4
+      }
+    },
+    "obscure_api:accuracy": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "amethyst_core:spell_duration": {
@@ -330,6 +550,17 @@
         "value": 1024
       }
     },
+    "bettertrims:item_magnet": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 4,
+        "value": 4
+      }
+    },
     "amethyst_core:spell_amplifier": {
       "enabled": false,
       "min": {
@@ -385,6 +616,17 @@
         "value": 1024
       }
     },
+    "bettertrims:thorns": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 4,
+        "value": 4
+      }
+    },
     "extraspellattributes:determination": {
       "enabled": false,
       "min": {
@@ -405,6 +647,17 @@
       "max": {
         "default": 999,
         "value": 999
+      }
+    },
+    "bettertrims:midas_touch": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "spell_power:haste": {
@@ -528,6 +781,28 @@
         "value": 1
       }
     },
+    "obscure_api:critical_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "bettertrims:regeneration": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 50,
+        "value": 50
+      }
+    },
     "minecraft:generic.max_health": {
       "enabled": true,
       "min": {
@@ -548,6 +823,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "bettertrims:firey_thorns": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 4,
+        "value": 4
       }
     },
     "zenith_attributes:mining_speed": {
@@ -572,6 +858,17 @@
         "value": 1
       }
     },
+    "bettertrims:fortune": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 4,
+        "value": 4
+      }
+    },
     "minecraft:horse.jump_strength": {
       "enabled": true,
       "min": {
@@ -581,6 +878,17 @@
       "max": {
         "default": 2,
         "value": 2
+      }
+    },
+    "bettertrims:generic_step_height": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "minecraft:generic.knockback_resistance": {
@@ -610,6 +918,17 @@
       "min": {
         "default": -1,
         "value": -1
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "bettertrims:generic_oxygen_bonus": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
       },
       "max": {
         "default": 1024,
@@ -726,6 +1045,28 @@
         "value": 1
       }
     },
+    "obscure_api:resilience": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "bettertrims:electrifying": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 4,
+        "value": 4
+      }
+    },
     "extraspellattributes:reabsorption": {
       "enabled": false,
       "min": {
@@ -746,6 +1087,17 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "bettertrims:brewers_dream": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 4,
+        "value": 4
       }
     },
     "ranged_weapon:haste": {
@@ -801,6 +1153,39 @@
       "max": {
         "default": 175,
         "value": 175
+      }
+    },
+    "bettertrims:cleaving": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "bettertrims:overgrown": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 4,
+        "value": 4
+      }
+    },
+    "bettertrims:unbreaking": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 4,
+        "value": 4
       }
     },
     "galosphere:illager_resistance": {
@@ -869,6 +1254,28 @@
         "value": 1024
       }
     },
+    "obscure_api:healing_power": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "bettertrims:bonus_xp": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
     "stepheightentityattribute:stepheight": {
       "enabled": false,
       "min": {
@@ -900,6 +1307,39 @@
       "max": {
         "default": 9999,
         "value": 9999
+      }
+    },
+    "bettertrims:dense": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 4,
+        "value": 4
+      }
+    },
+    "bettertrims:walking_furnace": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 4,
+        "value": 4
+      }
+    },
+    "bettertrims:attack_deflect_chance": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "amethyst_core:damage_multiplication": {
@@ -935,6 +1375,17 @@
         "value": 2048
       }
     },
+    "bettertrims:trade_discount": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "spell_power:resistance.generic": {
       "enabled": false,
       "min": {
@@ -968,6 +1419,17 @@
         "value": 1024
       }
     },
+    "bettertrims:suns_blessing": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 4,
+        "value": 4
+      }
+    },
     "malum:reserve_staff_charges": {
       "enabled": false,
       "min": {
@@ -988,6 +1450,28 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "puffish_attributes:stamina": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "bettertrims:projectile_dodge_chance": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "additionalentityattributes:generic.lava_speed": {
@@ -1023,6 +1507,17 @@
         "value": 2048
       }
     },
+    "obscure_api:parry": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "extraspellattributes:converttofire": {
       "enabled": false,
       "min": {
@@ -1056,6 +1551,17 @@
         "value": 1000000
       }
     },
+    "bettertrims:dodge_chance": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "minecraft:generic.armor": {
       "enabled": true,
       "min": {
@@ -1065,6 +1571,17 @@
       "max": {
         "default": 30,
         "value": 1000000
+      }
+    },
+    "obscure_api:critical_hit": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "porting_lib:swim_speed": {
@@ -1087,6 +1604,28 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "bettertrims:blast_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "bettertrims:glowing": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 4,
+        "value": 4
       }
     },
     "spell_power:lightning": {
@@ -1144,6 +1683,17 @@
         "value": 32
       }
     },
+    "bettertrims:player_submerged_mining_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 20,
+        "value": 20
+      }
+    },
     "zenith_attributes:fire_damage": {
       "enabled": false,
       "min": {
@@ -1155,6 +1705,28 @@
         "value": 1000
       }
     },
+    "bettertrims:enchanters_favour": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 4,
+        "value": 4
+      }
+    },
+    "bettertrims:warriors_of_old": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 4,
+        "value": 4
+      }
+    },
     "minecraft:generic.movement_speed": {
       "enabled": true,
       "min": {
@@ -1164,6 +1736,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "bettertrims:echoing": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 4,
+        "value": 4
       }
     },
     "zenith_attributes:armor_pierce": {
@@ -1199,6 +1782,17 @@
         "value": 10
       }
     },
+    "bettertrims:miners_rush": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 4,
+        "value": 4
+      }
+    },
     "spectrum:mental_presence": {
       "enabled": false,
       "min": {
@@ -1210,6 +1804,17 @@
         "value": 1024
       }
     },
+    "bettertrims:share_effect_radius": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 4,
+        "value": 4
+      }
+    },
     "combatroll:count": {
       "enabled": false,
       "min": {
@@ -1219,6 +1824,17 @@
       "max": {
         "default": 20,
         "value": 20
+      }
+    },
+    "bettertrims:hells_blessing": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 4,
+        "value": 4
       }
     },
     "zenith_attributes:arrow_damage": {
@@ -1252,6 +1868,17 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "bettertrims:holy": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 4,
+        "value": 4
       }
     },
     "amethyst_core:spell_damage": {

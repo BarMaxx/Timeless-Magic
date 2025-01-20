@@ -5,9 +5,6 @@
     "maxFluidIncrease": 25,
     "applePressMashingTime": 600,
     "applePressFermentationTime": 800,
-    "grapevinePotMaxStorage": 6,
-    "grapevinePotRequiredJumps": 5,
-    "grapevinePotShowSplashParticles": true,
     "cherryGrowthChance": 0.4,
     "appleGrowthChance": 0.4,
     "grapeGrowthChance": 0.5

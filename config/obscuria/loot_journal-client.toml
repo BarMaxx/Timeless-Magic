@@ -1,0 +1,21 @@
+[display]
+style = "CLASSIC"
+useRarityColor = true
+itemsColor = 16777215
+groupedItemsColor = 16777215
+experienceColor = 5635925
+displayExperience = true
+displayTotal = true
+[positioning]
+anchor = "BOTTOM_RIGHT"
+anchorOffset = 3
+notificationSeparation = 3
+notificationLifetime = 6
+maxVisibleNotifications = 12
+maxQueuedNotifications = 23
+[filtering]
+defaultBehavior = "ALL_WHITELISTED"
+tabsBlacklist = []
+itemsBlacklist = []
+tabsWhitelist = []
+itemsWhitelist = []

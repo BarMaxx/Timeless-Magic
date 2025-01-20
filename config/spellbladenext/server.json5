@@ -36,5 +36,13 @@
 	// Do not apply Spell Oil capability to any item matching this regex. (Not applied of empty)
 	"blacklist_spell_oil_regex": "",
 	// Enable tabula rasa (Default: true
-	"tab": true
+	"tab": true,
+	// ARMOR spell school multiplier (Default: 1.0
+	"ARMORMULT": 1.0,
+	// Defiance of Destiny ARMOR Coefficient (Default: 0.0) (Defiance of Destiny healing is (1% of your max health)*(1+(Armor)*(ArmorCoeff)+(Healing Power)*(HealCoeff))*(Effect Amplifier)*(coeff)
+	"ArmorCoeff": 0.0,
+	// Defiance of Destiny HEALING Coefficient (Default: 1F) (Defiance of Destiny healing is (1% of your max health)*(1+(Armor)*(ArmorCoeff)+(Healing Power)*(HealCoeff))*(Effect Amplifier)*(coeff)
+	"HealCoeff": 1.0,
+	// Defiance of Destiny OVERALL Efficiency Coefficient (Default: 1F) (Defiance of Destiny healing is (1% of your max health)*(1+(Armor)*(ArmorCoeff)+(Healing Power)*(HealCoeff))*(Effect Amplifier)*(coeff)
+	"coeff": 1.0
 }

@@ -58,4 +58,12 @@
 	"region_weight": 8,
 	// Whether to add bwg flowers and features to Vanilla Biomes (Config Option for Fabric Only)
 	"vanilla_additions": true,
+	// BWG Features that we add to Vanilla Biomes
+	"enabled_vanilla_additions": {
+		"biomeswevegone:vanilla/flower_default": true,
+		"biomeswevegone:palm_trees": true,
+		"biomeswevegone:vanilla/forest_flowers": true,
+		"biomeswevegone:vanilla/flower_warm": true,
+		"biomeswevegone:vanilla/flower_plains": true,
+	},
 }
